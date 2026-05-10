@@ -1,0 +1,18 @@
+{
+  "id": "talave",
+  "name": "Embalse del Talave",
+  "coords": [
+    38.5102103,
+    -1.8924779
+  ],
+  "river": null,
+  "wikidata_id": "Q5830460",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Talave",
+  "osm": {
+    "type": "way",
+    "id": 28652220,
+    "url": "https://www.openstreetmap.org/way/28652220"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

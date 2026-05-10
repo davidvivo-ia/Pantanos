@@ -1,0 +1,18 @@
+{
+  "id": "piedra-aguda",
+  "name": "Embalse de Piedra Aguda",
+  "coords": [
+    38.6687322,
+    -7.028332
+  ],
+  "river": null,
+  "wikidata_id": "Q20021483",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 82711201,
+    "url": "https://www.openstreetmap.org/way/82711201"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

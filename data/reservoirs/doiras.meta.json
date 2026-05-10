@@ -1,0 +1,18 @@
+{
+  "id": "doiras",
+  "name": "Embalse de Doiras",
+  "coords": [
+    43.3303554,
+    -6.8401112
+  ],
+  "river": null,
+  "wikidata_id": "Q8775319",
+  "wikipedia_url": "https://gl.wikipedia.org/wiki/Encoro_de_Doiras",
+  "osm": {
+    "type": "way",
+    "id": 229672952,
+    "url": "https://www.openstreetmap.org/way/229672952"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

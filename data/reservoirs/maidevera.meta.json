@@ -1,0 +1,18 @@
+{
+  "id": "maidevera",
+  "name": "Embalse de Maidevera",
+  "coords": [
+    41.5836913,
+    -1.7658038
+  ],
+  "river": null,
+  "wikidata_id": "Q94988427",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 26438927,
+    "url": "https://www.openstreetmap.org/way/26438927"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

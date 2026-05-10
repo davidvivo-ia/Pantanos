@@ -1,0 +1,18 @@
+{
+  "id": "sallente",
+  "name": "Embassament de Sallente",
+  "coords": [
+    42.5035061,
+    0.9904869
+  ],
+  "river": null,
+  "wikidata_id": "Q11940030",
+  "wikipedia_url": "https://ca.wikipedia.org/wiki/Pantà_de_Sallente",
+  "osm": {
+    "type": "way",
+    "id": 32805632,
+    "url": "https://www.openstreetmap.org/way/32805632"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:32:45+00:00"
+}

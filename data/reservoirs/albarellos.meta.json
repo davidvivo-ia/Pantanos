@@ -1,0 +1,18 @@
+{
+  "id": "albarellos",
+  "name": "Encoro de Albarellos",
+  "coords": [
+    42.3909807,
+    -8.2131845
+  ],
+  "river": null,
+  "wikidata_id": "Q130298036",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 24380446,
+    "url": "https://www.openstreetmap.org/way/24380446"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:32:45+00:00"
+}

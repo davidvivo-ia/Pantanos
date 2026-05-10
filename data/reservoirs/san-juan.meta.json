@@ -1,0 +1,18 @@
+{
+  "id": "san-juan",
+  "name": "Embalse de San Juan",
+  "coords": [
+    40.3942999,
+    -4.3784731
+  ],
+  "river": null,
+  "wikidata_id": "Q5830564",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_San_Juan",
+  "osm": {
+    "type": "way",
+    "id": 27578047,
+    "url": "https://www.openstreetmap.org/way/27578047"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

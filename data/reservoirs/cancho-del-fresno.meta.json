@@ -1,0 +1,18 @@
+{
+  "id": "cancho-del-fresno",
+  "name": "Embalse del Cancho del Fresno",
+  "coords": [
+    39.4057269,
+    -5.3878674
+  ],
+  "river": null,
+  "wikidata_id": "Q5830428",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Cancho_del_Fresno",
+  "osm": {
+    "type": "way",
+    "id": 176487097,
+    "url": "https://www.openstreetmap.org/way/176487097"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

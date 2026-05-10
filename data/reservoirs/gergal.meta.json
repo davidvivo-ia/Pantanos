@@ -1,0 +1,18 @@
+{
+  "id": "gergal",
+  "name": "Embalse del Gergal",
+  "coords": [
+    37.6019767,
+    -6.0477079
+  ],
+  "river": null,
+  "wikidata_id": "Q5830448",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 42934785,
+    "url": "https://www.openstreetmap.org/way/42934785"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

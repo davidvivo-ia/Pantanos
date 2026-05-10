@@ -1,0 +1,18 @@
+{
+  "id": "el-vicario",
+  "name": "Embalse de El Vicario",
+  "coords": [
+    39.0678083,
+    -3.9382096
+  ],
+  "river": null,
+  "wikidata_id": "Q8775327",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_El_Vicario",
+  "osm": {
+    "type": "way",
+    "id": 233498850,
+    "url": "https://www.openstreetmap.org/way/233498850"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

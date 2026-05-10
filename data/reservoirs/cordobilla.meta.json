@@ -1,0 +1,18 @@
+{
+  "id": "cordobilla",
+  "name": "Embalse de Cordobilla",
+  "coords": [
+    37.3545338,
+    -4.7181875
+  ],
+  "river": null,
+  "wikidata_id": "Q105883578",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Cordobilla",
+  "osm": {
+    "type": "way",
+    "id": 74816691,
+    "url": "https://www.openstreetmap.org/way/74816691"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

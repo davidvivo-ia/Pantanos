@@ -1,0 +1,18 @@
+{
+  "id": "maria-cristina",
+  "name": "Embassament de Maria Cristina",
+  "coords": [
+    40.0454283,
+    -0.163948
+  ],
+  "river": null,
+  "wikidata_id": "Q5830527",
+  "wikipedia_url": "https://ca.wikipedia.org/wiki/Embassament_de_Maria_Cristina",
+  "osm": {
+    "type": "way",
+    "id": 25498125,
+    "url": "https://www.openstreetmap.org/way/25498125"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:32:45+00:00"
+}

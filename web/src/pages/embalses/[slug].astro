@@ -1,0 +1,166 @@
+---
+import Base from '../../layouts/Base.astro';
+import LineChart from '../../components/LineChart.astro';
+import Map from '../../components/Map.astro';
+import PctBar from '../../components/PctBar.astro';
+import { fmt, getReservoir, getReservoirMeta, getReservoirRoutes, listReservoirSlugs } from '../../lib/data';
+
+export async function getStaticPaths() {
+  return listReservoirSlugs().map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const r = getReservoir(slug!);
+const meta = getReservoirMeta(slug!);
+const routes = getReservoirRoutes(slug!);
+
+const last = r.levels.at(-1);
+const last10y = r.levels.filter((l) => l.date >= new Date(Date.now() - 10 * 365 * 86400_000).toISOString().slice(0, 10));
+const levelSeries = [{
+  label: 'Volumen (hm³)',
+  values: last10y.map((p) => [new Date(p.date).getTime() / 1000, p.volume_hm3] as [number, number]),
+  color: '#2b7295',
+}];
+
+const yearOnYear = (() => {
+  const thisYear = new Date().getFullYear();
+  const ofYear = (y: number) => r.levels.filter((p) => p.date.startsWith(String(y)));
+  return [
+    { label: `${thisYear}`, color: '#2b7295',
+      values: ofYear(thisYear).map((p) => [new Date(p.date).getTime() / 1000, p.pct ?? 0] as [number, number]) },
+    { label: `${thisYear - 1}`, color: '#94a3b8',
+      values: ofYear(thisYear - 1).map((p) => [new Date(p.date.replace(String(thisYear - 1), String(thisYear))).getTime() / 1000, p.pct ?? 0] as [number, number]) },
+  ];
+})();
+
+const rainSeries = r.rainfall_local?.length ? [{
+  label: 'Lluvia (mm/día)',
+  values: r.rainfall_local.map((p) => [new Date(p.date).getTime() / 1000, p.mm ?? 0] as [number, number]),
+  color: '#0ea5e9',
+}] : [];
+
+const tracks = (routes?.routes ?? []).slice(0, 8).map((rt, i) => ({
+  name: rt.name,
+  coords: rt.track ?? [],
+  url: rt.url,
+  color: ['#dc2626', '#ea580c', '#d97706', '#ca8a04', '#65a30d', '#059669', '#0891b2', '#7c3aed'][i % 8],
+}));
+
+const mapPoints = meta?.coords ? [{ id: r.id, name: r.name, lat: meta.coords[0], lon: meta.coords[1], pct: last?.pct ?? null }] : [];
+---
+<Base title={`${r.name} · Pantanos`}>
+  <nav class="text-sm text-slate-500 mb-4">
+    <a href={import.meta.env.BASE_URL} class="hover:underline">Inicio</a> ›
+    <a href={`${import.meta.env.BASE_URL}cuencas/${r.basin}`} class="hover:underline">{r.basin_name}</a> ›
+    <span class="text-slate-700">{r.name}</span>
+  </nav>
+
+  <header class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+    {meta?.photo ? (
+      <figure class="md:col-span-2 rounded-xl overflow-hidden border border-slate-200 bg-white">
+        <img src={`${import.meta.env.BASE_URL}${meta.photo.url.replace(/^\//, '')}`} alt={r.name} class="w-full aspect-video object-cover" loading="lazy" />
+        <figcaption class="text-xs text-slate-500 px-3 py-2">{meta.photo.credit}</figcaption>
+      </figure>
+    ) : (
+      <div class="md:col-span-2 rounded-xl bg-gradient-to-br from-agua-100 to-agua-300 border border-slate-200 aspect-video flex items-center justify-center">
+        <span class="text-agua-800 font-medium text-2xl">{r.name}</span>
+      </div>
+    )}
+
+    <div class="rounded-xl bg-white border border-slate-200 p-5 space-y-3">
+      <h1 class="text-2xl font-bold text-agua-900">{r.name}</h1>
+      <div class="text-sm text-slate-600">{meta?.river ? <>Río <strong>{meta.river}</strong> · </> : null}{r.basin_name}{meta?.province ? <> · {meta.province}</> : null}</div>
+
+      <div>
+        <div class="flex items-baseline justify-between">
+          <span class="text-sm text-slate-500">Llenado actual</span>
+          <span class="text-2xl font-bold tabular-nums text-agua-700">{fmt(last?.pct ?? null, 1)}%</span>
+        </div>
+        <PctBar pct={last?.pct ?? null} />
+        <div class="text-xs text-slate-500 mt-1">{fmt(last?.volume_hm3 ?? null, 1)} de {fmt(r.capacity_hm3, 0)} hm³ · {last?.date}</div>
+      </div>
+
+      <dl class="grid grid-cols-2 gap-2 text-sm pt-2 border-t border-slate-100">
+        {meta?.dam?.year && <><dt class="text-slate-500">Año</dt><dd>{meta.dam.year}</dd></>}
+        {meta?.dam?.height_m && <><dt class="text-slate-500">Altura presa</dt><dd>{fmt(meta.dam.height_m, 0)} m</dd></>}
+        {meta?.dam?.length_m && <><dt class="text-slate-500">Longitud presa</dt><dd>{fmt(meta.dam.length_m, 0)} m</dd></>}
+        {meta?.dam?.type && <><dt class="text-slate-500">Tipo</dt><dd>{meta.dam.type}</dd></>}
+        {meta?.surface_ha && <><dt class="text-slate-500">Superficie</dt><dd>{fmt(meta.surface_ha, 0)} ha</dd></>}
+        {r.is_hydroelectric && <><dt class="text-slate-500">Uso</dt><dd>Hidroeléctrico</dd></>}
+      </dl>
+    </div>
+  </header>
+
+  {meta?.history?.extract_html && (
+    <section class="bg-white border border-slate-200 rounded-xl p-5 mb-8 prose prose-slate max-w-none">
+      <h2 class="text-xl font-semibold text-agua-900 mt-0">Historia</h2>
+      <div set:html={meta.history.extract_html}></div>
+      <p class="text-xs text-slate-500 mt-3">Fuente: <a class="underline" href={meta.history.url}>Wikipedia</a> · {meta.history.license}</p>
+    </section>
+  )}
+
+  <section class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+    <div>
+      <h2 class="text-lg font-semibold text-agua-900 mb-2">Histórico (10 años)</h2>
+      <LineChart id="chart-hist" series={levelSeries} yLabel="hm³" />
+    </div>
+    <div>
+      <h2 class="text-lg font-semibold text-agua-900 mb-2">Año actual vs anterior</h2>
+      <LineChart id="chart-yoy" series={yearOnYear} yLabel="% lleno" />
+    </div>
+  </section>
+
+  {r.rainfall_local?.length > 0 && (
+    <section class="mb-8">
+      <h2 class="text-lg font-semibold text-agua-900 mb-2">Lluvia local (estación AEMET más cercana)</h2>
+      <LineChart id="chart-rain" series={rainSeries} yLabel="mm" />
+      {r.rainfall_local[0].station && (
+        <p class="text-xs text-slate-500 mt-2">Estación AEMET <code>{r.rainfall_local[0].station}</code> · a {r.rainfall_local[0].distance_km?.toFixed(1)} km</p>
+      )}
+    </section>
+  )}
+
+  {(mapPoints.length > 0 || tracks.length > 0) && (
+    <section class="mb-8">
+      <h2 class="text-lg font-semibold text-agua-900 mb-2">Mapa y rutas cercanas</h2>
+      <Map id={`map-${r.id}`} points={mapPoints} tracks={tracks} height={420} zoom={11} />
+    </section>
+  )}
+
+  {routes && routes.routes.length > 0 && (
+    <section class="mb-8">
+      <h2 class="text-lg font-semibold text-agua-900 mb-2">Rutas de senderismo cercanas</h2>
+      <p class="text-xs text-slate-500 mb-3">{routes.n} rutas en un radio de {routes.search_radius_km} km. Datos de OpenStreetMap.</p>
+      <div class="bg-white border border-slate-200 rounded-lg overflow-hidden">
+        <table class="min-w-full text-sm">
+          <thead class="bg-slate-100">
+            <tr>
+              <th class="text-left px-3 py-2 font-medium">Nombre</th>
+              <th class="text-left px-3 py-2 font-medium">Ref</th>
+              <th class="text-left px-3 py-2 font-medium">Red</th>
+              <th class="text-right px-3 py-2 font-medium">Long.</th>
+              <th class="text-left px-3 py-2 font-medium">Enlace</th>
+            </tr>
+          </thead>
+          <tbody>
+            {routes.routes.map((rt) => (
+              <tr class="border-t border-slate-100">
+                <td class="px-3 py-2">{rt.name}</td>
+                <td class="px-3 py-2 text-slate-600 tabular-nums">{rt.ref ?? '—'}</td>
+                <td class="px-3 py-2 text-slate-600">{rt.network ?? '—'}</td>
+                <td class="px-3 py-2 text-right tabular-nums">{fmt(rt.length_km, 1)} km</td>
+                <td class="px-3 py-2"><a class="text-agua-700 underline" href={rt.url} target="_blank" rel="noopener">OSM</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )}
+
+  <section class="text-xs text-slate-500 mt-8 pt-4 border-t border-slate-200">
+    <p>Datos: {r.sources.join(', ')} · Última actualización local: {r.last_updated}</p>
+    {meta?.wikipedia_url && <p>Más info: <a class="underline" href={meta.wikipedia_url}>Wikipedia</a></p>}
+    {meta?.osm?.url && <p>OSM: <a class="underline" href={meta.osm.url}>{meta.osm.url}</a></p>}
+  </section>
+</Base>

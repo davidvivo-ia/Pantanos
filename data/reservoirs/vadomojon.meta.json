@@ -1,0 +1,18 @@
+{
+  "id": "vadomojon",
+  "name": "Embalse de Vadomojón",
+  "coords": [
+    37.6155375,
+    -4.1944352
+  ],
+  "river": null,
+  "wikidata_id": "Q5830576",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 27507123,
+    "url": "https://www.openstreetmap.org/way/27507123"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

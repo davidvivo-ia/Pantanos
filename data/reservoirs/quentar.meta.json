@@ -1,0 +1,18 @@
+{
+  "id": "quentar",
+  "name": "Embalse de Quéntar",
+  "coords": [
+    37.2106274,
+    -3.432393
+  ],
+  "river": null,
+  "wikidata_id": "Q5369453",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Quéntar",
+  "osm": {
+    "type": "way",
+    "id": 76378160,
+    "url": "https://www.openstreetmap.org/way/76378160"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

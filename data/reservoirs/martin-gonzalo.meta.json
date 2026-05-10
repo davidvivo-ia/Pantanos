@@ -1,0 +1,18 @@
+{
+  "id": "martin-gonzalo",
+  "name": "Embalse de Martin Gonzalo",
+  "coords": [
+    38.1050913,
+    -4.3310921
+  ],
+  "river": null,
+  "wikidata_id": "Q5369449",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 76352742,
+    "url": "https://www.openstreetmap.org/way/76352742"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

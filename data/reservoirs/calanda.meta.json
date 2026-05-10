@@ -1,0 +1,18 @@
+{
+  "id": "calanda",
+  "name": "Embalse de Calanda",
+  "coords": [
+    40.8980353,
+    -0.2126415
+  ],
+  "river": null,
+  "wikidata_id": "Q25112699",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Calanda",
+  "osm": {
+    "type": "way",
+    "id": 98739401,
+    "url": "https://www.openstreetmap.org/way/98739401"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

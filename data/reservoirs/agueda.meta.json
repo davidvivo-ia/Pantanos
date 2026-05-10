@@ -1,0 +1,18 @@
+{
+  "id": "agueda",
+  "name": "Embalse de Águeda",
+  "coords": [
+    40.5043675,
+    -6.4915332
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 48120464,
+    "url": "https://www.openstreetmap.org/way/48120464"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

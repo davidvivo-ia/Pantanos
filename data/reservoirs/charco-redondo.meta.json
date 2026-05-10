@@ -1,0 +1,18 @@
+{
+  "id": "charco-redondo",
+  "name": "Embalse de Charco Redondo",
+  "coords": [
+    36.2485771,
+    -5.5580065
+  ],
+  "river": null,
+  "wikidata_id": "Q126206483",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_del_Charco_Redondo",
+  "osm": {
+    "type": "way",
+    "id": 80197884,
+    "url": "https://www.openstreetmap.org/way/80197884"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

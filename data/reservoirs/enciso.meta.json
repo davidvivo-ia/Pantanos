@@ -1,0 +1,18 @@
+{
+  "id": "enciso",
+  "name": "Embalse de Enciso",
+  "coords": [
+    42.1305186,
+    -2.2867045
+  ],
+  "river": null,
+  "wikidata_id": "Q36347995",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Presa_de_Enciso",
+  "osm": {
+    "type": "way",
+    "id": 755486003,
+    "url": "https://www.openstreetmap.org/way/755486003"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

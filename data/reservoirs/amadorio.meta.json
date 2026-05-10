@@ -1,0 +1,18 @@
+{
+  "id": "amadorio",
+  "name": "Embassament d'Amadòrio",
+  "coords": [
+    38.5420508,
+    -0.2642997
+  ],
+  "river": null,
+  "wikidata_id": "Q5830599",
+  "wikipedia_url": "https://ca.wikipedia.org/wiki/Pantà_de_la_Vila",
+  "osm": {
+    "type": "way",
+    "id": 43901066,
+    "url": "https://www.openstreetmap.org/way/43901066"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:32:45+00:00"
+}

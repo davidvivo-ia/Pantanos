@@ -1,0 +1,18 @@
+{
+  "id": "regajo",
+  "name": "Pantano del Regajo",
+  "coords": [
+    39.895011,
+    -0.5283633
+  ],
+  "river": null,
+  "wikidata_id": "Q18006197",
+  "wikipedia_url": "https://ca.wikipedia.org/wiki/Embassament_del_Regajo",
+  "osm": {
+    "type": "way",
+    "id": 30016888,
+    "url": "https://www.openstreetmap.org/way/30016888"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

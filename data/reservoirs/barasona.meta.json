@@ -1,0 +1,18 @@
+{
+  "id": "barasona",
+  "name": "Embalse de Barasona",
+  "coords": [
+    42.1481797,
+    0.3285427
+  ],
+  "river": null,
+  "wikidata_id": "Q24003136",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 23425646,
+    "url": "https://www.openstreetmap.org/way/23425646"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

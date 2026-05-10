@@ -1,0 +1,18 @@
+{
+  "id": "gargaligas",
+  "name": "Embalse del Gargáligas",
+  "coords": [
+    39.1972976,
+    -5.3511786
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 24003647,
+    "url": "https://www.openstreetmap.org/way/24003647"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

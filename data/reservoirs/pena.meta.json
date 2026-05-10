@@ -1,0 +1,18 @@
+{
+  "id": "pena",
+  "name": "Embalse de Pena",
+  "coords": [
+    40.8124272,
+    0.1318082
+  ],
+  "river": null,
+  "wikidata_id": "Q23993686",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 39935836,
+    "url": "https://www.openstreetmap.org/way/39935836"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

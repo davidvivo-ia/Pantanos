@@ -1,0 +1,68 @@
+---
+interface MapPoint { id: string; name: string; lat: number; lon: number; pct: number | null; href?: string; }
+interface MapTrack { name: string; coords: [number, number][]; color?: string; url?: string; }
+interface Props {
+  id: string;
+  points?: MapPoint[];
+  tracks?: MapTrack[];
+  center?: [number, number];
+  zoom?: number;
+  height?: number;
+  className?: string;
+}
+const { id, points = [], tracks = [], center = [40.0, -3.5], zoom = 6, height = 480, className = '' } = Astro.props;
+const json = JSON.stringify({ points, tracks, center, zoom });
+const base = import.meta.env.BASE_URL;
+---
+<div id={id} class={`w-full rounded-lg overflow-hidden border border-slate-200 ${className}`} style={`height:${height}px`}></div>
+<script type="module" define:vars={{ id, json, base, height }}>
+  // Load Leaflet CSS+JS from CDN (fine for static deploy).
+  const css = document.createElement('link');
+  css.rel = 'stylesheet';
+  css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+  document.head.appendChild(css);
+  await import('https://unpkg.com/leaflet@1.9.4/dist/leaflet-src.esm.js').then(async (m) => {
+    const L = m.default ?? m;
+    const cfg = JSON.parse(json);
+    const map = L.map(id, { center: cfg.center, zoom: cfg.zoom, zoomControl: true });
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }).addTo(map);
+
+    const colorForPct = (p) => {
+      if (p === null || p === undefined) return '#94a3b8';
+      if (p < 25) return '#dc2626';
+      if (p < 50) return '#f59e0b';
+      if (p < 75) return '#eab308';
+      if (p < 90) return '#22c55e';
+      return '#0284c7';
+    };
+
+    const group = L.featureGroup().addTo(map);
+    cfg.points.forEach((pt) => {
+      const c = colorForPct(pt.pct);
+      const marker = L.circleMarker([pt.lat, pt.lon], {
+        radius: 6,
+        weight: 1,
+        color: '#1e293b',
+        fillColor: c,
+        fillOpacity: 0.85,
+      });
+      const html = `<strong><a href="${pt.href ?? base + 'embalses/' + pt.id}">${pt.name}</a></strong><br/>${pt.pct === null ? 'sin datos' : pt.pct.toFixed(1) + '%'}`;
+      marker.bindPopup(html);
+      marker.addTo(group);
+    });
+
+    cfg.tracks.forEach((t, i) => {
+      if (!t.coords?.length) return;
+      const poly = L.polyline(t.coords, { color: t.color ?? '#dc2626', weight: 3, opacity: 0.85 });
+      poly.bindPopup(t.url ? `<a href="${t.url}" target="_blank" rel="noopener">${t.name}</a>` : t.name);
+      poly.addTo(group);
+    });
+
+    if (cfg.points.length || cfg.tracks.length) {
+      try { map.fitBounds(group.getBounds().pad(0.1)); } catch {}
+    }
+  });
+</script>

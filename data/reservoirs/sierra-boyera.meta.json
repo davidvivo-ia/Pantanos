@@ -1,0 +1,18 @@
+{
+  "id": "sierra-boyera",
+  "name": "Embalse de Sierra Boyera",
+  "coords": [
+    38.2740571,
+    -5.2706112
+  ],
+  "river": null,
+  "wikidata_id": "Q5369459",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Sierra_Boyera",
+  "osm": {
+    "type": "way",
+    "id": 42291745,
+    "url": "https://www.openstreetmap.org/way/42291745"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

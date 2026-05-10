@@ -1,0 +1,18 @@
+{
+  "id": "navacerrada",
+  "name": "Embalse de Navacerrada",
+  "coords": [
+    40.7188457,
+    -4.0080455
+  ],
+  "river": null,
+  "wikidata_id": "Q5369450",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Navacerrada",
+  "osm": {
+    "type": "way",
+    "id": 19104785,
+    "url": "https://www.openstreetmap.org/way/19104785"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

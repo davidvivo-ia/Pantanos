@@ -1,0 +1,33 @@
+---
+import PctBar from './PctBar.astro';
+import { fmt } from '../lib/data';
+
+interface Row { id: string; name: string; basin?: string; basin_name?: string; capacity_hm3: number; volume_hm3: number; pct: number | null; }
+interface Props { rows: Row[]; showBasin?: boolean; }
+const { rows, showBasin = true } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<div class="overflow-x-auto bg-white border border-slate-200 rounded-lg">
+  <table class="min-w-full text-sm" id="reservoir-table">
+    <thead class="bg-slate-100 text-slate-700">
+      <tr>
+        <th class="text-left px-3 py-2 font-medium">Embalse</th>
+        {showBasin && <th class="text-left px-3 py-2 font-medium">Cuenca</th>}
+        <th class="text-right px-3 py-2 font-medium">Capacidad</th>
+        <th class="text-right px-3 py-2 font-medium">Actual</th>
+        <th class="text-left px-3 py-2 font-medium w-64">% Lleno</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((r) => (
+        <tr class="border-t border-slate-100 hover:bg-slate-50">
+          <td class="px-3 py-2"><a class="text-agua-700 hover:underline" href={`${base}embalses/${r.id}`}>{r.name}</a></td>
+          {showBasin && <td class="px-3 py-2 text-slate-600">{r.basin_name ?? r.basin}</td>}
+          <td class="px-3 py-2 text-right tabular-nums">{fmt(r.capacity_hm3, 0)} hm³</td>
+          <td class="px-3 py-2 text-right tabular-nums">{fmt(r.volume_hm3, 0)} hm³</td>
+          <td class="px-3 py-2"><PctBar pct={r.pct} /></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

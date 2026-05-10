@@ -1,0 +1,18 @@
+{
+  "id": "nogales",
+  "name": "Embalse de Nogales",
+  "coords": [
+    39.2650324,
+    -6.2929372
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 29420669,
+    "url": "https://www.openstreetmap.org/way/29420669"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

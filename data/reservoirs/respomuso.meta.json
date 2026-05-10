@@ -1,0 +1,18 @@
+{
+  "id": "respomuso",
+  "name": "Embalse de Respomuso",
+  "coords": [
+    42.813952,
+    -0.2903959
+  ],
+  "river": null,
+  "wikidata_id": "Q3427764",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Respomuso",
+  "osm": {
+    "type": "way",
+    "id": 42421752,
+    "url": "https://www.openstreetmap.org/way/42421752"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

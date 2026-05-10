@@ -1,0 +1,18 @@
+{
+  "id": "canales",
+  "name": "Embalse de Canales",
+  "coords": [
+    37.1560048,
+    -3.4574016
+  ],
+  "river": null,
+  "wikidata_id": "Q1032728",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Canales",
+  "osm": {
+    "type": "way",
+    "id": 25965151,
+    "url": "https://www.openstreetmap.org/way/25965151"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "los-molinos",
+  "name": "Embalse de los Molinos",
+  "coords": [
+    28.5094714,
+    -14.0310508
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 44841862,
+    "url": "https://www.openstreetmap.org/way/44841862"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

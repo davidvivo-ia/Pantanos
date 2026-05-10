@@ -1,0 +1,18 @@
+{
+  "id": "corumbel-bajo",
+  "name": "Embalse del Corumbel bajo",
+  "coords": [
+    37.4422335,
+    -6.5568657
+  ],
+  "river": null,
+  "wikidata_id": "Q5830610",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_del_Corumbel_Bajo",
+  "osm": {
+    "type": "way",
+    "id": 43520332,
+    "url": "https://www.openstreetmap.org/way/43520332"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

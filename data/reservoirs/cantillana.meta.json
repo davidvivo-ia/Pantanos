@@ -1,0 +1,18 @@
+{
+  "id": "cantillana",
+  "name": "Embalse de Cantillana",
+  "coords": [
+    37.6120775,
+    -5.7527637
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 1077758507,
+    "url": "https://www.openstreetmap.org/way/1077758507"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

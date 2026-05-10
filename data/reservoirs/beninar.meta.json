@@ -1,0 +1,18 @@
+{
+  "id": "beninar",
+  "name": "Embalse de Beninar",
+  "coords": [
+    36.8879328,
+    -3.0276525
+  ],
+  "river": null,
+  "wikidata_id": "Q3375816",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 30772816,
+    "url": "https://www.openstreetmap.org/way/30772816"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

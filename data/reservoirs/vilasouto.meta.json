@@ -1,0 +1,18 @@
+{
+  "id": "vilasouto",
+  "name": "Encoro de Vilasouto",
+  "coords": [
+    42.6654276,
+    -7.4113516
+  ],
+  "river": null,
+  "wikidata_id": "Q8775404",
+  "wikipedia_url": "https://gl.wikipedia.org/wiki/Encoro_de_Vilasouto",
+  "osm": {
+    "type": "way",
+    "id": 127654562,
+    "url": "https://www.openstreetmap.org/way/127654562"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:32:45+00:00"
+}

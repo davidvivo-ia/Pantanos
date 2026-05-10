@@ -1,0 +1,18 @@
+{
+  "id": "brovales",
+  "name": "Brovales",
+  "coords": [
+    38.3563454,
+    -6.697707
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 42928432,
+    "url": "https://www.openstreetmap.org/way/42928432"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

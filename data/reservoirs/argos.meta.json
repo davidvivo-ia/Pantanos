@@ -1,0 +1,18 @@
+{
+  "id": "argos",
+  "name": "Embalse del Argós",
+  "coords": [
+    38.1640197,
+    -1.7378771
+  ],
+  "river": null,
+  "wikidata_id": "Q5830602",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_del_Argos",
+  "osm": {
+    "type": "way",
+    "id": 83336677,
+    "url": "https://www.openstreetmap.org/way/83336677"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

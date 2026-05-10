@@ -1,0 +1,18 @@
+{
+  "id": "tanes",
+  "name": "Embalse de Tanes",
+  "coords": [
+    43.204188,
+    -5.4014083
+  ],
+  "river": null,
+  "wikidata_id": "Q107737780",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 10110093,
+    "url": "https://www.openstreetmap.org/way/10110093"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

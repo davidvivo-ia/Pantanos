@@ -1,0 +1,18 @@
+{
+  "id": "bellus",
+  "name": "Embassament de Bellús",
+  "coords": [
+    38.9225517,
+    -0.4626069
+  ],
+  "river": null,
+  "wikidata_id": "Q5670515",
+  "wikipedia_url": "https://ca.wikipedia.org/wiki/Embassament_de_Bellús",
+  "osm": {
+    "type": "way",
+    "id": 85862624,
+    "url": "https://www.openstreetmap.org/way/85862624"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:32:45+00:00"
+}

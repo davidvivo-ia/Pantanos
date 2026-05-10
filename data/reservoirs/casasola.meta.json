@@ -1,0 +1,18 @@
+{
+  "id": "casasola",
+  "name": "Embalse de Casasola",
+  "coords": [
+    36.8141327,
+    -4.4964687
+  ],
+  "river": null,
+  "wikidata_id": "Q5830430",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Casasola",
+  "osm": {
+    "type": "way",
+    "id": 76840550,
+    "url": "https://www.openstreetmap.org/way/76840550"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

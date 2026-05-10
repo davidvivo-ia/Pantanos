@@ -1,0 +1,18 @@
+{
+  "id": "laverne",
+  "name": "Embalse de Laverné",
+  "coords": [
+    42.0820539,
+    -1.0808882
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 326146043,
+    "url": "https://www.openstreetmap.org/way/326146043"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

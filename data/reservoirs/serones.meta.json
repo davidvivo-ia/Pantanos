@@ -1,0 +1,18 @@
+{
+  "id": "serones",
+  "name": "Serones",
+  "coords": [
+    40.6804879,
+    -4.4522863
+  ],
+  "river": null,
+  "wikidata_id": "Q5830570",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Serones",
+  "osm": {
+    "type": "way",
+    "id": 37849002,
+    "url": "https://www.openstreetmap.org/way/37849002"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

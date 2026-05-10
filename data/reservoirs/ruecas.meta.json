@@ -1,0 +1,18 @@
+{
+  "id": "ruecas",
+  "name": "Embalse del Ruecas",
+  "coords": [
+    39.2819016,
+    -5.479737
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 24003585,
+    "url": "https://www.openstreetmap.org/way/24003585"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

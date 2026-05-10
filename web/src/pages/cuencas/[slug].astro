@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+import LineChart from '../../components/LineChart.astro';
+import ReservoirTable from '../../components/ReservoirTable.astro';
+import PctBar from '../../components/PctBar.astro';
+import { listBasins, getBasin, getSummary, fmt } from '../../lib/data';
+
+export async function getStaticPaths() {
+  return listBasins().map((b) => ({ params: { slug: b.id } }));
+}
+const { slug } = Astro.params;
+const basin = getBasin(slug!);
+if (!basin) throw new Error(`Basin ${slug} not found`);
+
+const summary = getSummary();
+const reservoirs = summary.reservoirs.filter((r) => r.basin === slug).sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0));
+
+const series = [{
+  label: '% lleno (cuenca)',
+  values: basin.history.filter((p) => p.pct !== null).map((p) => [new Date(p.date).getTime() / 1000, p.pct!] as [number, number]),
+  color: '#2b7295',
+}];
+---
+<Base title={`${basin.name} · Cuencas · Pantanos`}>
+  <nav class="text-sm text-slate-500 mb-4">
+    <a href={import.meta.env.BASE_URL} class="hover:underline">Inicio</a> ›
+    <a href={`${import.meta.env.BASE_URL}cuencas`} class="hover:underline">Cuencas</a> ›
+    <span class="text-slate-700">{basin.name}</span>
+  </nav>
+
+  <header class="mb-6">
+    <h1 class="text-2xl font-bold text-agua-900">{basin.name}</h1>
+    <div class="text-sm text-slate-600">{basin.n_reservoirs} embalses · {fmt(basin.capacity_hm3, 0)} hm³ de capacidad</div>
+  </header>
+
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+    <div class="rounded-xl bg-white border border-slate-200 p-5">
+      <div class="text-sm text-slate-500">Reserva</div>
+      <div class="text-3xl font-bold tabular-nums text-agua-700">{fmt(basin.pct, 1)}%</div>
+      <PctBar pct={basin.pct} />
+      <div class="text-xs text-slate-500 mt-1">{fmt(basin.current_hm3, 0)} de {fmt(basin.capacity_hm3, 0)} hm³</div>
+    </div>
+    <div class="rounded-xl bg-white border border-slate-200 p-5">
+      <div class="text-sm text-slate-500 mb-2">Histórico (% lleno)</div>
+      <LineChart id="basin-hist" series={series} yLabel="%" height={140} />
+    </div>
+  </section>
+
+  <h2 class="text-xl font-semibold text-agua-900 mb-3">Embalses de la cuenca</h2>
+  <ReservoirTable rows={reservoirs} showBasin={false} />
+</Base>

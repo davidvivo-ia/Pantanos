@@ -1,0 +1,18 @@
+{
+  "id": "bubal",
+  "name": "Embalse de Búbal",
+  "coords": [
+    42.7013102,
+    -0.3111021
+  ],
+  "river": null,
+  "wikidata_id": "Q3377802",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 22986537,
+    "url": "https://www.openstreetmap.org/way/22986537"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cernadilla",
+  "name": "Embalse de Cernadilla",
+  "coords": [
+    42.0212915,
+    -6.5449691
+  ],
+  "river": null,
+  "wikidata_id": "Q8775305",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Cernadilla",
+  "osm": {
+    "type": "way",
+    "id": 39631548,
+    "url": "https://www.openstreetmap.org/way/39631548"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "prada",
+  "name": "Encoro de Prada",
+  "coords": [
+    42.2757762,
+    -7.0326619
+  ],
+  "river": null,
+  "wikidata_id": "Q109331544",
+  "wikipedia_url": "https://gl.wikipedia.org/wiki/Encoro_de_Prada",
+  "osm": {
+    "type": "way",
+    "id": 70926595,
+    "url": "https://www.openstreetmap.org/way/70926595"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:32:45+00:00"
+}

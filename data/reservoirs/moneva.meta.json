@@ -1,0 +1,18 @@
+{
+  "id": "moneva",
+  "name": "Pantano de Moneva",
+  "coords": [
+    41.1712462,
+    -0.8326636
+  ],
+  "river": null,
+  "wikidata_id": "Q23994680",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Moneva",
+  "osm": {
+    "type": "way",
+    "id": 45068023,
+    "url": "https://www.openstreetmap.org/way/45068023"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import Map from '../components/Map.astro';
+import { getNationalRainfall, fmt } from '../lib/data';
+
+const data = getNationalRainfall();
+const obs = (data?.observations ?? []).filter((o: any) => o.lat && o.lon);
+const points = obs.slice(0, 800).map((o: any) => ({
+  id: o.idema,
+  name: `${o.name} (${o.idema})`,
+  lat: o.lat,
+  lon: o.lon,
+  pct: o.rain_mm_1h ?? null,
+}));
+---
+<Base title="Pluviómetros · Pantanos">
+  <h1 class="text-2xl font-bold text-agua-900 mb-2">Pluviómetros</h1>
+  {data
+    ? <p class="text-slate-600 mb-6">{data.n} estaciones AEMET · última lectura {data.fetched.slice(0, 19).replace('T', ' ')} UTC</p>
+    : <p class="text-slate-600 mb-6">Aún no hay datos AEMET. Se ingieren cuando el workflow tiene <code>AEMET_API_KEY</code> configurado.</p>}
+
+  {points.length > 0 && (
+    <>
+      <Map id="map-rain" points={points} height={520} />
+      <p class="text-xs text-slate-500 mt-2">El color indica precipitación de la última hora (verde = sin lluvia, rojo = intensa).</p>
+
+      <h2 class="text-lg font-semibold text-agua-900 mt-8 mb-3">Top precipitación última hora</h2>
+      <div class="overflow-x-auto bg-white border border-slate-200 rounded-lg">
+        <table class="min-w-full text-sm">
+          <thead class="bg-slate-100">
+            <tr>
+              <th class="text-left px-3 py-2 font-medium">Estación</th>
+              <th class="text-right px-3 py-2 font-medium">mm/h</th>
+              <th class="text-right px-3 py-2 font-medium">Temp</th>
+              <th class="text-left px-3 py-2 font-medium">Hora</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[...obs].filter((o: any) => o.rain_mm_1h != null).sort((a: any, b: any) => (b.rain_mm_1h ?? 0) - (a.rain_mm_1h ?? 0)).slice(0, 30).map((o: any) => (
+              <tr class="border-t border-slate-100">
+                <td class="px-3 py-2">{o.name}</td>
+                <td class="px-3 py-2 text-right tabular-nums">{fmt(o.rain_mm_1h, 1)}</td>
+                <td class="px-3 py-2 text-right tabular-nums">{fmt(o.temp_c, 1)}°C</td>
+                <td class="px-3 py-2 text-slate-600">{o.ts}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
+  )}
+</Base>

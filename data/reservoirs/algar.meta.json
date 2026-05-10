@@ -1,0 +1,18 @@
+{
+  "id": "algar",
+  "name": "Embassament d'Algar",
+  "coords": [
+    39.79079,
+    -0.3801882
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 981657125,
+    "url": "https://www.openstreetmap.org/way/981657125"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:32:45+00:00"
+}

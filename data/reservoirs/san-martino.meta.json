@@ -1,0 +1,18 @@
+{
+  "id": "san-martino",
+  "name": "San Martiño",
+  "coords": [
+    43.6131309,
+    -7.773437
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 702242066,
+    "url": "https://www.openstreetmap.org/way/702242066"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

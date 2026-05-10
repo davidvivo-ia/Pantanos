@@ -1,0 +1,18 @@
+{
+  "id": "pinilla",
+  "name": "Embalse de Pinilla",
+  "coords": [
+    40.9367482,
+    -3.7969734
+  ],
+  "river": null,
+  "wikidata_id": "Q8775372",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Pinilla",
+  "osm": {
+    "type": "way",
+    "id": 30822229,
+    "url": "https://www.openstreetmap.org/way/30822229"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

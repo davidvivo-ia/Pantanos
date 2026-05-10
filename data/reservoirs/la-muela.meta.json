@@ -1,0 +1,18 @@
+{
+  "id": "la-muela",
+  "name": "Embalse de La Muela",
+  "coords": [
+    39.2331751,
+    -0.9286945
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 24429130,
+    "url": "https://www.openstreetmap.org/way/24429130"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

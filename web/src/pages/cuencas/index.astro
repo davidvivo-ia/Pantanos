@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import PctBar from '../../components/PctBar.astro';
+import { listBasins, fmt } from '../../lib/data';
+const basins = listBasins();
+---
+<Base title="Cuencas · Pantanos">
+  <h1 class="text-2xl font-bold text-agua-900 mb-6">Cuencas hidrográficas</h1>
+  <div class="grid gap-3">
+    {basins.map((b) => (
+      <a href={`${import.meta.env.BASE_URL}cuencas/${b.id}`} class="block bg-white border border-slate-200 rounded-lg p-5 hover:border-agua-400">
+        <div class="flex justify-between items-baseline mb-2">
+          <h2 class="font-semibold text-lg">{b.name}</h2>
+          <span class="text-sm text-slate-500">{b.n_reservoirs} embalses · {fmt(b.capacity_hm3, 0)} hm³ capacidad</span>
+        </div>
+        <PctBar pct={b.pct} />
+        <div class="text-xs text-slate-500 mt-1">Reserva: {fmt(b.current_hm3, 0)} hm³</div>
+      </a>
+    ))}
+  </div>
+</Base>

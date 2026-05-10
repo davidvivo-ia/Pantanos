@@ -1,0 +1,12 @@
+---
+import Base from '../../layouts/Base.astro';
+import ReservoirTable from '../../components/ReservoirTable.astro';
+import { getSummary } from '../../lib/data';
+const summary = getSummary();
+const sorted = [...summary.reservoirs].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+---
+<Base title="Embalses · Pantanos">
+  <h1 class="text-2xl font-bold text-agua-900 mb-2">Embalses</h1>
+  <p class="text-slate-600 mb-6">{summary.national.n_reservoirs} embalses peninsulares > 5 hm³.</p>
+  <ReservoirTable rows={sorted} />
+</Base>

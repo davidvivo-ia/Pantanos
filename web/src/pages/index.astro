@@ -1,0 +1,86 @@
+---
+import Base from '../layouts/Base.astro';
+import ReservoirTable from '../components/ReservoirTable.astro';
+import PctBar from '../components/PctBar.astro';
+import Map from '../components/Map.astro';
+import { getSummary, listBasins, listReservoirSlugs, getReservoirMeta, fmt } from '../lib/data';
+
+const summary = getSummary();
+const basins = listBasins();
+
+const top = [...summary.reservoirs].sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0)).slice(0, 10);
+const bottom = [...summary.reservoirs].sort((a, b) => (a.pct ?? 0) - (b.pct ?? 0)).slice(0, 10);
+
+const points = listReservoirSlugs()
+  .map((slug) => {
+    const meta = getReservoirMeta(slug);
+    if (!meta?.coords) return null;
+    const r = summary.reservoirs.find((x) => x.id === slug);
+    if (!r) return null;
+    return { id: slug, name: r.name, lat: meta.coords[0], lon: meta.coords[1], pct: r.pct };
+  })
+  .filter(Boolean) as { id: string; name: string; lat: number; lon: number; pct: number | null }[];
+---
+<Base title="Pantanos · Reservas hídricas de España">
+  <section class="mb-6">
+    <h1 class="text-3xl font-bold text-agua-900">Reservas hídricas de España</h1>
+    <p class="text-slate-600 mt-1">Datos abiertos del bulletin hidrológico semanal — última actualización <strong>{summary.snapshot_date}</strong>.</p>
+  </section>
+
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+    <div class="rounded-xl bg-white border border-slate-200 p-5 shadow-sm">
+      <div class="text-sm text-slate-500">Reserva nacional</div>
+      <div class="text-3xl font-bold tabular-nums text-agua-700">{fmt(summary.national.pct, 1)}%</div>
+      <PctBar pct={summary.national.pct} />
+      <div class="text-xs text-slate-500 mt-2">{fmt(summary.national.current_hm3, 0)} de {fmt(summary.national.capacity_hm3, 0)} hm³</div>
+    </div>
+    <div class="rounded-xl bg-white border border-slate-200 p-5 shadow-sm">
+      <div class="text-sm text-slate-500">Embalses monitorizados</div>
+      <div class="text-3xl font-bold tabular-nums text-agua-700">{summary.national.n_reservoirs}</div>
+      <div class="text-xs text-slate-500 mt-2">Peninsulares > 5 hm³ (MITECO)</div>
+    </div>
+    <div class="rounded-xl bg-white border border-slate-200 p-5 shadow-sm">
+      <div class="text-sm text-slate-500">Cuencas</div>
+      <div class="text-3xl font-bold tabular-nums text-agua-700">{basins.length}</div>
+      <div class="text-xs text-slate-500 mt-2">desde Cantábrico hasta Guadalete-Barbate</div>
+    </div>
+  </section>
+
+  <section class="mb-8">
+    <h2 class="text-xl font-semibold text-agua-900 mb-3">Mapa de embalses</h2>
+    <Map id="map-nacional" points={points} height={520} />
+    <p class="text-xs text-slate-500 mt-2">Mostrados {points.length} embalses con coordenadas de OpenStreetMap. El color indica el % de llenado.</p>
+  </section>
+
+  <section class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+    <div>
+      <h2 class="text-xl font-semibold text-agua-900 mb-3">Cuencas hidrográficas</h2>
+      <div class="space-y-2">
+        {basins.map((b) => (
+          <a href={`${import.meta.env.BASE_URL}cuencas/${b.id}`} class="block bg-white border border-slate-200 rounded-lg px-4 py-3 hover:border-agua-400">
+            <div class="flex items-baseline justify-between">
+              <span class="font-medium">{b.name}</span>
+              <span class="text-sm text-slate-500">{b.n_reservoirs} embalses · {fmt(b.capacity_hm3, 0)} hm³</span>
+            </div>
+            <PctBar pct={b.pct} />
+          </a>
+        ))}
+      </div>
+    </div>
+    <div class="grid grid-cols-1 gap-6">
+      <div>
+        <h2 class="text-xl font-semibold text-agua-900 mb-3">Más llenos</h2>
+        <ReservoirTable rows={top} />
+      </div>
+      <div>
+        <h2 class="text-xl font-semibold text-agua-900 mb-3">Más vacíos</h2>
+        <ReservoirTable rows={bottom} />
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-8">
+    <h2 class="text-xl font-semibold text-agua-900 mb-3">Todos los embalses</h2>
+    <ReservoirTable rows={summary.reservoirs.sort((a, b) => a.name.localeCompare(b.name, 'es'))} />
+  </section>
+</Base>

@@ -1,0 +1,18 @@
+{
+  "id": "andevalo",
+  "name": "Embalse del Andévalo",
+  "coords": [
+    37.6804611,
+    -7.3104386
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 211557713,
+    "url": "https://www.openstreetmap.org/way/211557713"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

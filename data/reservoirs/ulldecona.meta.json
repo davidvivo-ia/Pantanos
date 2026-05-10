@@ -1,0 +1,18 @@
+{
+  "id": "ulldecona",
+  "name": "Embassament d'Ulldecona",
+  "coords": [
+    40.680473,
+    0.2238456
+  ],
+  "river": null,
+  "wikidata_id": "Q202052",
+  "wikipedia_url": "https://ca.wikipedia.org/wiki/Embassament_d'Ulldecona",
+  "osm": {
+    "type": "way",
+    "id": 30078548,
+    "url": "https://www.openstreetmap.org/way/30078548"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:32:45+00:00"
+}

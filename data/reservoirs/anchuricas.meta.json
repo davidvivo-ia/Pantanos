@@ -1,0 +1,18 @@
+{
+  "id": "anchuricas",
+  "name": "Embalse de Anchuricas",
+  "coords": [
+    38.1954954,
+    -2.5449774
+  ],
+  "river": null,
+  "wikidata_id": "Q16483202",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 51754202,
+    "url": "https://www.openstreetmap.org/way/51754202"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

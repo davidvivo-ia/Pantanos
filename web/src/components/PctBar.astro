@@ -1,0 +1,13 @@
+---
+import { colorForPct, fmt } from '../lib/data';
+interface Props { pct: number | null | undefined; }
+const { pct } = Astro.props;
+const color = colorForPct(pct);
+const w = Math.max(0, Math.min(100, pct ?? 0));
+---
+<div class="flex items-center gap-2 w-full">
+  <div class="relative flex-1 h-2 rounded bg-slate-200 overflow-hidden">
+    <div class="absolute inset-y-0 left-0" style={`width:${w}%; background:${color}`}></div>
+  </div>
+  <span class="text-xs tabular-nums text-slate-700 w-12 text-right">{fmt(pct, 1)}%</span>
+</div>

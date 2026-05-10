@@ -1,0 +1,18 @@
+{
+  "id": "cenza",
+  "name": "Encoro da Cenza",
+  "coords": [
+    42.2028135,
+    -7.2629775
+  ],
+  "river": null,
+  "wikidata_id": "Q130260686",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 105605950,
+    "url": "https://www.openstreetmap.org/way/105605950"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:32:45+00:00"
+}

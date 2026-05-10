@@ -1,0 +1,18 @@
+{
+  "id": "barcena",
+  "name": "Embalse de Bárcena",
+  "coords": [
+    42.6248856,
+    -6.5335461
+  ],
+  "river": null,
+  "wikidata_id": "Q5815472",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Bárcena",
+  "osm": {
+    "type": "way",
+    "id": 23602921,
+    "url": "https://www.openstreetmap.org/way/23602921"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

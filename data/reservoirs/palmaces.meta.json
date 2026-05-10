@@ -1,0 +1,18 @@
+{
+  "id": "palmaces",
+  "name": "Embalse de Pálmaces",
+  "coords": [
+    41.0633514,
+    -2.9196329
+  ],
+  "river": null,
+  "wikidata_id": "Q5658823",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 26416509,
+    "url": "https://www.openstreetmap.org/way/26416509"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "bolarque",
+  "name": "Embalse de Bolarque",
+  "coords": [
+    40.4065863,
+    -2.7962441
+  ],
+  "river": null,
+  "wikidata_id": "Q8775290",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Bolarque",
+  "osm": {
+    "type": "way",
+    "id": 32745736,
+    "url": "https://www.openstreetmap.org/way/32745736"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

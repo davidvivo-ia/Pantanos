@@ -1,0 +1,18 @@
+{
+  "id": "ordunte",
+  "name": "Embalse de Ordunte",
+  "coords": [
+    43.1521159,
+    -3.2967511
+  ],
+  "river": null,
+  "wikidata_id": "Q3380130",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_del_Ordunte",
+  "osm": {
+    "type": "way",
+    "id": 49166201,
+    "url": "https://www.openstreetmap.org/way/49166201"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

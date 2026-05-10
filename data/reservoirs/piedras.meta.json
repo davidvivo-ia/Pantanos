@@ -1,0 +1,18 @@
+{
+  "id": "piedras",
+  "name": "Embalse del Piedras",
+  "coords": [
+    37.3886561,
+    -7.2617755
+  ],
+  "river": null,
+  "wikidata_id": "Q5830613",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_del_Piedras",
+  "osm": {
+    "type": "way",
+    "id": 67553668,
+    "url": "https://www.openstreetmap.org/way/67553668"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

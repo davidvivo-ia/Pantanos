@@ -1,0 +1,18 @@
+{
+  "id": "zocueca",
+  "name": "Embalse de Zocueca",
+  "coords": [
+    38.1047262,
+    -3.8325984
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 582155176,
+    "url": "https://www.openstreetmap.org/way/582155176"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

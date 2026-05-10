@@ -1,0 +1,18 @@
+{
+  "id": "san-clemente",
+  "name": "Embalse de San Clemente",
+  "coords": [
+    37.8683661,
+    -2.6475877
+  ],
+  "river": null,
+  "wikidata_id": "Q3374037",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_San_Clemente",
+  "osm": {
+    "type": "way",
+    "id": 42090480,
+    "url": "https://www.openstreetmap.org/way/42090480"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

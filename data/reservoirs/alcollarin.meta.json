@@ -1,0 +1,18 @@
+{
+  "id": "alcollarin",
+  "name": "Alcollarín",
+  "coords": [
+    39.2631399,
+    -5.7565408
+  ],
+  "river": null,
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 889468732,
+    "url": "https://www.openstreetmap.org/way/889468732"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "valdeinfierno",
+  "name": "Embalse de Valdeinfierno",
+  "coords": [
+    37.8103983,
+    -1.9721747
+  ],
+  "river": null,
+  "wikidata_id": "Q5490023",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 101985340,
+    "url": "https://www.openstreetmap.org/way/101985340"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

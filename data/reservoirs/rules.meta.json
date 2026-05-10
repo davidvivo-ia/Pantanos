@@ -1,0 +1,18 @@
+{
+  "id": "rules",
+  "name": "Embalse de Rules",
+  "coords": [
+    36.8746236,
+    -3.4764917
+  ],
+  "river": null,
+  "wikidata_id": "Q5369455",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Rules",
+  "osm": {
+    "type": "way",
+    "id": 96645756,
+    "url": "https://www.openstreetmap.org/way/96645756"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

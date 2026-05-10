@@ -1,0 +1,18 @@
+{
+  "id": "yesa",
+  "name": "Embalse de Yesa",
+  "coords": [
+    42.6061551,
+    -1.1081378
+  ],
+  "river": null,
+  "wikidata_id": "Q1345950",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Yesa",
+  "osm": {
+    "type": "way",
+    "id": 22887206,
+    "url": "https://www.openstreetmap.org/way/22887206"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

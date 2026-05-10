@@ -1,0 +1,18 @@
+{
+  "id": "montefurado",
+  "name": "Encoro de Montefurado",
+  "coords": [
+    42.3590456,
+    -7.225898
+  ],
+  "river": null,
+  "wikidata_id": "Q130301453",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Montefurado",
+  "osm": {
+    "type": "way",
+    "id": 103428864,
+    "url": "https://www.openstreetmap.org/way/103428864"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:32:45+00:00"
+}

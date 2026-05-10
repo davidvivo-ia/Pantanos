@@ -1,0 +1,18 @@
+{
+  "id": "francisco-abellan",
+  "name": "Embalse de Francisco Abellán",
+  "coords": [
+    37.3033135,
+    -3.2775767
+  ],
+  "river": null,
+  "wikidata_id": "Q5369442",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Francisco_Abellán",
+  "osm": {
+    "type": "way",
+    "id": 39349629,
+    "url": "https://www.openstreetmap.org/way/39349629"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "barbate",
+  "name": "Embalse de Barbate",
+  "coords": [
+    36.3943174,
+    -5.6950003
+  ],
+  "river": null,
+  "wikidata_id": "Q5369432",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 244821548,
+    "url": "https://www.openstreetmap.org/way/244821548"
+  },
+  "source": "OSM",
+  "fetched": "2026-05-10T16:31:36+00:00"
+}
