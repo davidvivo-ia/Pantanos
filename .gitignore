@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.local
+
+node_modules/
+dist/
+.astro/
+.cache/
+
+.DS_Store
+*.log

@@ -1,0 +1,25 @@
+[project]
+name = "pantanos-scrapers"
+version = "0.1.0"
+description = "Ingesta de datos abiertos de embalses, lluvia y rutas en España"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+    "tenacity>=8.5",
+    "pandas>=2.2",
+    "openpyxl>=3.1",
+    "pdfplumber>=0.11",
+    "geopy>=2.4",
+    "python-slugify>=8.0",
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.5", "pytest>=8.0"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["scrapers*"]
