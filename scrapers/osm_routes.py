@@ -18,7 +18,7 @@ import sys
 import time
 from datetime import datetime, timezone
 
-from scrapers.common import RESERVOIRS_DIR, LOOKUP_DIR, read_json, write_json
+from scrapers.common import RESERVOIRS_DIR, LOOKUP_DIR, read_json, write_json  # noqa: F401
 from scrapers.common.http import make_client
 
 log = logging.getLogger("osm_routes")
@@ -94,6 +94,8 @@ def main() -> int:
     parser.add_argument("--radius", type=int, default=10000, help="Radius in meters")
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--sleep", type=float, default=2.0, help="Seconds between Overpass requests")
+    parser.add_argument("--skip-existing", action="store_true",
+                        help="Skip reservoirs that already have non-empty routes file")
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(levelname)s %(message)s")
@@ -112,16 +114,35 @@ def main() -> int:
     log.info("Querying routes for %d reservoirs (radius %dm)", len(targets), args.radius)
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
+    def fetch_with_retry(client, q: str, slug: str, attempts: int = 3):
+        for attempt in range(attempts):
+            try:
+                r = client.post(OVERPASS, data={"data": q}, timeout=180)
+                if r.status_code == 504:
+                    raise TimeoutError(f"504 Overpass for {slug}")
+                r.raise_for_status()
+                return parse_routes(r.json())
+            except Exception as e:
+                if attempt < attempts - 1:
+                    backoff = (attempt + 1) * 8
+                    log.info("Retry %d for %s after %ds: %s", attempt + 1, slug, backoff, e)
+                    time.sleep(backoff)
+                else:
+                    log.warning("Giving up on %s: %s", slug, e)
+        return None
+
     with make_client() as client:
         total_routes = 0
         for i, (slug, lat, lon) in enumerate(targets, 1):
+            existing = read_json(RESERVOIRS_DIR / f"{slug}.routes.json") or {}
+            if args.skip_existing and existing.get("n", 0) > 0:
+                continue
             q = QUERY_TEMPLATE.format(radius=args.radius, lat=lat, lon=lon)
-            try:
-                r = client.post(OVERPASS, data={"data": q}, timeout=120)
-                r.raise_for_status()
-                routes = parse_routes(r.json())
-            except Exception as e:
-                log.warning("Failed for %s: %s", slug, e)
+            routes = fetch_with_retry(client, q, slug)
+            if routes is None:
+                # Don't overwrite existing data with an empty file on transient failure.
+                if existing:
+                    continue
                 routes = []
             write_json(RESERVOIRS_DIR / f"{slug}.routes.json", {
                 "id": slug,
