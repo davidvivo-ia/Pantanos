@@ -1,0 +1,40 @@
+name: Ingest monthly (Wikidata + OSM coords + OSM routes)
+
+on:
+  schedule:
+    - cron: '0 4 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest-monthly
+  cancel-in-progress: false
+
+jobs:
+  meta-and-routes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -e .
+      - name: OSM reservoirs (coords)
+        run: python -m scrapers.osm_reservoirs
+        continue-on-error: true
+      - name: Wikidata + Wikipedia metadata
+        run: python -m scrapers.wikidata_meta
+        continue-on-error: true
+      - name: OSM hiking routes
+        run: python -m scrapers.osm_routes --sleep 2
+        continue-on-error: true
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ web/public/img/
+          git diff --cached --quiet || (git commit -m "data: monthly metadata + routes refresh" && git push)

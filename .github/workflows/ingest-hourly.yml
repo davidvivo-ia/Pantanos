@@ -1,0 +1,65 @@
+name: Ingest hourly (AEMET + SAIH)
+
+on:
+  schedule:
+    - cron: '15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest-hourly
+  cancel-in-progress: false
+
+jobs:
+  aemet:
+    runs-on: ubuntu-latest
+    if: ${{ secrets.AEMET_API_KEY != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -e .
+      - name: AEMET national
+        env:
+          AEMET_API_KEY: ${{ secrets.AEMET_API_KEY }}
+        run: python -m scrapers.aemet_opendata
+      - name: AEMET per-reservoir rainfall
+        env:
+          AEMET_API_KEY: ${{ secrets.AEMET_API_KEY }}
+        run: python -m scrapers.aemet_per_reservoir --days 30
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add data/
+          git diff --cached --quiet || (git commit -m "data: AEMET hourly snapshot" && git push)
+
+  saih:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        confederacion:
+          - ebro
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -e .
+      - name: Run SAIH ${{ matrix.confederacion }}
+        run: python -m scrapers.saih.${{ matrix.confederacion }}
+        continue-on-error: true
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add data/
+          git diff --cached --quiet || (git commit -m "data: SAIH ${{ matrix.confederacion }} hourly" && git push)

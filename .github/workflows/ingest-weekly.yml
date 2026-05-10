@@ -1,0 +1,43 @@
+name: Ingest weekly (MITECO)
+
+on:
+  schedule:
+    # Lunes 08:00 UTC (MITECO publica el bulletin los lunes)
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest-weekly
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: Install mdbtools
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq mdbtools
+      - name: Install Python deps
+        run: pip install -e .
+      - name: Run MITECO weekly scraper
+        run: python -m scrapers.miteco_weekly
+      - name: Commit data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            SNAPSHOT=$(jq -r '.snapshot_date // "unknown"' data/summary.json)
+            git commit -m "data: MITECO weekly snapshot ${SNAPSHOT}"
+            git push
+          fi
