@@ -3,9 +3,9 @@
   "name": "Cuenca Mediterránea Andaluza",
   "n_reservoirs": 12,
   "capacity_hm3": 1250.0,
-  "current_hm3": 904.0,
-  "pct": 72.32,
-  "last_updated": "2026-05-11T10:59:11+00:00",
+  "current_hm3": 903.0,
+  "pct": 72.24,
+  "last_updated": "2026-05-18T11:42:26+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10011,6 +10011,11 @@
       "date": "2026-05-05",
       "current_hm3": 904.0,
       "pct": 72.32
+    },
+    {
+      "date": "2026-05-12",
+      "current_hm3": 903.0,
+      "pct": 72.24
     }
   ]
 }
