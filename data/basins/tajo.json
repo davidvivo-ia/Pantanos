@@ -3,9 +3,9 @@
   "name": "Tajo",
   "n_reservoirs": 51,
   "capacity_hm3": 11193.0,
-  "current_hm3": 8728.0,
-  "pct": 77.98,
-  "last_updated": "2026-05-18T11:42:26+00:00",
+  "current_hm3": 8773.0,
+  "pct": 78.38,
+  "last_updated": "2026-05-25T11:51:48+00:00",
   "history": [
     {
       "date": "1987-10-06",
@@ -10026,6 +10026,11 @@
       "date": "2026-05-12",
       "current_hm3": 8728.0,
       "pct": 77.98
+    },
+    {
+      "date": "2026-05-19",
+      "current_hm3": 8773.0,
+      "pct": 78.38
     }
   ]
 }
