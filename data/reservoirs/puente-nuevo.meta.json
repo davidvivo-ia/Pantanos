@@ -1,0 +1,28 @@
+{
+  "id": "puente-nuevo",
+  "name": "Embalse de Puente Nuevo",
+  "wikidata_id": "Q92358754",
+  "coords": [
+    38.10916667,
+    -4.95111111
+  ],
+  "river": null,
+  "province": null,
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Puente_Nuevo",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Puente Nuevo</b> es un embalse español situado en la provincia de Córdoba, en los términos municipales de Espiel y Villaviciosa de Córdoba. Posee una capacidad de almacenamiento de 282 hm³ y pertenece a la Confederación Hidrográfica del Guadalquivir.</p>",
+    "extract": "El embalse de Puente Nuevo es un embalse español situado en la provincia de Córdoba, en los términos municipales de Espiel y Villaviciosa de Córdoba. Posee una capacidad de almacenamiento de 282 hm³ y pertenece a la Confederación Hidrográfica del Guadalquivir.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Puente_Nuevo",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:38:23+00:00"
+}

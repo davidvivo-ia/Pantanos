@@ -1,0 +1,28 @@
+{
+  "id": "villameca",
+  "name": "Embalse de Villameca",
+  "wikidata_id": "Q5830589",
+  "coords": [
+    42.65025,
+    -6.070166666
+  ],
+  "river": null,
+  "province": "provincia de León",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": "1947"
+  },
+  "capacity_hm3": 20.0,
+  "surface_ha": 186.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Villameca",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Villameca</b> está ubicado en la provincia de León, comunidad autónoma de Castilla y León, España. Su construcción supuso la destrucción de la localidad de Oliegos.</p>",
+    "extract": "El embalse de Villameca está ubicado en la provincia de León, comunidad autónoma de Castilla y León, España. Su construcción supuso la destrucción de la localidad de Oliegos.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Villameca",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:22:23+00:00"
+}

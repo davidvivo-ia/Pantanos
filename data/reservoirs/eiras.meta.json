@@ -1,18 +1,28 @@
 {
   "id": "eiras",
-  "name": "Encoro de Eiras",
+  "name": "Embalse de Eiras",
+  "wikidata_id": "Q123124888",
   "coords": [
-    42.3415938,
-    -8.4741688
+    42.35245,
+    -8.48205
   ],
   "river": null,
-  "wikidata_id": "Q123124888",
-  "wikipedia_url": "https://gl.wikipedia.org/wiki/Encoro_de_Eiras",
-  "osm": {
-    "type": "way",
-    "id": 30645397,
-    "url": "https://www.openstreetmap.org/way/30645397"
+  "province": "Fornelos de Montes",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
   },
-  "source": "OSM",
-  "fetched": "2026-05-10T16:32:45+00:00"
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Eiras",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Eiras</b> es un embalse situado en el río Oitavén, entre los municipios de Fornelos de Montes y Puentecaldelas, en la provincia de Pontevedra. Abastece de agua a la ciudad de Vigo, además de otros municipios limítrofes como Mos, Porriño, Redondela y Salceda de Caselas.</p>",
+    "extract": "El embalse de Eiras es un embalse situado en el río Oitavén, entre los municipios de Fornelos de Montes y Puentecaldelas, en la provincia de Pontevedra. Abastece de agua a la ciudad de Vigo, además de otros municipios limítrofes como Mos, Porriño, Redondela y Salceda de Caselas.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Eiras",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:36:25+00:00"
 }

@@ -1,0 +1,23 @@
+{
+  "id": "almodovar",
+  "name": "Embalse de Almodóvar",
+  "wikidata_id": "Q5369429",
+  "coords": [
+    36.15520278,
+    -5.64276667
+  ],
+  "river": null,
+  "province": "Tarifa",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Almod%C3%B3var",
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:22:52+00:00"
+}

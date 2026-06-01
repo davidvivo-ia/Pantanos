@@ -1,0 +1,28 @@
+{
+  "id": "crevillente",
+  "name": "Embalse de Crevillente",
+  "wikidata_id": "Q5830437",
+  "coords": [
+    38.258333333,
+    -0.791666666
+  ],
+  "river": null,
+  "province": "Crevillente",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": "1985"
+  },
+  "capacity_hm3": null,
+  "surface_ha": 108.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Crevillente",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Crevillente</b> es un embalse de España que se encuentra situado en el término municipal de Crevillente, en la provincia de Alicante, España y que tiene como función regular parte del caudal procedente del trasvase Tajo-Segura. Este embalse pertenece a la Confederación Hidrográfica del Segura y se construyó en el año 1985 en el cauce del barranco del Boch.</p>",
+    "extract": "El embalse de Crevillente es un embalse de España que se encuentra situado en el término municipal de Crevillente, en la provincia de Alicante, España y que tiene como función regular parte del caudal procedente del trasvase Tajo-Segura. Este embalse pertenece a la Confederación Hidrográfica del Segura y se construyó en el año 1985 en el cauce del barranco del Boch.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Crevillente",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:25:06+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "baserca",
+  "name": "Embalse de Baserca",
+  "wikidata_id": "Q11940022",
+  "coords": [
+    42.58803889,
+    0.760375
+  ],
+  "river": null,
+  "province": "Vilaller",
+  "dam": {
+    "type": null,
+    "height_m": 1434.5,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": 21.86,
+  "surface_ha": 93.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Baserca",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Baserca</b> o <b>embalse de Senet</b> se encuentra en el río Noguera Ribagorzana, a pocos kilómetros al sur del túnel de Viella. La presa y el embalse se encuentran divididos entre los términos municipales de Montanuy, en la comarca de la Ribagorza, al norte de Huesca, en Aragón, y Vilaller, en la comarca de la Alta Ribagorza, al norte de Lérida, en Cataluña, muy cerca del Valle de Arán.</p>",
+    "extract": "El embalse de Baserca o embalse de Senet se encuentra en el río Noguera Ribagorzana, a pocos kilómetros al sur del túnel de Viella. La presa y el embalse se encuentran divididos entre los términos municipales de Montanuy, en la comarca de la Ribagorza, al norte de Huesca, en Aragón, y Vilaller, en la comarca de la Alta Ribagorza, al norte de Lérida, en Cataluña, muy cerca del Valle de Arán.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Baserca",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:36:40+00:00"
+}

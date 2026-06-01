@@ -1,0 +1,23 @@
+{
+  "id": "navalcan",
+  "name": "Embalse de Navalcán",
+  "wikidata_id": "Q91936428",
+  "coords": [
+    40.034904,
+    -5.11642
+  ],
+  "river": null,
+  "province": "Navalcán",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": null,
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:35:41+00:00"
+}

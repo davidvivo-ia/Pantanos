@@ -1,18 +1,28 @@
 {
   "id": "escarra",
   "name": "Embalse de Escarra",
+  "wikidata_id": "Q13048933",
   "coords": [
-    42.7404472,
-    -0.3631169
+    42.743046,
+    -0.357322
   ],
   "river": null,
-  "wikidata_id": "Q13048933",
-  "wikipedia_url": null,
-  "osm": {
-    "type": "way",
-    "id": 45638923,
-    "url": "https://www.openstreetmap.org/way/45638923"
+  "province": "Sallent de Gállego",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
   },
-  "source": "OSM",
-  "fetched": "2026-05-10T16:31:36+00:00"
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Escarra",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Escarra</b> es un pequeño pantano situado en el río Escarra entre Tramacastilla y Escarrilla, en el término municipal de Sallent de Gállego. Se encuentra a 1.633 metros de altura rodeado por la punta Cochata, el pico Tarmanyons y la Tosquera.</p>",
+    "extract": "El embalse de Escarra es un pequeño pantano situado en el río Escarra entre Tramacastilla y Escarrilla, en el término municipal de Sallent de Gállego. Se encuentra a 1.633 metros de altura rodeado por la punta Cochata, el pico Tarmanyons y la Tosquera.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Escarra",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:33:46+00:00"
 }

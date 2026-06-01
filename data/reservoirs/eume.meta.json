@@ -1,18 +1,28 @@
 {
   "id": "eume",
-  "name": "Encoro do Eume",
+  "name": "Embalse del Eume",
+  "wikidata_id": "Q12387829",
   "coords": [
-    43.3794434,
-    -7.9558091
+    43.407222222,
+    -8.011044444
   ],
   "river": null,
-  "wikidata_id": "Q12387829",
-  "wikipedia_url": "https://gl.wikipedia.org/wiki/Encoro_do_Eume",
-  "osm": {
-    "type": "way",
-    "id": 25975058,
-    "url": "https://www.openstreetmap.org/way/25975058"
+  "province": "Capela",
+  "dam": {
+    "type": null,
+    "height_m": 318.0,
+    "length_m": null,
+    "year": null
   },
-  "source": "OSM",
-  "fetched": "2026-05-10T16:32:45+00:00"
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_del_Eume",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse del Eume</b> es el más grande de los dos que tiene el río Eume. Está situado en su curso medio, ocupando un área de 450 hectáreas en los municipios de Capela, Puentes de García Rodríguez y Monfero. Tiene una longitud aproximada de 15 kilómetros y un volumen de 123 hectómetros cúbicos.</p>",
+    "extract": "El embalse del Eume es el más grande de los dos que tiene el río Eume. Está situado en su curso medio, ocupando un área de 450 hectáreas en los municipios de Capela, Puentes de García Rodríguez y Monfero. Tiene una longitud aproximada de 15 kilómetros y un volumen de 123 hectómetros cúbicos.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_del_Eume",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:33:01+00:00"
 }

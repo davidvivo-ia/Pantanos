@@ -1,0 +1,28 @@
+{
+  "id": "zahara-el-gastor",
+  "name": "Embalse de Zahara-el Gastor",
+  "wikidata_id": "Q126205813",
+  "coords": [
+    36.850297227,
+    -5.384264182
+  ],
+  "river": null,
+  "province": "provincia de Cádiz",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": 222.7,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Zahara-El_Gastor",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Zahara-El Gastor</b> está situado en el noreste de la provincia de Cádiz. Pertenece a la Demarcación Hidrográfica del Guadalete-Barbate. Abarca terrenos de los municipios de Zahara de la Sierra y El Gastor.</p>",
+    "extract": "El embalse de Zahara-El Gastor está situado en el noreste de la provincia de Cádiz. Pertenece a la Demarcación Hidrográfica del Guadalete-Barbate. Abarca terrenos de los municipios de Zahara de la Sierra y El Gastor.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Zahara-El_Gastor",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:29:49+00:00"
+}

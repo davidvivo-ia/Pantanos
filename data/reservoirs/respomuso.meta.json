@@ -1,18 +1,28 @@
 {
   "id": "respomuso",
-  "name": "Embalse de Respomuso",
+  "name": "Respomuso",
+  "wikidata_id": "Q3427764",
   "coords": [
-    42.813952,
-    -0.2903959
+    42.81333333,
+    -0.28972222
   ],
   "river": null,
-  "wikidata_id": "Q3427764",
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Respomuso",
-  "osm": {
-    "type": "way",
-    "id": 42421752,
-    "url": "https://www.openstreetmap.org/way/42421752"
+  "province": "Sallent de Gállego",
+  "dam": {
+    "type": null,
+    "height_m": 2129.0,
+    "length_m": null,
+    "year": null
   },
-  "source": "OSM",
-  "fetched": "2026-05-10T16:31:36+00:00"
+  "capacity_hm3": 17.2,
+  "surface_ha": 72.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Respomuso",
+  "photo": null,
+  "history": {
+    "extract_html": "<p><b>Respomuso</b>, en ocasiones erróneamente llamado <b>Respumoso</b>, es el nombre de un ibón del Pirineo Aragonés, recrecido artificialmente a mediados del siglo <span style=\"text-transform:lowercase\">XX</span> por medio de una gran presa de hormigón. La obra fue en su época todo un alarde de la ingeniería, tanto por su grandeza como por lo complejo de su ubicación, aunque la polémica por el impacto ecológico y paisajístico que causó su levantamiento sigue vigente desde entonces.</p>",
+    "extract": "Respomuso, en ocasiones erróneamente llamado Respumoso, es el nombre de un ibón del Pirineo Aragonés, recrecido artificialmente a mediados del siglo XX por medio de una gran presa de hormigón. La obra fue en su época todo un alarde de la ingeniería, tanto por su grandeza como por lo complejo de su ubicación, aunque la polémica por el impacto ecológico y paisajístico que causó su levantamiento sigue vigente desde entonces.",
+    "url": "https://es.wikipedia.org/wiki/Respomuso",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:22:38+00:00"
 }

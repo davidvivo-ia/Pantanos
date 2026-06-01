@@ -1,0 +1,28 @@
+{
+  "id": "eugui",
+  "name": "Embalse de Eugui",
+  "wikidata_id": "Q12257397",
+  "coords": [
+    42.97583333,
+    -1.51416667
+  ],
+  "river": null,
+  "province": "Navarra",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": 21.38,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Eugui",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Eugi</b>, también llamado <i>pantano de Eugi</i> es un represamiento construido entre 1968 y 1973 en la cabecera del río Arga junto a la localidad de Eugui de donde toma el nombre, situada en el valle de Esteríbar, al norte de la Comunidad Foral de Navarra.</p>",
+    "extract": "El embalse de Eugi, también llamado pantano de Eugi es un represamiento construido entre 1968 y 1973 en la cabecera del río Arga junto a la localidad de Eugui de donde toma el nombre, situada en el valle de Esteríbar, al norte de la Comunidad Foral de Navarra.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Eugui",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:27:03+00:00"
+}

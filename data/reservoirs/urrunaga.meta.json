@@ -1,0 +1,23 @@
+{
+  "id": "urrunaga",
+  "name": "Embalse de Urrúnaga",
+  "wikidata_id": "Q20894837",
+  "coords": [
+    42.957886192,
+    -2.6550297
+  ],
+  "river": null,
+  "province": "Villarreal de Álava",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": null,
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:34:15+00:00"
+}

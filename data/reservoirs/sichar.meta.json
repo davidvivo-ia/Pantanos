@@ -1,0 +1,28 @@
+{
+  "id": "sichar",
+  "name": "Embalse de Sichar",
+  "wikidata_id": "Q3373943",
+  "coords": [
+    40.016666666,
+    -0.233333333
+  ],
+  "river": null,
+  "province": "Comunidad Valenciana",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Sichar",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Sichar</b> está situado en el término municipal de Onda en la provincia de Castellón, España.</p>",
+    "extract": "El embalse de Sichar está situado en el término municipal de Onda en la provincia de Castellón, España.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Sichar",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:30:48+00:00"
+}

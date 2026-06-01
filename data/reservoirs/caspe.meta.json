@@ -1,0 +1,28 @@
+{
+  "id": "caspe",
+  "name": "Embalse de Caspe",
+  "wikidata_id": "Q61861349",
+  "coords": [
+    41.121388888,
+    -0.024472222
+  ],
+  "river": null,
+  "province": "Caspe",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": 81.0,
+  "surface_ha": 638.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Caspe",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Caspe</b>, <b>embalse de Caspe II</b> o <b>embalse de Civán</b> es un embalse en el río Guadalope.</p>",
+    "extract": "El embalse de Caspe, embalse de Caspe II o embalse de Civán es un embalse en el río Guadalope.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Caspe",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:27:33+00:00"
+}

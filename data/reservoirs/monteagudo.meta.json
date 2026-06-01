@@ -1,0 +1,32 @@
+{
+  "id": "monteagudo",
+  "name": "Embalse de Monteagudo",
+  "wikidata_id": "Q5830532",
+  "coords": [
+    41.388333333,
+    -2.181944444
+  ],
+  "river": null,
+  "province": "provincia de Soria",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Monteagudo",
+  "photo": {
+    "url": "/img/reservoirs/monteagudo.jpg",
+    "credit": "Wikimedia Commons (CC-BY-SA / dominio público)",
+    "source_url": "http://commons.wikimedia.org/wiki/Special:FilePath/FaunaEnElPantanoDeMonteagudoDeLasVicarias.jpg"
+  },
+  "history": {
+    "extract_html": "<p>El <b>embalse de Monteagudo</b> es un embalse situado en el municipio de Monteagudo de las Vicarías, provincia de Soria. Es conocido popularmente como \"el pantano\". Recoge sus aguas del río Nágima. Su superficie es de 100 hectáreas.</p>",
+    "extract": "El embalse de Monteagudo es un embalse situado en el municipio de Monteagudo de las Vicarías, provincia de Soria. Es conocido popularmente como \"el pantano\". Recoge sus aguas del río Nágima. Su superficie es de 100 hectáreas.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Monteagudo",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:24:50+00:00"
+}

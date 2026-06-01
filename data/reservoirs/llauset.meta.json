@@ -1,18 +1,28 @@
 {
   "id": "llauset",
   "name": "Embalse de Llauset",
+  "wikidata_id": "Q28711545",
   "coords": [
-    42.5833169,
-    0.6884354
+    42.583739,
+    0.68978
   ],
   "river": null,
-  "wikidata_id": "Q28711545",
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Llauset",
-  "osm": {
-    "type": "way",
-    "id": 23584701,
-    "url": "https://www.openstreetmap.org/way/23584701"
+  "province": "Montanuy",
+  "dam": {
+    "type": null,
+    "height_m": 2191.0,
+    "length_m": null,
+    "year": null
   },
-  "source": "OSM",
-  "fetched": "2026-05-10T16:31:36+00:00"
+  "capacity_hm3": 16.78,
+  "surface_ha": 45.78,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Llauset",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Llauset</b> se encuentra a 2200 metros sobre el nivel del mar. Es el más grande del valle de Llauset en la cuenca del río Ebro. Se ubica en el municipio de Montanuy en La Ribagorza.</p>",
+    "extract": "El embalse de Llauset se encuentra a 2200 metros sobre el nivel del mar. Es el más grande del valle de Llauset en la cuenca del río Ebro. Se ubica en el municipio de Montanuy en La Ribagorza.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Llauset",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:23:36+00:00"
 }

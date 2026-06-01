@@ -1,0 +1,28 @@
+{
+  "id": "la-llosa-del-cavall",
+  "name": "Embalse de la Llosa del Cavall",
+  "wikidata_id": "Q11940037",
+  "coords": [
+    42.0998,
+    1.58285
+  ],
+  "river": null,
+  "province": "San Lorenzo de Morunys",
+  "dam": {
+    "type": null,
+    "height_m": 806.0,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": 79.4,
+  "surface_ha": 3.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_la_Llosa_del_Cavall",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de la Llosa del Cavall</b> es un pantano de Cataluña, España, que está en el río Cardener, afluente del río Llobregat, en la denominada Vall de Lord, en Lérida. La presa se encuentra en el municipio de Navés y el embalse se extiende por los municipios de Navés, Guixes y una pequeña porción del de San Lorenzo de Morunys, en la comarca del Solsonés, entre las sierras de Busa, al este, y Capdevila, al oeste. Al oeste del pantano, se encuentra el santuario de Lord y, en su cabecera, la fábrica de yesos Knauf, a pocos kilómetros de San Lorenzo de Morunys.</p>",
+    "extract": "El embalse de la Llosa del Cavall es un pantano de Cataluña, España, que está en el río Cardener, afluente del río Llobregat, en la denominada Vall de Lord, en Lérida. La presa se encuentra en el municipio de Navés y el embalse se extiende por los municipios de Navés, Guixes y una pequeña porción del de San Lorenzo de Morunys, en la comarca del Solsonés, entre las sierras de Busa, al este, y Capdevila, al oeste. Al oeste del pantano, se encuentra el santuario de Lord y, en su cabecera, la fábrica de yesos Knauf, a pocos kilómetros de San Lorenzo de Morunys.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_la_Llosa_del_Cavall",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:28:49+00:00"
+}

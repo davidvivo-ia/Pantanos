@@ -1,18 +1,28 @@
 {
   "id": "la-colada",
   "name": "Embalse de la Colada",
+  "wikidata_id": "Q114289356",
   "coords": [
-    38.5092322,
-    -5.0022008
+    38.530139094,
+    -5.00670971
   ],
   "river": null,
-  "wikidata_id": "Q114289356",
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_la_Colada",
-  "osm": {
-    "type": "way",
-    "id": 154803698,
-    "url": "https://www.openstreetmap.org/way/154803698"
+  "province": "Pozoblanco",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
   },
-  "source": "OSM",
-  "fetched": "2026-05-10T16:31:36+00:00"
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_la_Colada",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de la Colada</b> se localiza dentro de los términos municipales de las localidades de Hinojosa del Duque, Belalcázar y El Viso, en la provincia de Córdoba, comunidad autónoma de Andalucía, en España.</p>",
+    "extract": "El embalse de la Colada se localiza dentro de los términos municipales de las localidades de Hinojosa del Duque, Belalcázar y El Viso, en la provincia de Córdoba, comunidad autónoma de Andalucía, en España.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_la_Colada",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:37:09+00:00"
 }

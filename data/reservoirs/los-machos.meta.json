@@ -1,0 +1,28 @@
+{
+  "id": "los-machos",
+  "name": "Embalse de los Machos",
+  "wikidata_id": "Q104816845",
+  "coords": [
+    37.3231,
+    -7.2194
+  ],
+  "river": null,
+  "province": "provincia de Huelva",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_los_Machos",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de los Machos</b> es un embalse sobre el río Piedras en la provincia de Huelva (España). Es el quinto por capacidad de los situados en la Demarcación Hidrográfica Tinto, Odiel y Piedras y fue inaugurado el 2 de mayo de 1988.</p>",
+    "extract": "El embalse de los Machos es un embalse sobre el río Piedras en la provincia de Huelva (España). Es el quinto por capacidad de los situados en la Demarcación Hidrográfica Tinto, Odiel y Piedras y fue inaugurado el 2 de mayo de 1988.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_los_Machos",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:36:25+00:00"
+}

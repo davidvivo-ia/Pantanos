@@ -1,0 +1,28 @@
+{
+  "id": "barrios-de-luna",
+  "name": "Embalse de Barrios de Luna",
+  "wikidata_id": "Q3373938",
+  "coords": [
+    42.869944444,
+    -5.871583333
+  ],
+  "river": null,
+  "province": "Los Barrios de Luna",
+  "dam": {
+    "type": null,
+    "height_m": 1108.0,
+    "length_m": null,
+    "year": "1956"
+  },
+  "capacity_hm3": 308.0,
+  "surface_ha": 1122.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Barrios_de_Luna",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Barrios de Luna</b> está situado en la comarca leonesa de Luna en España. Toma su nombre del pueblo Los Barrios de Luna que se encuentra a los pies del muro de contención.</p>",
+    "extract": "El embalse de Barrios de Luna está situado en la comarca leonesa de Luna en España. Toma su nombre del pueblo Los Barrios de Luna que se encuentra a los pies del muro de contención.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Barrios_de_Luna",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:32:02+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cala",
+  "name": "Embalse de Cala",
+  "wikidata_id": "Q5830417",
+  "coords": [
+    37.712516666,
+    -6.107463888
+  ],
+  "river": null,
+  "province": "provincia de Sevilla",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Cala",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Cala</b> está situado en el norte de la provincia de Sevilla en el municipio de El Ronquillo. La superficie del pantano es de 473 ha y un volumen de 60,34 hm³. Fue construido en 1927. El pantano es propiedad de la Confederación Hidrográfica del Guadalquivir y lo utiliza la empresa Endesa-Generación para producir electricidad y ocasionalmente en épocas de sequía para el abastecimiento del Área Metropolitana de Sevilla.</p>",
+    "extract": "El embalse de Cala está situado en el norte de la provincia de Sevilla en el municipio de El Ronquillo. La superficie del pantano es de 473 ha y un volumen de 60,34 hm³. Fue construido en 1927. El pantano es propiedad de la Confederación Hidrográfica del Guadalquivir y lo utiliza la empresa Endesa-Generación para producir electricidad y ocasionalmente en épocas de sequía para el abastecimiento del Área Metropolitana de Sevilla.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Cala",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:29:48+00:00"
+}

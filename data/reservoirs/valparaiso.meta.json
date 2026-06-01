@@ -1,0 +1,27 @@
+{
+  "id": "valparaiso",
+  "name": "Embalse de Valparaíso",
+  "wikidata_id": "Q8775401",
+  "coords": [
+    41.99305556,
+    -6.275
+  ],
+  "river": null,
+  "province": "provincia de Zamora",
+  "dam": {
+    "type": null,
+    "height_m": 833.0,
+    "length_m": 540.0,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Valpara%C3%ADso",
+  "photo": {
+    "url": "/img/reservoirs/valparaiso.jpg",
+    "credit": "Wikimedia Commons (CC-BY-SA / dominio público)",
+    "source_url": "http://commons.wikimedia.org/wiki/Special:FilePath/MTN25-0306c2-2001-Villardeciervos.jpg"
+  },
+  "history": null,
+  "fetched": "2026-06-01T09:26:33+00:00"
+}

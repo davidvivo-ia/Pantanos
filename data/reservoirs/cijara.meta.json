@@ -1,0 +1,23 @@
+{
+  "id": "cijara",
+  "name": "Embalse de Cijara",
+  "wikidata_id": "Q23986950",
+  "coords": [
+    39.333888888,
+    -4.885277777
+  ],
+  "river": null,
+  "province": "provincia de Badajoz",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": 6567.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_C%C3%ADjara",
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:26:04+00:00"
+}

@@ -1,18 +1,28 @@
 {
   "id": "puente-porto",
   "name": "Embalse de Puente Porto",
+  "wikidata_id": "Q5830552",
   "coords": [
-    42.107204,
-    -6.8268435
+    42.11573,
+    -6.830221
   ],
   "river": null,
-  "wikidata_id": "Q5830552",
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Puente_Porto",
-  "osm": {
-    "type": "way",
-    "id": 51343493,
-    "url": "https://www.openstreetmap.org/way/51343493"
+  "province": "provincia de Zamora",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
   },
-  "source": "OSM",
-  "fetched": "2026-05-10T16:31:36+00:00"
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Puente_Porto",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Puente Porto</b> está ubicado en la provincia de Zamora, comunidad autónoma de Castilla y León, España. Fue construido por Hidroeléctrica de Moncabril en 1953. Tras la catástrofe de Ribadelago de 1959, la empresa fue instada a rebajar el nivel de Puente Porto, así como a mantener un resguardo de 3 m de altura en previsión de posibles avenidas.</p>",
+    "extract": "El embalse de Puente Porto está ubicado en la provincia de Zamora, comunidad autónoma de Castilla y León, España. Fue construido por Hidroeléctrica de Moncabril en 1953. Tras la catástrofe de Ribadelago de 1959, la empresa fue instada a rebajar el nivel de Puente Porto, así como a mantener un resguardo de 3 m de altura en previsión de posibles avenidas.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Puente_Porto",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:29:04+00:00"
 }

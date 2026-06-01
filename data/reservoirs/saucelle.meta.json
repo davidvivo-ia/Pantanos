@@ -1,0 +1,23 @@
+{
+  "id": "saucelle",
+  "name": "Embalse de Saucelle",
+  "wikidata_id": "Q43560800",
+  "coords": [
+    41.075691666,
+    -6.775302777
+  ],
+  "river": null,
+  "province": "provincia de Salamanca",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": null,
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:34:58+00:00"
+}

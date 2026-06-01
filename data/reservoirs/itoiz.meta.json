@@ -1,0 +1,28 @@
+{
+  "id": "itoiz",
+  "name": "Embalse de Itoiz",
+  "wikidata_id": "Q3380147",
+  "coords": [
+    42.811038014,
+    -1.368332626
+  ],
+  "river": null,
+  "province": "Navarra",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": 418.0,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Itoiz",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Itoiz</b> es una obra hidráulica situada en Navarra (España) en las proximidades de la Villa de Aoiz entre los valles navarros de Arce y Lónguida; toma su nombre de uno de los pueblos que inunda. Tiene 122 m de altura sobre los cimientos y 111 m sobre el lecho del río. Su anchura de coronación es de 525 m y la superficie de embalse es de 1100 ha. Es el mayor embalse de la Comunidad Foral de Navarra.</p>",
+    "extract": "El embalse de Itoiz es una obra hidráulica situada en Navarra (España) en las proximidades de la Villa de Aoiz entre los valles navarros de Arce y Lónguida; toma su nombre de uno de los pueblos que inunda. Tiene 122 m de altura sobre los cimientos y 111 m sobre el lecho del río. Su anchura de coronación es de 525 m y la superficie de embalse es de 1100 ha. Es el mayor embalse de la Comunidad Foral de Navarra.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Itoiz",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:24:05+00:00"
+}

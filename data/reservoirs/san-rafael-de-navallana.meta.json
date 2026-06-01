@@ -1,0 +1,28 @@
+{
+  "id": "san-rafael-de-navallana",
+  "name": "Embalse de San Rafael de Navallana",
+  "wikidata_id": "Q5369457",
+  "coords": [
+    37.96444444,
+    -4.61861111
+  ],
+  "river": null,
+  "province": "Córdoba",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_San_Rafael_de_Navallana",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de San Rafael de Navallana</b> se encuentra en el caude medio del río Guadalmellato, en la provincia de Córdoba (España), estando situadas sus aguas dentro del término municipal de Córdoba. Ocupa una superficie de 988 hectáreas y tiene una capacidad de almacenamiento de 157 hectómetros cúbicos. En la actualidad el embalse es empleado con fines de abastecimiento y regadío, aunque también acoge diversas actividades de tipo recreativo.</p>",
+    "extract": "El embalse de San Rafael de Navallana se encuentra en el caude medio del río Guadalmellato, en la provincia de Córdoba (España), estando situadas sus aguas dentro del término municipal de Córdoba. Ocupa una superficie de 988 hectáreas y tiene una capacidad de almacenamiento de 157 hectómetros cúbicos. En la actualidad el embalse es empleado con fines de abastecimiento y regadío, aunque también acoge diversas actividades de tipo recreativo.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_San_Rafael_de_Navallana",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:28:34+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "la-baells",
+  "name": "Embalse de la Baells",
+  "wikidata_id": "Q11940039",
+  "coords": [
+    42.12193333,
+    1.87835
+  ],
+  "river": null,
+  "province": "Bergadá",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": 109000.0,
+  "surface_ha": 364.7,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_la_Baells",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de la Baells</b> es una infraestructura hidráulica española situada en el río Llobregat, en la comarca del Bergadá, provincia de Barcelona, Cataluña. Está formado por una presa situada en el municipio de Serchs. Se extiende por los términos de Serchs y Vilada, entre las sierras prepirenáicas de Catllarás, al este, y Figuerassa y Arades, al oeste. A la derecha del pantano discurre la carretera C-16, entre el túnel del Cadí y Berga-Manresa, y es atravesado por la C-26, que enlaza Berga y Ripoll.</p>",
+    "extract": "El embalse de la Baells es una infraestructura hidráulica española situada en el río Llobregat, en la comarca del Bergadá, provincia de Barcelona, Cataluña. Está formado por una presa situada en el municipio de Serchs. Se extiende por los términos de Serchs y Vilada, entre las sierras prepirenáicas de Catllarás, al este, y Figuerassa y Arades, al oeste. A la derecha del pantano discurre la carretera C-16, entre el túnel del Cadí y Berga-Manresa, y es atravesado por la C-26, que enlaza Berga y Ripoll.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_la_Baells",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:26:49+00:00"
+}

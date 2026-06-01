@@ -1,0 +1,28 @@
+{
+  "id": "camarasa",
+  "name": "Embalse de Camarasa",
+  "wikidata_id": "Q11940026",
+  "coords": [
+    41.90806,
+    0.886862
+  ],
+  "river": null,
+  "province": "Camarasa",
+  "dam": {
+    "type": null,
+    "height_m": 336.0,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": 163.4,
+  "surface_ha": 624.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Camarasa",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Camarasa</b> se halla en el río Noguera Pallaresa. La presa está situada en el municipio de Camarasa. El pantano se extiende por los términos de Camarasa, Les Avellanes y Santa Liña y Ager, en la comarca de la Noguera.</p>",
+    "extract": "El embalse de Camarasa se halla en el río Noguera Pallaresa. La presa está situada en el municipio de Camarasa. El pantano se extiende por los términos de Camarasa, Les Avellanes y Santa Liña y Ager, en la comarca de la Noguera.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Camarasa",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:33:31+00:00"
+}

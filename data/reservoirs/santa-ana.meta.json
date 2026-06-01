@@ -1,0 +1,28 @@
+{
+  "id": "santa-ana",
+  "name": "Embalse de Santa Ana",
+  "wikidata_id": "Q3376327",
+  "coords": [
+    41.88270833,
+    0.58026667
+  ],
+  "river": null,
+  "province": "La Litera",
+  "dam": {
+    "type": null,
+    "height_m": 378.7,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": 237.0,
+  "surface_ha": 768.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Santa_Ana",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Santa Ana</b> está ubicado en las provincias españolas de Huesca y Lérida, pasado el embalse de Canelles. Tiene una capacidad de 236,60 hm³ y se usa para el abastecimiento de agua potable, la generación de electricidad y el regadío.</p>",
+    "extract": "El embalse de Santa Ana está ubicado en las provincias españolas de Huesca y Lérida, pasado el embalse de Canelles. Tiene una capacidad de 236,60 hm³ y se usa para el abastecimiento de agua potable, la generación de electricidad y el regadío.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Santa_Ana",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:32:31+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "guadalen",
+  "name": "Embalse del Guadalén",
+  "wikidata_id": "Q94377393",
+  "coords": [
+    38.163055555,
+    -3.477222222
+  ],
+  "river": null,
+  "province": "Vilches",
+  "dam": {
+    "type": null,
+    "height_m": 303.4,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": 163.0,
+  "surface_ha": 1351.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_del_Guadal%C3%A9n",
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:37:53+00:00"
+}

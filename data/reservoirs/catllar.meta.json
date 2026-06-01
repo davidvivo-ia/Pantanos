@@ -1,0 +1,28 @@
+{
+  "id": "catllar",
+  "name": "Embalse del Catllar",
+  "wikidata_id": "Q17596973",
+  "coords": [
+    41.196438,
+    1.327112
+  ],
+  "river": null,
+  "province": "Renau",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": 60.4,
+  "surface_ha": 362.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_del_Catllar",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse del Catllar</b> es una infraestructura hidráulica española construida sobre el río Gayá, al noreste del municipio de Catllar, a unos dos kilómetros por debajo de la presa, en la provincia de Tarragona, Cataluña. El embalse se extiende por los términos de Catllar, Vespella y Renau, en la comarca del Tarragonés, y por una pequeña parte del municipio de Vilabella, en la comarca del Alto Campo.</p>",
+    "extract": "El embalse del Catllar es una infraestructura hidráulica española construida sobre el río Gayá, al noreste del municipio de Catllar, a unos dos kilómetros por debajo de la presa, en la provincia de Tarragona, Cataluña. El embalse se extiende por los términos de Catllar, Vespella y Renau, en la comarca del Tarragonés, y por una pequeña parte del municipio de Vilabella, en la comarca del Alto Campo.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_del_Catllar",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:33:16+00:00"
+}

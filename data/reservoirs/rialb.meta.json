@@ -1,0 +1,28 @@
+{
+  "id": "rialb",
+  "name": "Embalse de Rialb",
+  "wikidata_id": "Q3376319",
+  "coords": [
+    41.94037222,
+    1.193775
+  ],
+  "river": null,
+  "province": "Oliana",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Rialb",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Rialb</b>, conocido también como <b>pantano de Rialb</b>, es una reserva de agua ubicada en Cataluña. Este embalse es alimentado por los ríos Segre, Rialb y Ribera Salada.</p>",
+    "extract": "El embalse de Rialb, conocido también como pantano de Rialb, es una reserva de agua ubicada en Cataluña. Este embalse es alimentado por los ríos Segre, Rialb y Ribera Salada.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Rialb",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:32:16+00:00"
+}

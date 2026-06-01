@@ -1,0 +1,28 @@
+{
+  "id": "aracena",
+  "name": "Embalse de Aracena",
+  "wikidata_id": "Q5830407",
+  "coords": [
+    37.90916667,
+    -6.45
+  ],
+  "river": null,
+  "province": "provincia de Huelva",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Aracena",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Aracena</b> pertenece a la cuenca hidrográfica del Guadalquivir y se ubica en la provincia de Huelva, dentro de los términos municipales de Corteconcepción, Puerto Moral y Zufre, en el parque natural de Sierra de Aracena y Picos de Aroche. Fue construido entre 1963 y 1970, siendo inaugurado en 1970.</p>",
+    "extract": "El embalse de Aracena pertenece a la cuenca hidrográfica del Guadalquivir y se ubica en la provincia de Huelva, dentro de los términos municipales de Corteconcepción, Puerto Moral y Zufre, en el parque natural de Sierra de Aracena y Picos de Aroche. Fue construido entre 1963 y 1970, siendo inaugurado en 1970.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Aracena",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:28:19+00:00"
+}

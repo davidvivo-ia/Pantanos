@@ -1,18 +1,28 @@
 {
   "id": "matalavilla",
   "name": "Embalse de Matalavilla",
+  "wikidata_id": "Q8775362",
   "coords": [
-    42.8356947,
-    -6.4270987
+    42.836333333,
+    -6.433972222
   ],
   "river": null,
-  "wikidata_id": "Q8775362",
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Matalavilla",
-  "osm": {
-    "type": "way",
-    "id": 50737434,
-    "url": "https://www.openstreetmap.org/way/50737434"
+  "province": "provincia de León",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": "1967"
   },
-  "source": "OSM",
-  "fetched": "2026-05-10T16:31:36+00:00"
+  "capacity_hm3": 65.0,
+  "surface_ha": 188.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Matalavilla",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Matalavilla</b> está ubicado al norte de la provincia de León, comunidad autónoma de Castilla y León, España.</p>",
+    "extract": "El embalse de Matalavilla está ubicado al norte de la provincia de León, comunidad autónoma de Castilla y León, España.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Matalavilla",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:27:18+00:00"
 }

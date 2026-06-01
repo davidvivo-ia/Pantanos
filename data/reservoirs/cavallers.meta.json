@@ -1,0 +1,28 @@
+{
+  "id": "cavallers",
+  "name": "Embalse de Cavallers",
+  "wikidata_id": "Q11940025",
+  "coords": [
+    42.589937,
+    0.856305
+  ],
+  "river": null,
+  "province": "Valle de Bohí",
+  "dam": {
+    "type": null,
+    "height_m": 1781.0,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": 16.05,
+  "surface_ha": 47.27,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Cavallers",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Cavallers</b> o de los lagos de Tor se encuentra en el río Noguera de Tor, afluente del Noguera Ribagorzana. La presa se encuentra en el municipio de La Vall de Boí, en la comarca de la Alta Ribagorza, en Lérida, Cataluña, España. Hasta 1996, el municipio recibía el nombre de Barruera.</p>",
+    "extract": "El embalse de Cavallers o de los lagos de Tor se encuentra en el río Noguera de Tor, afluente del Noguera Ribagorzana. La presa se encuentra en el municipio de La Vall de Boí, en la comarca de la Alta Ribagorza, en Lérida, Cataluña, España. Hasta 1996, el municipio recibía el nombre de Barruera.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Cavallers",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:34:00+00:00"
+}

@@ -1,18 +1,28 @@
 {
   "id": "maidevera",
   "name": "Embalse de Maidevera",
+  "wikidata_id": "Q109311413",
   "coords": [
-    41.5836913,
-    -1.7658038
+    41.5789,
+    -1.7607
   ],
   "river": null,
-  "wikidata_id": "Q94988427",
-  "wikipedia_url": null,
-  "osm": {
-    "type": "way",
-    "id": 26438927,
-    "url": "https://www.openstreetmap.org/way/26438927"
+  "province": "provincia de Zaragoza",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
   },
-  "source": "OSM",
-  "fetched": "2026-05-10T16:31:36+00:00"
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Maidevera",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Maidevera</b> está situado en el término municipal de Aranda de Moncayo, comunidad autónoma de Aragón en España.</p>",
+    "extract": "El embalse de Maidevera está situado en el término municipal de Aranda de Moncayo, comunidad autónoma de Aragón en España.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Maidevera",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:37:38+00:00"
 }

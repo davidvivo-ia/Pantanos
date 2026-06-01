@@ -1,0 +1,28 @@
+{
+  "id": "foix",
+  "name": "Pantano de Foix",
+  "wikidata_id": "Q11697617",
+  "coords": [
+    41.2556,
+    1.65116
+  ],
+  "river": null,
+  "province": "Castellet y Gornal",
+  "dam": {
+    "type": null,
+    "height_m": 102.0,
+    "length_m": null,
+    "year": "1901"
+  },
+  "capacity_hm3": 3.74,
+  "surface_ha": 68.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Pantano_de_Foix",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Foix</b> es una infraestructura hidroeléctrica española construida sobre el río Foix, un corto río de tan solo 41 km de longitud que nace en la Sierra de la Llacuna, situada en la comarca de Anoia. Esta presa se encuentra ubicada exactamente en el municipio de Castellet y Gornal, en la comarca del Alto Panadés, limitando con la comarca del Garraf, en la provincia de Barcelona, Cataluña.</p>",
+    "extract": "El embalse de Foix es una infraestructura hidroeléctrica española construida sobre el río Foix, un corto río de tan solo 41 km de longitud que nace en la Sierra de la Llacuna, situada en la comarca de Anoia. Esta presa se encuentra ubicada exactamente en el municipio de Castellet y Gornal, en la comarca del Alto Panadés, limitando con la comarca del Garraf, en la provincia de Barcelona, Cataluña.",
+    "url": "https://es.wikipedia.org/wiki/Pantano_de_Foix",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:30:34+00:00"
+}

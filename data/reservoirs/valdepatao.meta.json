@@ -1,0 +1,23 @@
+{
+  "id": "valdepatao",
+  "name": "Embalse de Valdepatao",
+  "wikidata_id": "Q112663622",
+  "coords": [
+    41.552456355,
+    0.05635781
+  ],
+  "river": null,
+  "province": "Fraga",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": null,
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:37:38+00:00"
+}

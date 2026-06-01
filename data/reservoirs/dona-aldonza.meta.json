@@ -1,0 +1,23 @@
+{
+  "id": "dona-aldonza",
+  "name": "Embalse de Doña Aldonza",
+  "wikidata_id": "Q107738375",
+  "coords": [
+    37.937922227,
+    -3.296295216
+  ],
+  "river": null,
+  "province": "Úbeda",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": null,
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:35:56+00:00"
+}

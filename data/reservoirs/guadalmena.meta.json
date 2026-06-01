@@ -1,0 +1,28 @@
+{
+  "id": "guadalmena",
+  "name": "Embalse del Guadalmena",
+  "wikidata_id": "Q126207021",
+  "coords": [
+    38.365555555,
+    -2.910833333
+  ],
+  "river": null,
+  "province": "Orcera",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": "1969"
+  },
+  "capacity_hm3": 346.0,
+  "surface_ha": 1250.0,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_del_Guadalmena",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse del Guadalmena</b> es un embalse construido en el río Guadalmena, en los términos municipales de Chiclana de Segura, Segura de la Sierra y de Orcera, en la provincia de Jaén, al sur de España. Se ubica entre las comarcas de la Sierra de Segura y del Condado. La capacidad del embalse es de 346,5 hm³.</p>",
+    "extract": "El embalse del Guadalmena es un embalse construido en el río Guadalmena, en los términos municipales de Chiclana de Segura, Segura de la Sierra y de Orcera, en la provincia de Jaén, al sur de España. Se ubica entre las comarcas de la Sierra de Segura y del Condado. La capacidad del embalse es de 346,5 hm³.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_del_Guadalmena",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:30:19+00:00"
+}

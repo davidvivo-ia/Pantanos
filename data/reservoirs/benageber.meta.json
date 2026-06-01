@@ -1,0 +1,23 @@
+{
+  "id": "benageber",
+  "name": "Embalse de Benagéber",
+  "wikidata_id": "Q11681438",
+  "coords": [
+    39.72694167,
+    -1.09885278
+  ],
+  "river": null,
+  "province": "provincia de Valencia",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Benag%C3%A9ber",
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:25:35+00:00"
+}

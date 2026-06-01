@@ -1,18 +1,28 @@
 {
   "id": "puentes",
-  "name": "Embalse de Puentes",
+  "name": "Pantano de Puentes",
+  "wikidata_id": "Q2391001",
   "coords": [
-    37.7444842,
-    -1.8402578
+    37.73472222,
+    -1.81925
   ],
   "river": null,
-  "wikidata_id": null,
-  "wikipedia_url": null,
-  "osm": {
-    "type": "way",
-    "id": 101419900,
-    "url": "https://www.openstreetmap.org/way/101419900"
+  "province": "Región de Murcia",
+  "dam": {
+    "type": null,
+    "height_m": 451.0,
+    "length_m": null,
+    "year": null
   },
-  "source": "OSM",
-  "fetched": "2026-05-10T16:31:36+00:00"
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Puentes",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>pantano</b> o <b>embalse de Puentes</b> está situado en la pedanía de La Tova, perteneciente al municipio español de Lorca, en la Región de Murcia. La presa se halla situada en el río Guadalentín y tiene una doble finalidad, embalsar agua para el abastecimiento y mitigar los efectos de las riadas y avenidas.</p>",
+    "extract": "El pantano o embalse de Puentes está situado en la pedanía de La Tova, perteneciente al municipio español de Lorca, en la Región de Murcia. La presa se halla situada en el río Guadalentín y tiene una doble finalidad, embalsar agua para el abastecimiento y mitigar los efectos de las riadas y avenidas.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Puentes",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:24:51+00:00"
 }

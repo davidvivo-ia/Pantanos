@@ -1,0 +1,20 @@
+{
+  "id": "villalcampo",
+  "name": "Embalse de Villalcampo",
+  "wikidata_id": "Q110295767",
+  "coords": null,
+  "river": null,
+  "province": "provincia de Zamora",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": 445.0,
+  "wikipedia_url": null,
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:35:56+00:00"
+}

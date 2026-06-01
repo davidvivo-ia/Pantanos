@@ -1,0 +1,23 @@
+{
+  "id": "arenos",
+  "name": "Embalse de Arenós",
+  "wikidata_id": "Q3376336",
+  "coords": [
+    40.09444444,
+    -0.55972222
+  ],
+  "river": null,
+  "province": "Montanejos",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Aren%C3%B3s",
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:31:03+00:00"
+}

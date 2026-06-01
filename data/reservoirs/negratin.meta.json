@@ -1,0 +1,23 @@
+{
+  "id": "negratin",
+  "name": "Embalse de Negratín",
+  "wikidata_id": "Q126205811",
+  "coords": [
+    37.566999261,
+    -2.926260639
+  ],
+  "river": null,
+  "province": "Freila",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": null,
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:36:25+00:00"
+}

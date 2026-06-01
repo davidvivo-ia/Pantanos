@@ -1,0 +1,23 @@
+{
+  "id": "almendra",
+  "name": "Embalse de Almendra",
+  "wikidata_id": "Q43561654",
+  "coords": [
+    41.250161111,
+    -6.265638888
+  ],
+  "river": null,
+  "province": "provincia de Salamanca",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": null,
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:35:27+00:00"
+}

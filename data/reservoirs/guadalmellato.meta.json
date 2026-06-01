@@ -1,0 +1,28 @@
+{
+  "id": "guadalmellato",
+  "name": "Embalse del Guadalmellato",
+  "wikidata_id": "Q5369443",
+  "coords": [
+    38.06805556,
+    -4.68916667
+  ],
+  "river": null,
+  "province": null,
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_del_Guadalmellato",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse del Guadalmellato</b> es un embalse español situado en el nacimiento del río Guadalmellato, en la provincia de Córdoba (Andalucía). El recinto, que se encuentra ubicado a caballo entre los términos municipales de Obejo y Adamuz, ocupa una superficie de unas 774 hectáreas. En la actualidad el embalse es empleado principalmente con fines de abastecimiento, estando dedicado al aprovisionamiento de agua potable a la ciudad de Córdoba.</p>",
+    "extract": "El embalse del Guadalmellato es un embalse español situado en el nacimiento del río Guadalmellato, en la provincia de Córdoba (Andalucía). El recinto, que se encuentra ubicado a caballo entre los términos municipales de Obejo y Adamuz, ocupa una superficie de unas 774 hectáreas. En la actualidad el embalse es empleado principalmente con fines de abastecimiento, estando dedicado al aprovisionamiento de agua potable a la ciudad de Córdoba.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_del_Guadalmellato",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:22:37+00:00"
+}

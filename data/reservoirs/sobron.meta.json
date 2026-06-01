@@ -1,0 +1,23 @@
+{
+  "id": "sobron",
+  "name": "Embalse de Sobrón",
+  "wikidata_id": "Q3380095",
+  "coords": [
+    42.75944444,
+    -3.15527778
+  ],
+  "river": null,
+  "province": "provincia de Burgos",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Sobr%C3%B3n",
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:31:33+00:00"
+}

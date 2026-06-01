@@ -1,0 +1,28 @@
+{
+  "id": "requejada",
+  "name": "Embalse de Requejada",
+  "wikidata_id": "Q8775378",
+  "coords": [
+    42.91638889,
+    -4.49916667
+  ],
+  "river": null,
+  "province": "provincia de Palencia",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Requejada",
+  "photo": null,
+  "history": {
+    "extract_html": "<p>El <b>embalse de Requejada</b> es un embalse situado en el municipio de Cervera de Pisuerga de la provincia de Palencia, en la comarca Montaña Palentina, España.</p>",
+    "extract": "El embalse de Requejada es un embalse situado en el municipio de Cervera de Pisuerga de la provincia de Palencia, en la comarca Montaña Palentina, España.",
+    "url": "https://es.wikipedia.org/wiki/Embalse_de_Requejada",
+    "license": "CC-BY-SA 4.0"
+  },
+  "fetched": "2026-06-01T09:29:18+00:00"
+}

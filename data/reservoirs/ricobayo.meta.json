@@ -1,0 +1,23 @@
+{
+  "id": "ricobayo",
+  "name": "Embalse de Ricobayo",
+  "wikidata_id": "Q23993005",
+  "coords": [
+    41.544397222,
+    -5.978708333
+  ],
+  "river": null,
+  "province": "provincia de Zamora",
+  "dam": {
+    "type": null,
+    "height_m": null,
+    "length_m": null,
+    "year": null
+  },
+  "capacity_hm3": null,
+  "surface_ha": null,
+  "wikipedia_url": null,
+  "photo": null,
+  "history": null,
+  "fetched": "2026-06-01T09:34:29+00:00"
+}
