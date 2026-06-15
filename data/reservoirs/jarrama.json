@@ -6,7 +6,7 @@
   "is_hydroelectric": false,
   "capacity_hm3": 43.0,
   "first_record": "2003-04-22",
-  "last_record": "2026-06-02",
+  "last_record": "2026-06-09",
   "levels": [
     {
       "date": "2003-04-22",
@@ -6042,11 +6042,16 @@
       "date": "2026-06-02",
       "volume_hm3": 36.0,
       "pct": 83.72
+    },
+    {
+      "date": "2026-06-09",
+      "volume_hm3": 35.0,
+      "pct": 81.4
     }
   ],
   "rainfall_local": [],
   "saih": [],
-  "last_updated": "2026-06-08T12:26:15+00:00",
+  "last_updated": "2026-06-15T13:52:05+00:00",
   "sources": [
     "MITECO"
   ]
