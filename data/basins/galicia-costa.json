@@ -3,9 +3,9 @@
   "name": "Galicia Costa",
   "n_reservoirs": 11,
   "capacity_hm3": 685.0,
-  "current_hm3": 520.0,
-  "pct": 75.91,
-  "last_updated": "2026-06-15T13:52:10+00:00",
+  "current_hm3": 508.0,
+  "pct": 74.16,
+  "last_updated": "2026-06-22T13:33:05+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10036,6 +10036,11 @@
       "date": "2026-06-09",
       "current_hm3": 520.0,
       "pct": 75.91
+    },
+    {
+      "date": "2026-06-16",
+      "current_hm3": 508.0,
+      "pct": 74.16
     }
   ]
 }
