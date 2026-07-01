@@ -1,12 +1,20 @@
 {
   "id": "belena",
   "name": "Embalse de Beleña",
-  "wikidata_id": "Q5830412",
   "coords": [
-    40.935,
-    -3.19444444
+    40.9553294,
+    -3.2022927
   ],
   "river": null,
+  "wikidata_id": "Q5830412",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Bele%C3%B1a",
+  "osm": {
+    "type": "way",
+    "id": 26424183,
+    "url": "https://www.openstreetmap.org/way/26424183"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "provincia de Guadalajara",
   "dam": {
     "type": null,
@@ -16,8 +24,6 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Bele%C3%B1a",
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:27:50+00:00"
+  "history": null
 }

@@ -1,9 +1,20 @@
 {
   "id": "lechago",
   "name": "Embalse de Lechago",
-  "wikidata_id": "Q108189737",
-  "coords": null,
+  "coords": [
+    40.9564054,
+    -1.2881916
+  ],
   "river": null,
+  "wikidata_id": "Q108189737",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Lechago",
+  "osm": {
+    "type": "way",
+    "id": 444956260,
+    "url": "https://www.openstreetmap.org/way/444956260"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "Calamocha",
   "dam": {
     "type": null,
@@ -13,13 +24,11 @@
   },
   "capacity_hm3": 18.16,
   "surface_ha": null,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Lechago",
   "photo": null,
   "history": {
     "extract_html": "<p>El <b>pantano de Lechago</b> es una presa en el río Pancrudo, en los términos de Lechago, Luco de Jiloca y Navarrete del Río, todos ellos parte del municipio de Calamocha. Está situada a unos 1300 m aguas arriba de su desembocadura en el río Jiloca.</p>",
     "extract": "El pantano de Lechago es una presa en el río Pancrudo, en los términos de Lechago, Luco de Jiloca y Navarrete del Río, todos ellos parte del municipio de Calamocha. Está situada a unos 1300 m aguas arriba de su desembocadura en el río Jiloca.",
     "url": "https://es.wikipedia.org/wiki/Embalse_de_Lechago",
     "license": "CC-BY-SA 4.0"
-  },
-  "fetched": "2026-06-01T09:37:38+00:00"
+  }
 }

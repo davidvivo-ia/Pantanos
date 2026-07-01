@@ -1,12 +1,20 @@
 {
   "id": "barbate",
   "name": "Embalse de Barbate",
-  "wikidata_id": "Q5369432",
   "coords": [
-    36.377175247,
-    -5.725306228
+    36.3943174,
+    -5.6950003
   ],
   "river": null,
+  "wikidata_id": "Q5369432",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Barbate",
+  "osm": {
+    "type": "way",
+    "id": 244821548,
+    "url": "https://www.openstreetmap.org/way/244821548"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "Alcalá de los Gazules",
   "dam": {
     "type": null,
@@ -16,13 +24,11 @@
   },
   "capacity_hm3": 228.0,
   "surface_ha": 2540.0,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Barbate",
   "photo": null,
   "history": {
     "extract_html": "<p>El <b>embalse de Barbate</b> está ubicado en el término municipal de Alcalá de los Gazules, Cádiz (España). Pertenece a la Cuenca hidrográfica Guadalete-Barbate y está abastecido por el río homónimo.</p>",
     "extract": "El embalse de Barbate está ubicado en el término municipal de Alcalá de los Gazules, Cádiz (España). Pertenece a la Cuenca hidrográfica Guadalete-Barbate y está abastecido por el río homónimo.",
     "url": "https://es.wikipedia.org/wiki/Embalse_de_Barbate",
     "license": "CC-BY-SA 4.0"
-  },
-  "fetched": "2026-06-01T09:23:51+00:00"
+  }
 }

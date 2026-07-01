@@ -1,12 +1,20 @@
 {
   "id": "tanes",
   "name": "Embalse de Tanes",
-  "wikidata_id": "Q107737780",
   "coords": [
-    43.206743819,
-    -5.40501962
+    43.204188,
+    -5.4014083
   ],
   "river": null,
+  "wikidata_id": "Q107737780",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 10110093,
+    "url": "https://www.openstreetmap.org/way/10110093"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "Caso",
   "dam": {
     "type": null,
@@ -16,8 +24,6 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": null,
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:35:56+00:00"
+  "history": null
 }

@@ -1,12 +1,20 @@
 {
   "id": "cordobilla",
   "name": "Embalse de Cordobilla",
-  "wikidata_id": "Q105883578",
   "coords": [
-    37.351669379,
-    -4.722571292
+    37.3545338,
+    -4.7181875
   ],
   "river": null,
+  "wikidata_id": "Q105883578",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Cordobilla",
+  "osm": {
+    "type": "way",
+    "id": 74816691,
+    "url": "https://www.openstreetmap.org/way/74816691"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "Puente Genil",
   "dam": {
     "type": null,
@@ -16,13 +24,11 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Cordobilla",
   "photo": null,
   "history": {
     "extract_html": "<p>El <b>embalse de Cordobilla</b> es un embalse sobre el río Genil, situado a caballo entre las provincias de Córdoba y Sevilla, en Andalucía (España). Está ubicado a 6 kilómetros al sureste del núcleo urbano de Puente Genil, y en sus cercanías se encuentra situada la localidad de Cordobilla.</p>",
     "extract": "El embalse de Cordobilla es un embalse sobre el río Genil, situado a caballo entre las provincias de Córdoba y Sevilla, en Andalucía (España). Está ubicado a 6 kilómetros al sureste del núcleo urbano de Puente Genil, y en sus cercanías se encuentra situada la localidad de Cordobilla.",
     "url": "https://es.wikipedia.org/wiki/Embalse_de_Cordobilla",
     "license": "CC-BY-SA 4.0"
-  },
-  "fetched": "2026-06-01T09:38:08+00:00"
+  }
 }

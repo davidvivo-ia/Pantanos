@@ -1,12 +1,20 @@
 {
   "id": "rioseco",
   "name": "Embalse de Rioseco",
-  "wikidata_id": "Q107737778",
   "coords": [
-    43.22425391,
-    -5.464686784
+    43.2241367,
+    -5.4648006
   ],
   "river": null,
+  "wikidata_id": "Q107737778",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 10144132,
+    "url": "https://www.openstreetmap.org/way/10144132"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "Sobrescobio",
   "dam": {
     "type": null,
@@ -16,8 +24,6 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": null,
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:35:41+00:00"
+  "history": null
 }

@@ -1,12 +1,20 @@
 {
   "id": "castro-de-las-cogotas",
   "name": "Embalse del Castro de las Cogotas",
-  "wikidata_id": "Q2841616",
   "coords": [
-    40.72388889,
-    -4.69833333
+    40.7007195,
+    -4.6980758
   ],
   "river": null,
+  "wikidata_id": "Q2841616",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_del_Castro_de_las_Cogotas",
+  "osm": {
+    "type": "way",
+    "id": 24314675,
+    "url": "https://www.openstreetmap.org/way/24314675"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "Ávila",
   "dam": {
     "type": null,
@@ -16,13 +24,11 @@
   },
   "capacity_hm3": 58.6,
   "surface_ha": 395.0,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_del_Castro_de_las_Cogotas",
   "photo": null,
   "history": {
     "extract_html": "<p>El <b>embalse del Castro de las Cogotas</b> está ubicado la provincia de Ávila, comunidad autónoma de Castilla y León, España.</p>",
     "extract": "El embalse del Castro de las Cogotas está ubicado la provincia de Ávila, comunidad autónoma de Castilla y León, España.",
     "url": "https://es.wikipedia.org/wiki/Embalse_del_Castro_de_las_Cogotas",
     "license": "CC-BY-SA 4.0"
-  },
-  "fetched": "2026-06-01T09:32:46+00:00"
+  }
 }

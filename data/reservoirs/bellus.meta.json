@@ -1,12 +1,20 @@
 {
   "id": "bellus",
   "name": "Embalse de Bellús",
-  "wikidata_id": "Q5670515",
   "coords": [
-    38.93921111,
-    -0.47834722
+    38.9225517,
+    -0.4626069
   ],
   "river": null,
+  "wikidata_id": "Q5670515",
+  "wikipedia_url": "https://ca.wikipedia.org/wiki/Embassament_de_Bellús",
+  "osm": {
+    "type": "way",
+    "id": 85862624,
+    "url": "https://www.openstreetmap.org/way/85862624"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "provincia de Valencia",
   "dam": {
     "type": null,
@@ -16,8 +24,6 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Bell%C3%BAs",
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:21:39+00:00"
+  "history": null
 }

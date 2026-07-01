@@ -1,12 +1,20 @@
 {
   "id": "el-naranjero",
   "name": "Embalse de El Naranjero",
-  "wikidata_id": "Q6429116",
   "coords": [
-    39.2733,
-    -0.898383
+    39.2699978,
+    -0.8846366
   ],
   "river": null,
+  "wikidata_id": "Q6429116",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_El_Naranjero",
+  "osm": {
+    "type": "way",
+    "id": 24429141,
+    "url": "https://www.openstreetmap.org/way/24429141"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "provincia de Valencia",
   "dam": {
     "type": null,
@@ -16,13 +24,11 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_El_Naranjero",
   "photo": null,
   "history": {
     "extract_html": "<p>El <b>embalse de El Naranjero</b> o <b>presa de Cortes I</b> se encuentra situado en el municipio de Cortes de Pallás, en la provincia de Valencia, Comunidad Valenciana, España.</p>",
     "extract": "El embalse de El Naranjero o presa de Cortes I se encuentra situado en el municipio de Cortes de Pallás, en la provincia de Valencia, Comunidad Valenciana, España.",
     "url": "https://es.wikipedia.org/wiki/Embalse_de_El_Naranjero",
     "license": "CC-BY-SA 4.0"
-  },
-  "fetched": "2026-06-01T09:22:08+00:00"
+  }
 }

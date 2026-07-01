@@ -1,12 +1,20 @@
 {
   "id": "sallente",
   "name": "Embalse de Sallente",
-  "wikidata_id": "Q11940030",
   "coords": [
-    42.50036389,
-    0.99148889
+    42.5035061,
+    0.9904869
   ],
   "river": null,
+  "wikidata_id": "Q11940030",
+  "wikipedia_url": "https://ca.wikipedia.org/wiki/Pantà_de_Sallente",
+  "osm": {
+    "type": "way",
+    "id": 32805632,
+    "url": "https://www.openstreetmap.org/way/32805632"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "La Torre de Cabdella",
   "dam": {
     "type": null,
@@ -16,7 +24,6 @@
   },
   "capacity_hm3": 6.5,
   "surface_ha": 31.0,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Sallente",
   "photo": {
     "url": "/img/reservoirs/sallente.jpg",
     "credit": "Wikimedia Commons (CC-BY-SA / dominio público)",
@@ -27,6 +34,5 @@
     "extract": "El embalse de Sallente, a 1765 m de altitud, se encuentra en la Vall Fosca, en la comarca del Pallars Jussá, provincia de Lérida, España. Forma parte de un complejo hidroeléctrico abastecido por unos 26 lagos que reúnen sus aguas en el Estany Gento, a 2140 m, que es la parte inferior de una red de embalses unidos mediante tuberías subterráneas llamada lagos de Cabdella. Desde el estany o lago Gento, que es también un embalse, una tubería vierte sus aguas en la central hidroeléctrica reversible de Sallente, desde donde entra en el embalse de Sallente, cuya única función es acumular el agua que utiliza la central durante el día para devolverla durante la noche al lago Gento.",
     "url": "https://es.wikipedia.org/wiki/Embalse_de_Sallente",
     "license": "CC-BY-SA 4.0"
-  },
-  "fetched": "2026-06-01T09:29:48+00:00"
+  }
 }

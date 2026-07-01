@@ -1,12 +1,20 @@
 {
   "id": "san-bartolome",
   "name": "Embalse de San Bartolomé",
-  "wikidata_id": "Q5830560",
   "coords": [
-    42.21388889,
-    -1.15194444
+    42.2178794,
+    -1.150321
   ],
   "river": null,
+  "wikidata_id": "Q5830560",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_San_Bartolom%C3%A9",
+  "osm": {
+    "type": "way",
+    "id": 259088763,
+    "url": "https://www.openstreetmap.org/way/259088763"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "provincia de Zaragoza",
   "dam": {
     "type": null,
@@ -16,8 +24,6 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_San_Bartolom%C3%A9",
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:27:34+00:00"
+  "history": null
 }

@@ -1,12 +1,20 @@
 {
   "id": "maria-cristina",
   "name": "Embalse de María Cristina",
-  "wikidata_id": "Q5830527",
   "coords": [
-    40.030277777,
-    -0.164166666
+    40.0454283,
+    -0.163948
   ],
   "river": null,
+  "wikidata_id": "Q5830527",
+  "wikipedia_url": "https://ca.wikipedia.org/wiki/Embassament_de_Maria_Cristina",
+  "osm": {
+    "type": "way",
+    "id": 25498125,
+    "url": "https://www.openstreetmap.org/way/25498125"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "Castellón de la Plana",
   "dam": {
     "type": null,
@@ -16,8 +24,6 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Mar%C3%ADa_Cristina",
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:24:20+00:00"
+  "history": null
 }

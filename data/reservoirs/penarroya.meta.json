@@ -1,12 +1,20 @@
 {
   "id": "penarroya",
   "name": "Embalse de Peñarroya",
-  "wikidata_id": "Q97172835",
   "coords": [
-    39.040888888,
-    -2.966111111
+    39.031509,
+    -2.968339
   ],
   "river": null,
+  "wikidata_id": "Q97172835",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Pe%C3%B1arroya",
+  "osm": {
+    "type": "way",
+    "id": 28665213,
+    "url": "https://www.openstreetmap.org/way/28665213"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "Argamasilla de Alba",
   "dam": {
     "type": null,
@@ -16,8 +24,6 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Pe%C3%B1arroya",
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:37:09+00:00"
+  "history": null
 }

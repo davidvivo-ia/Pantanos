@@ -1,12 +1,20 @@
 {
   "id": "pajares",
   "name": "Embalse de Pajares",
-  "wikidata_id": "Q8775368",
   "coords": [
-    42.08611111,
-    -2.61
+    42.0792428,
+    -2.5940693
   ],
   "river": null,
+  "wikidata_id": "Q8775368",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Pajares",
+  "osm": {
+    "type": "way",
+    "id": 24298581,
+    "url": "https://www.openstreetmap.org/way/24298581"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "La Rioja",
   "dam": {
     "type": null,
@@ -16,13 +24,11 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Pajares",
   "photo": null,
   "history": {
     "extract_html": "<p>El <b>embalse de Pajares</b> es un pantano artificial situado en el término municipal de Lumbreras de Cameros, en la comunidad autónoma de La Rioja (España). Fue inaugurado en 1995 y tiene una capacidad útil de 35,29 hm³, ocupando una superficie de 161,74 ha. Se utiliza para uso de boca y control de regadío. Su presa fue construida mediante materiales sueltos, con un núcleo interno.</p>",
     "extract": "El embalse de Pajares es un pantano artificial situado en el término municipal de Lumbreras de Cameros, en la comunidad autónoma de La Rioja (España). Fue inaugurado en 1995 y tiene una capacidad útil de 35,29 hm³, ocupando una superficie de 161,74 ha. Se utiliza para uso de boca y control de regadío. Su presa fue construida mediante materiales sueltos, con un núcleo interno.",
     "url": "https://es.wikipedia.org/wiki/Embalse_de_Pajares",
     "license": "CC-BY-SA 4.0"
-  },
-  "fetched": "2026-06-01T09:29:33+00:00"
+  }
 }

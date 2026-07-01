@@ -1,12 +1,20 @@
 {
   "id": "pena",
   "name": "Embalse de Pena",
-  "wikidata_id": "Q23993686",
   "coords": [
-    40.816666666,
-    0.133333333
+    40.8124272,
+    0.1320923
   ],
   "river": null,
+  "wikidata_id": "Q23993686",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 39935836,
+    "url": "https://www.openstreetmap.org/way/39935836"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "provincia de Teruel",
   "dam": {
     "type": null,
@@ -16,8 +24,6 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": null,
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:34:44+00:00"
+  "history": null
 }

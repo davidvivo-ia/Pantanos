@@ -1,12 +1,20 @@
 {
   "id": "andevalo",
   "name": "Embalse del Andévalo",
-  "wikidata_id": "Q138673679",
   "coords": [
-    37.6204,
-    -7.3954
+    37.6804611,
+    -7.3104386
   ],
   "river": null,
+  "wikidata_id": "Q138673679",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 211557713,
+    "url": "https://www.openstreetmap.org/way/211557713"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "Andalucía",
   "dam": {
     "type": null,
@@ -16,8 +24,6 @@
   },
   "capacity_hm3": 634.4,
   "surface_ha": null,
-  "wikipedia_url": null,
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:36:25+00:00"
+  "history": null
 }

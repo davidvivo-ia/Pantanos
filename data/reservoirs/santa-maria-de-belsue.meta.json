@@ -1,12 +1,20 @@
 {
   "id": "santa-maria-de-belsue",
   "name": "Pantano de Santa María de Belsué",
-  "wikidata_id": "Q23993263",
   "coords": [
-    42.3075,
-    -0.347777777
+    42.3082939,
+    -0.350643
   ],
   "river": null,
+  "wikidata_id": "Q91231972",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Santa_Mar%C3%ADa_de_Belsu%C3%A9",
+  "osm": {
+    "type": "way",
+    "id": 39084918,
+    "url": "https://www.openstreetmap.org/way/39084918"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "Sabiñánigo",
   "dam": {
     "type": null,
@@ -16,8 +24,6 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Santa_Mar%C3%ADa_de_Belsu%C3%A9",
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:25:06+00:00"
+  "history": null
 }

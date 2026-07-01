@@ -1,12 +1,20 @@
 {
   "id": "sierra-boyera",
   "name": "Embalse de Sierra Boyera",
-  "wikidata_id": "Q5369459",
   "coords": [
-    38.27277778,
-    -5.24944444
+    38.2740571,
+    -5.2706112
   ],
   "river": null,
+  "wikidata_id": "Q5369459",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Sierra_Boyera",
+  "osm": {
+    "type": "way",
+    "id": 42291745,
+    "url": "https://www.openstreetmap.org/way/42291745"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "provincia de Córdoba",
   "dam": {
     "type": null,
@@ -16,13 +24,11 @@
   },
   "capacity_hm3": null,
   "surface_ha": 530.0,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Sierra_Boyera",
   "photo": null,
   "history": {
     "extract_html": "<p>El <b>embalse de Sierra Boyera</b> se localiza dentro de los términos municipales de Belmez, Peñarroya-Pueblonuevo y Fuente Obejuna, en la provincia de Córdoba (España).</p>",
     "extract": "El embalse de Sierra Boyera se localiza dentro de los términos municipales de Belmez, Peñarroya-Pueblonuevo y Fuente Obejuna, en la provincia de Córdoba (España).",
     "url": "https://es.wikipedia.org/wiki/Embalse_de_Sierra_Boyera",
     "license": "CC-BY-SA 4.0"
-  },
-  "fetched": "2026-06-01T09:27:19+00:00"
+  }
 }

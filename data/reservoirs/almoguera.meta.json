@@ -1,12 +1,20 @@
 {
   "id": "almoguera",
   "name": "Embalse de Almoguera",
-  "wikidata_id": "Q5672943",
   "coords": [
-    40.27555556,
-    -2.9575
+    40.3054769,
+    -2.9231152
   ],
   "river": null,
+  "wikidata_id": "Q5672943",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Almoguera",
+  "osm": {
+    "type": "way",
+    "id": 204737444,
+    "url": "https://www.openstreetmap.org/way/204737444"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "Almoguera",
   "dam": {
     "type": null,
@@ -16,13 +24,11 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Almoguera",
   "photo": null,
   "history": {
     "extract_html": "<p>El <b>embalse de Almoguera</b> es un embalse español situado en el cauce del río Tajo a su paso por el término municipal de Almoguera, en la provincia de Guadalajara. Se inauguró en 1947 como central hidroeléctrica para complementar a la de Bolarque, y como reguladora del caudal del río ante las posibles crecidas e inundaciones de las tierras.</p>",
     "extract": "El embalse de Almoguera es un embalse español situado en el cauce del río Tajo a su paso por el término municipal de Almoguera, en la provincia de Guadalajara. Se inauguró en 1947 como central hidroeléctrica para complementar a la de Bolarque, y como reguladora del caudal del río ante las posibles crecidas e inundaciones de las tierras.",
     "url": "https://es.wikipedia.org/wiki/Embalse_de_Almoguera",
     "license": "CC-BY-SA 4.0"
-  },
-  "fetched": "2026-06-01T09:21:38+00:00"
+  }
 }

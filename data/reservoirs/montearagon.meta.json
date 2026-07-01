@@ -1,12 +1,20 @@
 {
   "id": "montearagon",
   "name": "Embalse de Montearagón",
-  "wikidata_id": "Q91314392",
   "coords": [
-    42.185305555,
-    -0.36325
+    42.2035741,
+    -0.3709056
   ],
   "river": null,
+  "wikidata_id": "Q91314392",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Montearag%C3%B3n",
+  "osm": {
+    "type": "way",
+    "id": 383257759,
+    "url": "https://www.openstreetmap.org/way/383257759"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "Loporzano",
   "dam": {
     "type": null,
@@ -16,8 +24,6 @@
   },
   "capacity_hm3": null,
   "surface_ha": null,
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Embalse_de_Montearag%C3%B3n",
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:36:54+00:00"
+  "history": null
 }

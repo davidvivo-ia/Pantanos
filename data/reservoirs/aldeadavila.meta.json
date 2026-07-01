@@ -1,12 +1,20 @@
 {
   "id": "aldeadavila",
   "name": "Embalse de Aldeadávila",
-  "wikidata_id": "Q43551868",
   "coords": [
-    41.223916666,
-    -6.670416666
+    41.249539,
+    -6.5820996
   ],
   "river": null,
+  "wikidata_id": "Q43551868",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 188466604,
+    "url": "https://www.openstreetmap.org/way/188466604"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "provincia de Salamanca",
   "dam": {
     "type": null,
@@ -16,8 +24,6 @@
   },
   "capacity_hm3": null,
   "surface_ha": 368.0,
-  "wikipedia_url": null,
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:35:13+00:00"
+  "history": null
 }

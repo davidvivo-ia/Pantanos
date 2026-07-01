@@ -1,9 +1,20 @@
 {
   "id": "castro",
   "name": "Embalse de Castro",
-  "wikidata_id": "Q110295650",
-  "coords": null,
+  "coords": [
+    41.5349252,
+    -6.135096
+  ],
   "river": null,
+  "wikidata_id": "Q110295650",
+  "wikipedia_url": null,
+  "osm": {
+    "type": "way",
+    "id": 53085064,
+    "url": "https://www.openstreetmap.org/way/53085064"
+  },
+  "source": "OSM",
+  "fetched": "2026-07-01T08:07:04+00:00",
   "province": "provincia de Zamora",
   "dam": {
     "type": null,
@@ -13,8 +24,6 @@
   },
   "capacity_hm3": null,
   "surface_ha": 180.0,
-  "wikipedia_url": null,
   "photo": null,
-  "history": null,
-  "fetched": "2026-06-01T09:35:56+00:00"
+  "history": null
 }
