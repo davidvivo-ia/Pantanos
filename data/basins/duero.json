@@ -3,9 +3,9 @@
   "name": "Duero",
   "n_reservoirs": 35,
   "capacity_hm3": 7718.0,
-  "current_hm3": 5973.0,
-  "pct": 77.39,
-  "last_updated": "2026-07-20T10:48:36+00:00",
+  "current_hm3": 5716.0,
+  "pct": 74.06,
+  "last_updated": "2026-07-27T11:16:20+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10061,6 +10061,11 @@
       "date": "2026-07-14",
       "current_hm3": 5973.0,
       "pct": 77.39
+    },
+    {
+      "date": "2026-07-21",
+      "current_hm3": 5716.0,
+      "pct": 74.06
     }
   ]
 }
