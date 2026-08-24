@@ -3,9 +3,9 @@
   "name": "Guadalquivir",
   "n_reservoirs": 62,
   "capacity_hm3": 8600.0,
-  "current_hm3": 6082.0,
-  "pct": 73.43,
-  "last_updated": "2026-08-17T08:38:06+00:00",
+  "current_hm3": 5991.0,
+  "pct": 72.33,
+  "last_updated": "2026-08-24T08:42:49+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10081,6 +10081,11 @@
       "date": "2026-08-11",
       "current_hm3": 6082.0,
       "pct": 73.43
+    },
+    {
+      "date": "2026-08-18",
+      "current_hm3": 5991.0,
+      "pct": 72.33
     }
   ]
 }

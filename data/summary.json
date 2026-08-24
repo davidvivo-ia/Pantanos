@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-17T08:38:06+00:00",
-  "snapshot_date": "2026-08-11",
+  "generated": "2026-08-24T08:42:49+00:00",
+  "snapshot_date": "2026-08-18",
   "national": {
     "capacity_hm3": 58609.0,
-    "current_hm3": 38364.0,
-    "pct": 65.46,
+    "current_hm3": 37368.0,
+    "pct": 63.76,
     "n_reservoirs": 401
   },
   "reservoirs": [
@@ -16,7 +16,7 @@
       "capacity_hm3": 8.0,
       "volume_hm3": 8.0,
       "pct": 100.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "san-jose",
@@ -26,7 +26,7 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 6.0,
       "pct": 100.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "serones",
@@ -36,7 +36,7 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 6.0,
       "pct": 100.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "villagonzalo",
@@ -46,7 +46,7 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 6.0,
       "pct": 100.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "molino-de-chincha",
@@ -56,7 +56,7 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 6.0,
       "pct": 100.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "castilseras",
@@ -76,7 +76,7 @@
       "capacity_hm3": 11.0,
       "volume_hm3": 11.0,
       "pct": 100.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "pto-vallehermoso",
@@ -86,7 +86,7 @@
       "capacity_hm3": 7.0,
       "volume_hm3": 7.0,
       "pct": 100.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "dona-aldonza",
@@ -126,7 +126,7 @@
       "capacity_hm3": 30.0,
       "volume_hm3": 30.0,
       "pct": 100.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "villafranca",
@@ -137,6 +137,16 @@
       "volume_hm3": 6.0,
       "pct": 100.0,
       "date": "2008-03-04"
+    },
+    {
+      "id": "cavallers",
+      "name": "Cavallers",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 16.0,
+      "volume_hm3": 16.0,
+      "pct": 100.0,
+      "date": "2026-08-18"
     },
     {
       "id": "negro-lago",
@@ -156,7 +166,7 @@
       "capacity_hm3": 18.0,
       "volume_hm3": 18.0,
       "pct": 100.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "arcos-de-la-frontera",
@@ -166,17 +176,7 @@
       "capacity_hm3": 14.0,
       "volume_hm3": 14.0,
       "pct": 100.0,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "valdeobispo",
-      "name": "Valdeobispo",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 53.0,
-      "volume_hm3": 52.0,
-      "pct": 98.11,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "peares-os",
@@ -184,9 +184,9 @@
       "basin": "mino-sil",
       "basin_name": "Miño - Sil",
       "capacity_hm3": 182.0,
-      "volume_hm3": 178.0,
-      "pct": 97.8,
-      "date": "2026-08-11"
+      "volume_hm3": 179.0,
+      "pct": 98.35,
+      "date": "2026-08-18"
     },
     {
       "id": "castrejon",
@@ -196,7 +196,17 @@
       "capacity_hm3": 44.0,
       "volume_hm3": 43.0,
       "pct": 97.73,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "agavanzal-na-sa-de",
+      "name": "Agavanzal, Nª Sª de",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 36.0,
+      "volume_hm3": 35.0,
+      "pct": 97.22,
+      "date": "2026-08-18"
     },
     {
       "id": "cordobilla",
@@ -209,14 +219,14 @@
       "date": "2012-06-19"
     },
     {
-      "id": "terradets",
-      "name": "Terradets",
+      "id": "ribarroja",
+      "name": "Ribarroja",
       "basin": "ebro",
       "basin_name": "Ebro",
-      "capacity_hm3": 33.0,
-      "volume_hm3": 32.0,
-      "pct": 96.97,
-      "date": "2026-08-11"
+      "capacity_hm3": 210.0,
+      "volume_hm3": 203.0,
+      "pct": 96.67,
+      "date": "2026-08-18"
     },
     {
       "id": "cedillo",
@@ -224,9 +234,19 @@
       "basin": "tajo",
       "basin_name": "Tajo",
       "capacity_hm3": 260.0,
-      "volume_hm3": 250.0,
-      "pct": 96.15,
-      "date": "2026-08-11"
+      "volume_hm3": 251.0,
+      "pct": 96.54,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "arlanzon",
+      "name": "Arlanzón",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 23.0,
+      "volume_hm3": 22.0,
+      "pct": 95.65,
+      "date": "2026-08-18"
     },
     {
       "id": "saucelle",
@@ -234,19 +254,9 @@
       "basin": "duero",
       "basin_name": "Duero",
       "capacity_hm3": 181.0,
-      "volume_hm3": 174.0,
-      "pct": 96.13,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "baserca",
-      "name": "Baserca",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 22.0,
-      "volume_hm3": 21.0,
-      "pct": 95.45,
-      "date": "2026-08-11"
+      "volume_hm3": 173.0,
+      "pct": 95.58,
+      "date": "2026-08-18"
     },
     {
       "id": "pedro-marin",
@@ -259,14 +269,24 @@
       "date": "2012-06-26"
     },
     {
-      "id": "agavanzal-na-sa-de",
-      "name": "Agavanzal, Nª Sª de",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 36.0,
-      "volume_hm3": 34.0,
-      "pct": 94.44,
-      "date": "2026-08-11"
+      "id": "valdeobispo",
+      "name": "Valdeobispo",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 53.0,
+      "volume_hm3": 50.0,
+      "pct": 94.34,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "bao",
+      "name": "Bao",
+      "basin": "mino-sil",
+      "basin_name": "Miño - Sil",
+      "capacity_hm3": 238.0,
+      "volume_hm3": 224.0,
+      "pct": 94.12,
+      "date": "2026-08-18"
     },
     {
       "id": "los-molinos",
@@ -276,7 +296,7 @@
       "capacity_hm3": 34.0,
       "volume_hm3": 32.0,
       "pct": 94.12,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "lanuza",
@@ -286,17 +306,7 @@
       "capacity_hm3": 17.0,
       "volume_hm3": 16.0,
       "pct": 94.12,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "cavallers",
-      "name": "Cavallers",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 16.0,
-      "volume_hm3": 15.0,
-      "pct": 93.75,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "valparaiso",
@@ -304,9 +314,29 @@
       "basin": "duero",
       "basin_name": "Duero",
       "capacity_hm3": 169.0,
-      "volume_hm3": 158.0,
-      "pct": 93.49,
-      "date": "2026-08-11"
+      "volume_hm3": 159.0,
+      "pct": 94.08,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "villalcampo",
+      "name": "Villalcampo",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 66.0,
+      "volume_hm3": 62.0,
+      "pct": 93.94,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "terradets",
+      "name": "Terradets",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 33.0,
+      "volume_hm3": 31.0,
+      "pct": 93.94,
+      "date": "2026-08-18"
     },
     {
       "id": "picadas",
@@ -316,17 +346,7 @@
       "capacity_hm3": 15.0,
       "volume_hm3": 14.0,
       "pct": 93.33,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "montoro",
-      "name": "Montoro",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 105.0,
-      "volume_hm3": 98.0,
-      "pct": 93.33,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "villalba-de-los-barros",
@@ -336,37 +356,17 @@
       "capacity_hm3": 106.0,
       "volume_hm3": 98.0,
       "pct": 92.45,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "bao",
-      "name": "Bao",
-      "basin": "mino-sil",
-      "basin_name": "Miño - Sil",
-      "capacity_hm3": 238.0,
-      "volume_hm3": 220.0,
-      "pct": 92.44,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "ribarroja",
-      "name": "Ribarroja",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 210.0,
-      "volume_hm3": 194.0,
+      "id": "montoro",
+      "name": "Montoro",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 105.0,
+      "volume_hm3": 97.0,
       "pct": 92.38,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "cortes-ii",
-      "name": "Cortes II",
-      "basin": "jucar",
-      "basin_name": "Júcar",
-      "capacity_hm3": 118.0,
-      "volume_hm3": 109.0,
-      "pct": 92.37,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "guijo-de-granadilla",
@@ -376,27 +376,17 @@
       "capacity_hm3": 13.0,
       "volume_hm3": 12.0,
       "pct": 92.31,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "aldeadavila",
-      "name": "Aldeadávila",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 115.0,
-      "volume_hm3": 105.0,
-      "pct": 91.3,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "rules",
-      "name": "Rules",
-      "basin": "cuenca-mediterranea-andaluza",
-      "basin_name": "Cuenca Mediterránea Andaluza",
-      "capacity_hm3": 111.0,
-      "volume_hm3": 101.0,
-      "pct": 90.99,
-      "date": "2026-08-11"
+      "id": "cortes-ii",
+      "name": "Cortes II",
+      "basin": "jucar",
+      "basin_name": "Júcar",
+      "capacity_hm3": 118.0,
+      "volume_hm3": 108.0,
+      "pct": 91.53,
+      "date": "2026-08-18"
     },
     {
       "id": "sequeiros",
@@ -406,27 +396,7 @@
       "capacity_hm3": 11.0,
       "volume_hm3": 10.0,
       "pct": 90.91,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "cervera",
-      "name": "Cervera",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 11.0,
-      "volume_hm3": 10.0,
-      "pct": 90.91,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "villalcampo",
-      "name": "Villalcampo",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 66.0,
-      "volume_hm3": 60.0,
-      "pct": 90.91,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "aguijon-el",
@@ -436,7 +406,7 @@
       "capacity_hm3": 11.0,
       "volume_hm3": 10.0,
       "pct": 90.91,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "el-portillo",
@@ -446,7 +416,17 @@
       "capacity_hm3": 33.0,
       "volume_hm3": 30.0,
       "pct": 90.91,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "aldeadavila",
+      "name": "Aldeadávila",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 115.0,
+      "volume_hm3": 104.0,
+      "pct": 90.43,
+      "date": "2026-08-18"
     },
     {
       "id": "arbon",
@@ -456,7 +436,17 @@
       "capacity_hm3": 41.0,
       "volume_hm3": 37.0,
       "pct": 90.24,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "rules",
+      "name": "Rules",
+      "basin": "cuenca-mediterranea-andaluza",
+      "basin_name": "Cuenca Mediterránea Andaluza",
+      "capacity_hm3": 111.0,
+      "volume_hm3": 100.0,
+      "pct": 90.09,
+      "date": "2026-08-18"
     },
     {
       "id": "san-martino",
@@ -466,7 +456,7 @@
       "capacity_hm3": 10.0,
       "volume_hm3": 9.0,
       "pct": 90.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "carpio-el",
@@ -486,7 +476,7 @@
       "capacity_hm3": 10.0,
       "volume_hm3": 9.0,
       "pct": 90.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "sistema-lagos-espot",
@@ -496,7 +486,7 @@
       "capacity_hm3": 10.0,
       "volume_hm3": 9.0,
       "pct": 90.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "urkulu",
@@ -506,7 +496,7 @@
       "capacity_hm3": 10.0,
       "volume_hm3": 9.0,
       "pct": 90.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "guajaraz",
@@ -516,7 +506,7 @@
       "capacity_hm3": 18.0,
       "volume_hm3": 16.0,
       "pct": 88.89,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "villagudin",
@@ -526,17 +516,7 @@
       "capacity_hm3": 18.0,
       "volume_hm3": 16.0,
       "pct": 88.89,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "frieira",
-      "name": "Frieira",
-      "basin": "mino-sil",
-      "basin_name": "Miño - Sil",
-      "capacity_hm3": 44.0,
-      "volume_hm3": 39.0,
-      "pct": 88.64,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "quiebrajano",
@@ -546,7 +526,17 @@
       "capacity_hm3": 33.0,
       "volume_hm3": 29.0,
       "pct": 87.88,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "torrejon-tajo-tietar",
+      "name": "Torrejón (Tajo - Tietar)",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 188.0,
+      "volume_hm3": 165.0,
+      "pct": 87.77,
+      "date": "2026-08-18"
     },
     {
       "id": "odiel",
@@ -556,27 +546,7 @@
       "capacity_hm3": 8.0,
       "volume_hm3": 7.0,
       "pct": 87.5,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "guadalcacin-ii",
-      "name": "Guadalcacín II",
-      "basin": "guadalete-barbate",
-      "basin_name": "Guadalete-Barbate",
-      "capacity_hm3": 800.0,
-      "volume_hm3": 698.0,
-      "pct": 87.25,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "bolarque",
-      "name": "Bolarque",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 31.0,
-      "volume_hm3": 27.0,
-      "pct": 87.1,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "melonares-los",
@@ -586,17 +556,7 @@
       "capacity_hm3": 186.0,
       "volume_hm3": 162.0,
       "pct": 87.1,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "andevalo",
-      "name": "Andévalo",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 634.0,
-      "volume_hm3": 552.0,
-      "pct": 87.07,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "castrelo",
@@ -606,37 +566,47 @@
       "capacity_hm3": 60.0,
       "volume_hm3": 52.0,
       "pct": 86.67,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "pintado-el",
-      "name": "Pintado, El",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 215.0,
-      "volume_hm3": 186.0,
-      "pct": 86.51,
-      "date": "2026-08-11"
+      "id": "guadalcacin-ii",
+      "name": "Guadalcacín II",
+      "basin": "guadalete-barbate",
+      "basin_name": "Guadalete-Barbate",
+      "capacity_hm3": 800.0,
+      "volume_hm3": 693.0,
+      "pct": 86.62,
+      "date": "2026-08-18"
     },
     {
-      "id": "olivargas",
-      "name": "Olivargas",
-      "basin": "tinto-odiel-y-piedras",
-      "basin_name": "Tinto, Odiel y Piedras",
-      "capacity_hm3": 29.0,
-      "volume_hm3": 25.0,
-      "pct": 86.21,
-      "date": "2026-08-11"
+      "id": "andevalo",
+      "name": "Andévalo",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 634.0,
+      "volume_hm3": 549.0,
+      "pct": 86.59,
+      "date": "2026-08-18"
     },
     {
-      "id": "canales",
-      "name": "Canales",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 71.0,
-      "volume_hm3": 61.0,
-      "pct": 85.92,
-      "date": "2026-08-11"
+      "id": "frieira",
+      "name": "Frieira",
+      "basin": "mino-sil",
+      "basin_name": "Miño - Sil",
+      "capacity_hm3": 44.0,
+      "volume_hm3": 38.0,
+      "pct": 86.36,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "baserca",
+      "name": "Baserca",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 22.0,
+      "volume_hm3": 19.0,
+      "pct": 86.36,
+      "date": "2026-08-18"
     },
     {
       "id": "ponton-alto-el",
@@ -646,7 +616,7 @@
       "capacity_hm3": 7.0,
       "volume_hm3": 6.0,
       "pct": 85.71,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "almoguera",
@@ -656,37 +626,17 @@
       "capacity_hm3": 7.0,
       "volume_hm3": 6.0,
       "pct": 85.71,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "la-serena",
-      "name": "La Serena",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 3219.0,
-      "volume_hm3": 2759.0,
+      "id": "alcaniz-estanca",
+      "name": "Alcañiz (Estanca)",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 7.0,
+      "volume_hm3": 6.0,
       "pct": 85.71,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "vinuela-la",
-      "name": "Viñuela, La",
-      "basin": "cuenca-mediterranea-andaluza",
-      "basin_name": "Cuenca Mediterránea Andaluza",
-      "capacity_hm3": 170.0,
-      "volume_hm3": 145.0,
-      "pct": 85.29,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "guadalmena",
-      "name": "Guadalmena",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 347.0,
-      "volume_hm3": 295.0,
-      "pct": 85.01,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "la-llosa-del-cavall",
@@ -696,17 +646,47 @@
       "capacity_hm3": 80.0,
       "volume_hm3": 68.0,
       "pct": 85.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "guadalhorce-guadalteba",
-      "name": "Guadalhorce-Guadalteba",
+      "id": "la-serena",
+      "name": "La Serena",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 3219.0,
+      "volume_hm3": 2729.0,
+      "pct": 84.78,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "vinuela-la",
+      "name": "Viñuela, La",
       "basin": "cuenca-mediterranea-andaluza",
       "basin_name": "Cuenca Mediterránea Andaluza",
-      "capacity_hm3": 312.0,
-      "volume_hm3": 265.0,
-      "pct": 84.94,
-      "date": "2026-08-11"
+      "capacity_hm3": 170.0,
+      "volume_hm3": 144.0,
+      "pct": 84.71,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "pintado-el",
+      "name": "Pintado, El",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 215.0,
+      "volume_hm3": 182.0,
+      "pct": 84.65,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "canales",
+      "name": "Canales",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 71.0,
+      "volume_hm3": 60.0,
+      "pct": 84.51,
+      "date": "2026-08-18"
     },
     {
       "id": "fresneda",
@@ -716,27 +696,37 @@
       "capacity_hm3": 19.0,
       "volume_hm3": 16.0,
       "pct": 84.21,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "torrejon-tajo-tietar",
-      "name": "Torrejón (Tajo - Tietar)",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 188.0,
-      "volume_hm3": 158.0,
+      "id": "guadalmena",
+      "name": "Guadalmena",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 347.0,
+      "volume_hm3": 292.0,
+      "pct": 84.15,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "san-estevo",
+      "name": "San. Estevo",
+      "basin": "mino-sil",
+      "basin_name": "Miño - Sil",
+      "capacity_hm3": 213.0,
+      "volume_hm3": 179.0,
       "pct": 84.04,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "susqueda",
-      "name": "Susqueda",
-      "basin": "cuencas-internas-de-cataluna",
-      "basin_name": "Cuencas Internas de Cataluña",
-      "capacity_hm3": 233.0,
-      "volume_hm3": 195.0,
-      "pct": 83.69,
-      "date": "2026-08-11"
+      "id": "guadalhorce-guadalteba",
+      "name": "Guadalhorce-Guadalteba",
+      "basin": "cuenca-mediterranea-andaluza",
+      "basin_name": "Cuenca Mediterránea Andaluza",
+      "capacity_hm3": 312.0,
+      "volume_hm3": 262.0,
+      "pct": 83.97,
+      "date": "2026-08-18"
     },
     {
       "id": "san-pedro",
@@ -746,7 +736,7 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 5.0,
       "pct": 83.33,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "colomera",
@@ -756,17 +746,7 @@
       "capacity_hm3": 42.0,
       "volume_hm3": 35.0,
       "pct": 83.33,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "san-estevo",
-      "name": "San. Estevo",
-      "basin": "mino-sil",
-      "basin_name": "Miño - Sil",
-      "capacity_hm3": 213.0,
-      "volume_hm3": 177.0,
-      "pct": 83.1,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "vellon-el-pedrezuela",
@@ -776,7 +756,7 @@
       "capacity_hm3": 41.0,
       "volume_hm3": 34.0,
       "pct": 82.93,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "prada",
@@ -786,7 +766,7 @@
       "capacity_hm3": 122.0,
       "volume_hm3": 101.0,
       "pct": 82.79,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "la-colada",
@@ -796,7 +776,17 @@
       "capacity_hm3": 58.0,
       "volume_hm3": 48.0,
       "pct": 82.76,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "olivargas",
+      "name": "Olivargas",
+      "basin": "tinto-odiel-y-piedras",
+      "basin_name": "Tinto, Odiel y Piedras",
+      "capacity_hm3": 29.0,
+      "volume_hm3": 24.0,
+      "pct": 82.76,
+      "date": "2026-08-18"
     },
     {
       "id": "sancho",
@@ -806,17 +796,27 @@
       "capacity_hm3": 58.0,
       "volume_hm3": 48.0,
       "pct": 82.76,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "zufre",
-      "name": "Zufre",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 179.0,
-      "volume_hm3": 148.0,
-      "pct": 82.68,
-      "date": "2026-08-11"
+      "id": "susqueda",
+      "name": "Susqueda",
+      "basin": "cuencas-internas-de-cataluna",
+      "basin_name": "Cuencas Internas de Cataluña",
+      "capacity_hm3": 233.0,
+      "volume_hm3": 192.0,
+      "pct": 82.4,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "velle",
+      "name": "Velle",
+      "basin": "mino-sil",
+      "basin_name": "Miño - Sil",
+      "capacity_hm3": 17.0,
+      "volume_hm3": 14.0,
+      "pct": 82.35,
+      "date": "2026-08-18"
     },
     {
       "id": "navalcan",
@@ -826,7 +826,7 @@
       "capacity_hm3": 34.0,
       "volume_hm3": 28.0,
       "pct": 82.35,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "penarroya",
@@ -836,27 +836,7 @@
       "capacity_hm3": 51.0,
       "volume_hm3": 42.0,
       "pct": 82.35,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "escales",
-      "name": "Escales",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 152.0,
-      "volume_hm3": 125.0,
-      "pct": 82.24,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "celemin",
-      "name": "Celemín",
-      "basin": "guadalete-barbate",
-      "basin_name": "Guadalete-Barbate",
-      "capacity_hm3": 45.0,
-      "volume_hm3": 37.0,
-      "pct": 82.22,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "aracena",
@@ -866,17 +846,17 @@
       "capacity_hm3": 129.0,
       "volume_hm3": 106.0,
       "pct": 82.17,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "montefurado",
-      "name": "Montefurado",
-      "basin": "mino-sil",
-      "basin_name": "Miño - Sil",
+      "id": "cervera",
+      "name": "Cervera",
+      "basin": "duero",
+      "basin_name": "Duero",
       "capacity_hm3": 11.0,
       "volume_hm3": 9.0,
       "pct": 81.82,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "ulldecona",
@@ -886,7 +866,7 @@
       "capacity_hm3": 11.0,
       "volume_hm3": 9.0,
       "pct": 81.82,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "yeguas",
@@ -896,7 +876,7 @@
       "capacity_hm3": 229.0,
       "volume_hm3": 187.0,
       "pct": 81.66,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "piedra-aguda",
@@ -906,7 +886,7 @@
       "capacity_hm3": 16.0,
       "volume_hm3": 13.0,
       "pct": 81.25,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "barcena",
@@ -916,27 +896,17 @@
       "capacity_hm3": 341.0,
       "volume_hm3": 277.0,
       "pct": 81.23,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "cijara",
-      "name": "Cijara",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 1505.0,
-      "volume_hm3": 1222.0,
-      "pct": 81.2,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "puente-nuevo",
-      "name": "Puente Nuevo",
+      "id": "zufre",
+      "name": "Zufre",
       "basin": "guadalquivir",
       "basin_name": "Guadalquivir",
-      "capacity_hm3": 286.0,
-      "volume_hm3": 232.0,
-      "pct": 81.12,
-      "date": "2026-08-11"
+      "capacity_hm3": 179.0,
+      "volume_hm3": 145.0,
+      "pct": 81.01,
+      "date": "2026-08-18"
     },
     {
       "id": "alcala-del-rio",
@@ -949,14 +919,34 @@
       "date": "2012-06-26"
     },
     {
-      "id": "maidevera",
-      "name": "Maidevera",
+      "id": "escales",
+      "name": "Escales",
       "basin": "ebro",
       "basin_name": "Ebro",
-      "capacity_hm3": 21.0,
-      "volume_hm3": 17.0,
-      "pct": 80.95,
-      "date": "2026-08-11"
+      "capacity_hm3": 152.0,
+      "volume_hm3": 123.0,
+      "pct": 80.92,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "cijara",
+      "name": "Cijara",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 1505.0,
+      "volume_hm3": 1216.0,
+      "pct": 80.8,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "puente-nuevo",
+      "name": "Puente Nuevo",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 286.0,
+      "volume_hm3": 231.0,
+      "pct": 80.77,
+      "date": "2026-08-18"
     },
     {
       "id": "guadarranque",
@@ -966,27 +956,17 @@
       "capacity_hm3": 88.0,
       "volume_hm3": 71.0,
       "pct": 80.68,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "tranco-de-beas",
-      "name": "Tranco de Beas",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 506.0,
-      "volume_hm3": 407.0,
-      "pct": 80.43,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "bembezar",
-      "name": "Bembézar",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 347.0,
-      "volume_hm3": 278.0,
-      "pct": 80.12,
-      "date": "2026-08-11"
+      "id": "bolarque",
+      "name": "Bolarque",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 31.0,
+      "volume_hm3": 25.0,
+      "pct": 80.65,
+      "date": "2026-08-18"
     },
     {
       "id": "guistolas",
@@ -996,7 +976,17 @@
       "capacity_hm3": 5.0,
       "volume_hm3": 4.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "burgomillodo",
+      "name": "Burgomillodo",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 15.0,
+      "volume_hm3": 12.0,
+      "pct": 80.0,
+      "date": "2026-08-18"
     },
     {
       "id": "vencias-las",
@@ -1006,7 +996,7 @@
       "capacity_hm3": 5.0,
       "volume_hm3": 4.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "cancho-del-fresno",
@@ -1016,7 +1006,7 @@
       "capacity_hm3": 15.0,
       "volume_hm3": 12.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "proserpina",
@@ -1026,7 +1016,7 @@
       "capacity_hm3": 5.0,
       "volume_hm3": 4.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "tentudia",
@@ -1036,7 +1026,7 @@
       "capacity_hm3": 5.0,
       "volume_hm3": 4.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "taibilla",
@@ -1046,7 +1036,7 @@
       "capacity_hm3": 10.0,
       "volume_hm3": 8.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "guiamets",
@@ -1056,7 +1046,7 @@
       "capacity_hm3": 10.0,
       "volume_hm3": 8.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "monteagudo",
@@ -1066,7 +1056,7 @@
       "capacity_hm3": 10.0,
       "volume_hm3": 8.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "nagore",
@@ -1076,7 +1066,7 @@
       "capacity_hm3": 5.0,
       "volume_hm3": 4.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "sobron",
@@ -1086,7 +1076,7 @@
       "capacity_hm3": 20.0,
       "volume_hm3": 16.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "sant-pons",
@@ -1096,7 +1086,7 @@
       "capacity_hm3": 25.0,
       "volume_hm3": 20.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "barca-la",
@@ -1106,7 +1096,7 @@
       "capacity_hm3": 35.0,
       "volume_hm3": 28.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "san-anton",
@@ -1116,37 +1106,37 @@
       "capacity_hm3": 5.0,
       "volume_hm3": 4.0,
       "pct": 80.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "torre-de-abrahan",
-      "name": "Torre de Abrahán",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 183.0,
-      "volume_hm3": 146.0,
-      "pct": 79.78,
-      "date": "2026-08-11"
+      "id": "celemin",
+      "name": "Celemín",
+      "basin": "guadalete-barbate",
+      "basin_name": "Guadalete-Barbate",
+      "capacity_hm3": 45.0,
+      "volume_hm3": 36.0,
+      "pct": 80.0,
+      "date": "2026-08-18"
     },
     {
-      "id": "brena-ii-la",
-      "name": "Breña II, La",
+      "id": "tranco-de-beas",
+      "name": "Tranco de Beas",
       "basin": "guadalquivir",
       "basin_name": "Guadalquivir",
-      "capacity_hm3": 823.0,
-      "volume_hm3": 653.0,
-      "pct": 79.34,
-      "date": "2026-08-11"
+      "capacity_hm3": 506.0,
+      "volume_hm3": 401.0,
+      "pct": 79.25,
+      "date": "2026-08-18"
     },
     {
-      "id": "vadomojon",
-      "name": "Vadomojón",
+      "id": "bembezar",
+      "name": "Bembézar",
       "basin": "guadalquivir",
       "basin_name": "Guadalquivir",
-      "capacity_hm3": 163.0,
-      "volume_hm3": 129.0,
-      "pct": 79.14,
-      "date": "2026-08-11"
+      "capacity_hm3": 347.0,
+      "volume_hm3": 274.0,
+      "pct": 78.96,
+      "date": "2026-08-18"
     },
     {
       "id": "corumbel-bajo",
@@ -1156,7 +1146,27 @@
       "capacity_hm3": 19.0,
       "volume_hm3": 15.0,
       "pct": 78.95,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "torre-de-abrahan",
+      "name": "Torre de Abrahán",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 183.0,
+      "volume_hm3": 144.0,
+      "pct": 78.69,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "brena-ii-la",
+      "name": "Breña II, La",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 823.0,
+      "volume_hm3": 643.0,
+      "pct": 78.13,
+      "date": "2026-08-18"
     },
     {
       "id": "sierra-boyera",
@@ -1166,7 +1176,17 @@
       "capacity_hm3": 41.0,
       "volume_hm3": 32.0,
       "pct": 78.05,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "vadomojon",
+      "name": "Vadomojón",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 163.0,
+      "volume_hm3": 127.0,
+      "pct": 77.91,
+      "date": "2026-08-18"
     },
     {
       "id": "llerena",
@@ -1176,47 +1196,7 @@
       "capacity_hm3": 9.0,
       "volume_hm3": 7.0,
       "pct": 77.78,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "sta-uxia",
-      "name": "Sta Uxia",
-      "basin": "galicia-costa",
-      "basin_name": "Galicia Costa",
-      "capacity_hm3": 18.0,
-      "volume_hm3": 14.0,
-      "pct": 77.78,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "sau",
-      "name": "Sau",
-      "basin": "cuencas-internas-de-cataluna",
-      "basin_name": "Cuencas Internas de Cataluña",
-      "capacity_hm3": 169.0,
-      "volume_hm3": 131.0,
-      "pct": 77.51,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "fernandina-la",
-      "name": "Fernandina, La",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 247.0,
-      "volume_hm3": 191.0,
-      "pct": 77.33,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "giribaile",
-      "name": "Giribaile",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 491.0,
-      "volume_hm3": 378.0,
-      "pct": 76.99,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "marmolejo",
@@ -1229,34 +1209,44 @@
       "date": "2012-06-26"
     },
     {
+      "id": "sau",
+      "name": "Sau",
+      "basin": "cuencas-internas-de-cataluna",
+      "basin_name": "Cuencas Internas de Cataluña",
+      "capacity_hm3": 169.0,
+      "volume_hm3": 130.0,
+      "pct": 76.92,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "maidevera",
+      "name": "Maidevera",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 21.0,
+      "volume_hm3": 16.0,
+      "pct": 76.19,
+      "date": "2026-08-18"
+    },
+    {
       "id": "guadalmellato",
       "name": "Guadalmellato",
       "basin": "guadalquivir",
       "basin_name": "Guadalquivir",
       "capacity_hm3": 162.0,
-      "volume_hm3": 124.0,
-      "pct": 76.54,
-      "date": "2026-08-11"
+      "volume_hm3": 123.0,
+      "pct": 75.93,
+      "date": "2026-08-18"
     },
     {
-      "id": "la-baells",
-      "name": "La Baells",
-      "basin": "cuencas-internas-de-cataluna",
-      "basin_name": "Cuencas Internas de Cataluña",
-      "capacity_hm3": 115.0,
-      "volume_hm3": 88.0,
-      "pct": 76.52,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "san-juan",
-      "name": "San Juan",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 148.0,
-      "volume_hm3": 113.0,
-      "pct": 76.35,
-      "date": "2026-08-11"
+      "id": "fernandina-la",
+      "name": "Fernandina, La",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 247.0,
+      "volume_hm3": 187.0,
+      "pct": 75.71,
+      "date": "2026-08-18"
     },
     {
       "id": "fuensanta",
@@ -1264,9 +1254,9 @@
       "basin": "segura",
       "basin_name": "Segura",
       "capacity_hm3": 210.0,
-      "volume_hm3": 160.0,
-      "pct": 76.19,
-      "date": "2026-08-11"
+      "volume_hm3": 159.0,
+      "pct": 75.71,
+      "date": "2026-08-18"
     },
     {
       "id": "villar-del-rey",
@@ -1274,49 +1264,19 @@
       "basin": "guadiana",
       "basin_name": "Guadiana",
       "capacity_hm3": 134.0,
-      "volume_hm3": 102.0,
-      "pct": 76.12,
-      "date": "2026-08-11"
+      "volume_hm3": 101.0,
+      "pct": 75.37,
+      "date": "2026-08-18"
     },
     {
-      "id": "banos",
-      "name": "Baños",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 41.0,
-      "volume_hm3": 31.0,
-      "pct": 75.61,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "eume",
-      "name": "Eume",
-      "basin": "galicia-costa",
-      "basin_name": "Galicia Costa",
-      "capacity_hm3": 123.0,
-      "volume_hm3": 93.0,
-      "pct": 75.61,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "portas-las",
-      "name": "Portas, Las",
-      "basin": "mino-sil",
-      "basin_name": "Miño - Sil",
-      "capacity_hm3": 536.0,
-      "volume_hm3": 402.0,
-      "pct": 75.0,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "ruecas",
-      "name": "Ruecas",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 44.0,
-      "volume_hm3": 33.0,
-      "pct": 75.0,
-      "date": "2026-08-11"
+      "id": "giribaile",
+      "name": "Giribaile",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 491.0,
+      "volume_hm3": 369.0,
+      "pct": 75.15,
+      "date": "2026-08-18"
     },
     {
       "id": "martin-gonzalo",
@@ -1326,7 +1286,7 @@
       "capacity_hm3": 20.0,
       "volume_hm3": 15.0,
       "pct": 75.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "anchuricas",
@@ -1336,7 +1296,7 @@
       "capacity_hm3": 8.0,
       "volume_hm3": 6.0,
       "pct": 75.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "certescans",
@@ -1346,7 +1306,7 @@
       "capacity_hm3": 16.0,
       "volume_hm3": 12.0,
       "pct": 75.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "ciurana",
@@ -1356,7 +1316,7 @@
       "capacity_hm3": 12.0,
       "volume_hm3": 9.0,
       "pct": 75.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "ibiur",
@@ -1366,7 +1326,7 @@
       "capacity_hm3": 8.0,
       "volume_hm3": 6.0,
       "pct": 75.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "rioseco",
@@ -1376,57 +1336,37 @@
       "capacity_hm3": 4.0,
       "volume_hm3": 3.0,
       "pct": 75.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "barbate",
-      "name": "Barbate",
-      "basin": "guadalete-barbate",
-      "basin_name": "Guadalete-Barbate",
-      "capacity_hm3": 228.0,
-      "volume_hm3": 171.0,
-      "pct": 75.0,
-      "date": "2026-08-11"
+      "id": "la-baells",
+      "name": "La Baells",
+      "basin": "cuencas-internas-de-cataluna",
+      "basin_name": "Cuencas Internas de Cataluña",
+      "capacity_hm3": 115.0,
+      "volume_hm3": 86.0,
+      "pct": 74.78,
+      "date": "2026-08-18"
     },
     {
-      "id": "hurones-los",
-      "name": "Hurones, Los",
-      "basin": "guadalete-barbate",
-      "basin_name": "Guadalete-Barbate",
-      "capacity_hm3": 135.0,
-      "volume_hm3": 101.0,
-      "pct": 74.81,
-      "date": "2026-08-11"
+      "id": "portas-las",
+      "name": "Portas, Las",
+      "basin": "mino-sil",
+      "basin_name": "Miño - Sil",
+      "capacity_hm3": 536.0,
+      "volume_hm3": 397.0,
+      "pct": 74.07,
+      "date": "2026-08-18"
     },
     {
-      "id": "almendra",
-      "name": "Almendra",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 2649.0,
-      "volume_hm3": 1979.0,
-      "pct": 74.71,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "iznajar",
-      "name": "Iznájar",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 981.0,
-      "volume_hm3": 732.0,
-      "pct": 74.62,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "grado-el",
-      "name": "Grado, El",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 400.0,
-      "volume_hm3": 298.0,
-      "pct": 74.5,
-      "date": "2026-08-11"
+      "id": "eume",
+      "name": "Eume",
+      "basin": "galicia-costa",
+      "basin_name": "Galicia Costa",
+      "capacity_hm3": 123.0,
+      "volume_hm3": 91.0,
+      "pct": 73.98,
+      "date": "2026-08-18"
     },
     {
       "id": "alarcon",
@@ -1434,59 +1374,29 @@
       "basin": "jucar",
       "basin_name": "Júcar",
       "capacity_hm3": 1118.0,
-      "volume_hm3": 831.0,
-      "pct": 74.33,
-      "date": "2026-08-11"
+      "volume_hm3": 825.0,
+      "pct": 73.79,
+      "date": "2026-08-18"
     },
     {
-      "id": "atazar-el",
-      "name": "Atazar, El",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 426.0,
-      "volume_hm3": 315.0,
-      "pct": 73.94,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "portaje",
-      "name": "Portaje",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 23.0,
-      "volume_hm3": 17.0,
-      "pct": 73.91,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "villar-el",
-      "name": "Villar, El",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 23.0,
-      "volume_hm3": 17.0,
-      "pct": 73.91,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "tanes",
-      "name": "Tanes",
-      "basin": "cantabrico-occidental",
-      "basin_name": "Cantábrico Occidental",
-      "capacity_hm3": 38.0,
-      "volume_hm3": 28.0,
+      "id": "barbate",
+      "name": "Barbate",
+      "basin": "guadalete-barbate",
+      "basin_name": "Guadalete-Barbate",
+      "capacity_hm3": 228.0,
+      "volume_hm3": 168.0,
       "pct": 73.68,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "uzquiza",
-      "name": "Úzquiza",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 75.0,
-      "volume_hm3": 55.0,
-      "pct": 73.33,
-      "date": "2026-08-11"
+      "id": "iznajar",
+      "name": "Iznájar",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 981.0,
+      "volume_hm3": 721.0,
+      "pct": 73.5,
+      "date": "2026-08-18"
     },
     {
       "id": "encinarejo",
@@ -1499,44 +1409,34 @@
       "date": "2012-06-26"
     },
     {
-      "id": "pena-la",
-      "name": "Peña, La",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 15.0,
-      "volume_hm3": 11.0,
+      "id": "hurones-los",
+      "name": "Hurones, Los",
+      "basin": "guadalete-barbate",
+      "basin_name": "Guadalete-Barbate",
+      "capacity_hm3": 135.0,
+      "volume_hm3": 99.0,
       "pct": 73.33,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "piedras",
-      "name": "Piedras",
-      "basin": "tinto-odiel-y-piedras",
-      "basin_name": "Tinto, Odiel y Piedras",
-      "capacity_hm3": 60.0,
-      "volume_hm3": 44.0,
-      "pct": 73.33,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "beznar",
-      "name": "Béznar",
-      "basin": "cuenca-mediterranea-andaluza",
-      "basin_name": "Cuenca Mediterránea Andaluza",
-      "capacity_hm3": 56.0,
-      "volume_hm3": 41.0,
-      "pct": 73.21,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "alcantara",
-      "name": "Alcántara",
+      "id": "atazar-el",
+      "name": "Atazar, El",
       "basin": "tajo",
       "basin_name": "Tajo",
-      "capacity_hm3": 3162.0,
-      "volume_hm3": 2311.0,
-      "pct": 73.09,
-      "date": "2026-08-11"
+      "capacity_hm3": 426.0,
+      "volume_hm3": 312.0,
+      "pct": 73.24,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "banos",
+      "name": "Baños",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 41.0,
+      "volume_hm3": 30.0,
+      "pct": 73.17,
+      "date": "2026-08-18"
     },
     {
       "id": "canchales",
@@ -1546,7 +1446,17 @@
       "capacity_hm3": 26.0,
       "volume_hm3": 19.0,
       "pct": 73.08,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "ruecas",
+      "name": "Ruecas",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 44.0,
+      "volume_hm3": 32.0,
+      "pct": 72.73,
+      "date": "2026-08-18"
     },
     {
       "id": "arquillo-de-san-blas",
@@ -1556,17 +1466,7 @@
       "capacity_hm3": 22.0,
       "volume_hm3": 16.0,
       "pct": 72.73,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "cecebre",
-      "name": "Cecebre",
-      "basin": "galicia-costa",
-      "basin_name": "Galicia Costa",
-      "capacity_hm3": 22.0,
-      "volume_hm3": 16.0,
-      "pct": 72.73,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "eiras",
@@ -1576,7 +1476,7 @@
       "capacity_hm3": 22.0,
       "volume_hm3": 16.0,
       "pct": 72.73,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "ibai-eder",
@@ -1586,17 +1486,7 @@
       "capacity_hm3": 11.0,
       "volume_hm3": 8.0,
       "pct": 72.73,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "valmayor",
-      "name": "Valmayor",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 124.0,
-      "volume_hm3": 90.0,
-      "pct": 72.58,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "cenza",
@@ -1606,27 +1496,37 @@
       "capacity_hm3": 40.0,
       "volume_hm3": 29.0,
       "pct": 72.5,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "nogales",
-      "name": "Nogales",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
+      "id": "el-naranjero",
+      "name": "El Naranjero",
+      "basin": "jucar",
+      "basin_name": "Júcar",
+      "capacity_hm3": 29.0,
+      "volume_hm3": 21.0,
+      "pct": 72.41,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "almendra",
+      "name": "Almendra",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 2649.0,
+      "volume_hm3": 1917.0,
+      "pct": 72.37,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "sta-uxia",
+      "name": "Sta Uxia",
+      "basin": "galicia-costa",
+      "basin_name": "Galicia Costa",
       "capacity_hm3": 18.0,
       "volume_hm3": 13.0,
       "pct": 72.22,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "ullivarri",
-      "name": "Ullivarri",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 147.0,
-      "volume_hm3": 106.0,
-      "pct": 72.11,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "riosequillo",
@@ -1636,27 +1536,7 @@
       "capacity_hm3": 50.0,
       "volume_hm3": 36.0,
       "pct": 72.0,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "el-vicario",
-      "name": "El Vicario",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 32.0,
-      "volume_hm3": 23.0,
-      "pct": 71.88,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "rialb",
-      "name": "Rialb",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 404.0,
-      "volume_hm3": 290.0,
-      "pct": 71.78,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "azutan",
@@ -1666,7 +1546,17 @@
       "capacity_hm3": 113.0,
       "volume_hm3": 81.0,
       "pct": 71.68,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "piedras",
+      "name": "Piedras",
+      "basin": "tinto-odiel-y-piedras",
+      "basin_name": "Tinto, Odiel y Piedras",
+      "capacity_hm3": 60.0,
+      "volume_hm3": 43.0,
+      "pct": 71.67,
+      "date": "2026-08-18"
     },
     {
       "id": "brovales",
@@ -1676,7 +1566,7 @@
       "capacity_hm3": 7.0,
       "volume_hm3": 5.0,
       "pct": 71.43,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "gargaligas",
@@ -1686,107 +1576,67 @@
       "capacity_hm3": 21.0,
       "volume_hm3": 15.0,
       "pct": 71.43,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "alcaniz-estanca",
-      "name": "Alcañiz (Estanca)",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 7.0,
-      "volume_hm3": 5.0,
-      "pct": 71.43,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "boadella",
-      "name": "Boadella",
-      "basin": "cuencas-internas-de-cataluna",
-      "basin_name": "Cuencas Internas de Cataluña",
-      "capacity_hm3": 62.0,
-      "volume_hm3": 44.0,
-      "pct": 70.97,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "acena",
-      "name": "Aceña",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 24.0,
-      "volume_hm3": 17.0,
-      "pct": 70.83,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "ebro",
-      "name": "Ebro",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 541.0,
-      "volume_hm3": 383.0,
-      "pct": 70.79,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "charco-redondo",
-      "name": "Charco Redondo",
+      "id": "beznar",
+      "name": "Béznar",
       "basin": "cuenca-mediterranea-andaluza",
       "basin_name": "Cuenca Mediterránea Andaluza",
-      "capacity_hm3": 82.0,
-      "volume_hm3": 58.0,
-      "pct": 70.73,
-      "date": "2026-08-11"
+      "capacity_hm3": 56.0,
+      "volume_hm3": 40.0,
+      "pct": 71.43,
+      "date": "2026-08-18"
     },
     {
-      "id": "arenoso",
-      "name": "Arenoso",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 167.0,
-      "volume_hm3": 118.0,
-      "pct": 70.66,
-      "date": "2026-08-11"
+      "id": "tanes",
+      "name": "Tanes",
+      "basin": "cantabrico-occidental",
+      "basin_name": "Cantábrico Occidental",
+      "capacity_hm3": 38.0,
+      "volume_hm3": 27.0,
+      "pct": 71.05,
+      "date": "2026-08-18"
     },
     {
-      "id": "velle",
-      "name": "Velle",
-      "basin": "mino-sil",
-      "basin_name": "Miño - Sil",
-      "capacity_hm3": 17.0,
-      "volume_hm3": 12.0,
-      "pct": 70.59,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "bornos",
-      "name": "Bornos",
-      "basin": "guadalete-barbate",
-      "basin_name": "Guadalete-Barbate",
-      "capacity_hm3": 204.0,
-      "volume_hm3": 144.0,
-      "pct": 70.59,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "tremp-o-talarn",
-      "name": "Tremp ó Talárn",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 227.0,
-      "volume_hm3": 160.0,
-      "pct": 70.48,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "santillana",
-      "name": "Santillana",
+      "id": "valmayor",
+      "name": "Valmayor",
       "basin": "tajo",
       "basin_name": "Tajo",
-      "capacity_hm3": 91.0,
-      "volume_hm3": 64.0,
-      "pct": 70.33,
-      "date": "2026-08-11"
+      "capacity_hm3": 124.0,
+      "volume_hm3": 88.0,
+      "pct": 70.97,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "san-juan",
+      "name": "San Juan",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 148.0,
+      "volume_hm3": 105.0,
+      "pct": 70.95,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "ullivarri",
+      "name": "Ullivarri",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 147.0,
+      "volume_hm3": 104.0,
+      "pct": 70.75,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "uzquiza",
+      "name": "Úzquiza",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 75.0,
+      "volume_hm3": 53.0,
+      "pct": 70.67,
+      "date": "2026-08-18"
     },
     {
       "id": "casares-de-arbas",
@@ -1796,7 +1646,37 @@
       "capacity_hm3": 37.0,
       "volume_hm3": 26.0,
       "pct": 70.27,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "orellana",
+      "name": "Orellana",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 824.0,
+      "volume_hm3": 579.0,
+      "pct": 70.27,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "arenoso",
+      "name": "Arenoso",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 167.0,
+      "volume_hm3": 117.0,
+      "pct": 70.06,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "alcantara",
+      "name": "Alcántara",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 3162.0,
+      "volume_hm3": 2212.0,
+      "pct": 69.96,
+      "date": "2026-08-18"
     },
     {
       "id": "jarrama",
@@ -1806,27 +1686,37 @@
       "capacity_hm3": 43.0,
       "volume_hm3": 30.0,
       "pct": 69.77,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "urrunaga",
-      "name": "Urrunaga",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 72.0,
-      "volume_hm3": 50.0,
-      "pct": 69.44,
-      "date": "2026-08-11"
+      "id": "portaje",
+      "name": "Portaje",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 23.0,
+      "volume_hm3": 16.0,
+      "pct": 69.57,
+      "date": "2026-08-18"
     },
     {
-      "id": "orellana",
-      "name": "Orellana",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 824.0,
-      "volume_hm3": 571.0,
-      "pct": 69.3,
-      "date": "2026-08-11"
+      "id": "villar-el",
+      "name": "Villar, El",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 23.0,
+      "volume_hm3": 16.0,
+      "pct": 69.57,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "charco-redondo",
+      "name": "Charco Redondo",
+      "basin": "cuenca-mediterranea-andaluza",
+      "basin_name": "Cuenca Mediterránea Andaluza",
+      "capacity_hm3": 82.0,
+      "volume_hm3": 57.0,
+      "pct": 69.51,
+      "date": "2026-08-18"
     },
     {
       "id": "penarrubia",
@@ -1836,27 +1726,17 @@
       "capacity_hm3": 13.0,
       "volume_hm3": 9.0,
       "pct": 69.23,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "gasset",
-      "name": "Gasset",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 42.0,
-      "volume_hm3": 29.0,
-      "pct": 69.05,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "jandula",
-      "name": "Jándula",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 325.0,
-      "volume_hm3": 224.0,
-      "pct": 68.92,
-      "date": "2026-08-11"
+      "id": "bornos",
+      "name": "Bornos",
+      "basin": "guadalete-barbate",
+      "basin_name": "Guadalete-Barbate",
+      "capacity_hm3": 204.0,
+      "volume_hm3": 141.0,
+      "pct": 69.12,
+      "date": "2026-08-18"
     },
     {
       "id": "huesna",
@@ -1866,17 +1746,17 @@
       "capacity_hm3": 138.0,
       "volume_hm3": 95.0,
       "pct": 68.84,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "zahara-el-gastor",
-      "name": "Zahara-El Gastor",
-      "basin": "guadalete-barbate",
-      "basin_name": "Guadalete-Barbate",
-      "capacity_hm3": 223.0,
-      "volume_hm3": 153.0,
-      "pct": 68.61,
-      "date": "2026-08-11"
+      "id": "el-vicario",
+      "name": "El Vicario",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 32.0,
+      "volume_hm3": 22.0,
+      "pct": 68.75,
+      "date": "2026-08-18"
     },
     {
       "id": "pena",
@@ -1886,47 +1766,97 @@
       "capacity_hm3": 19.0,
       "volume_hm3": 13.0,
       "pct": 68.42,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "ordunte",
-      "name": "Ordunte",
-      "basin": "cantabrico-oriental",
-      "basin_name": "Cantábrico Oriental",
+      "id": "cecebre",
+      "name": "Cecebre",
+      "basin": "galicia-costa",
+      "basin_name": "Galicia Costa",
       "capacity_hm3": 22.0,
       "volume_hm3": 15.0,
       "pct": 68.18,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "palmaces",
-      "name": "Pálmaces",
+      "id": "zahara-el-gastor",
+      "name": "Zahara-El Gastor",
+      "basin": "guadalete-barbate",
+      "basin_name": "Guadalete-Barbate",
+      "capacity_hm3": 223.0,
+      "volume_hm3": 152.0,
+      "pct": 68.16,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "santillana",
+      "name": "Santillana",
       "basin": "tajo",
       "basin_name": "Tajo",
-      "capacity_hm3": 31.0,
-      "volume_hm3": 21.0,
-      "pct": 67.74,
-      "date": "2026-08-11"
+      "capacity_hm3": 91.0,
+      "volume_hm3": 62.0,
+      "pct": 68.13,
+      "date": "2026-08-18"
     },
     {
-      "id": "caspe",
-      "name": "Caspe",
+      "id": "rialb",
+      "name": "Rialb",
       "basin": "ebro",
       "basin_name": "Ebro",
-      "capacity_hm3": 82.0,
-      "volume_hm3": 55.0,
-      "pct": 67.07,
-      "date": "2026-08-11"
+      "capacity_hm3": 404.0,
+      "volume_hm3": 275.0,
+      "pct": 68.07,
+      "date": "2026-08-18"
     },
     {
-      "id": "bermejales",
-      "name": "Bermejales",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 103.0,
-      "volume_hm3": 69.0,
-      "pct": 66.99,
-      "date": "2026-08-11"
+      "id": "urrunaga",
+      "name": "Urrunaga",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 72.0,
+      "volume_hm3": 49.0,
+      "pct": 68.06,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "ebro",
+      "name": "Ebro",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 541.0,
+      "volume_hm3": 368.0,
+      "pct": 68.02,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "tremp-o-talarn",
+      "name": "Tremp ó Talárn",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 227.0,
+      "volume_hm3": 154.0,
+      "pct": 67.84,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "boadella",
+      "name": "Boadella",
+      "basin": "cuencas-internas-de-cataluna",
+      "basin_name": "Cuencas Internas de Cataluña",
+      "capacity_hm3": 62.0,
+      "volume_hm3": 42.0,
+      "pct": 67.74,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "acena",
+      "name": "Aceña",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 24.0,
+      "volume_hm3": 16.0,
+      "pct": 66.67,
+      "date": "2026-08-18"
     },
     {
       "id": "boqueron",
@@ -1936,7 +1866,17 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 4.0,
       "pct": 66.67,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "gasset",
+      "name": "Gasset",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 42.0,
+      "volume_hm3": 28.0,
+      "pct": 66.67,
+      "date": "2026-08-18"
     },
     {
       "id": "horno-tejero",
@@ -1946,7 +1886,17 @@
       "capacity_hm3": 24.0,
       "volume_hm3": 16.0,
       "pct": 66.67,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "nogales",
+      "name": "Nogales",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 18.0,
+      "volume_hm3": 12.0,
+      "pct": 66.67,
+      "date": "2026-08-18"
     },
     {
       "id": "aguascebas",
@@ -1956,7 +1906,7 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 4.0,
       "pct": 66.67,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "cantillana",
@@ -1969,6 +1919,16 @@
       "date": "2012-06-26"
     },
     {
+      "id": "gergal",
+      "name": "Gergal",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 36.0,
+      "volume_hm3": 24.0,
+      "pct": 66.67,
+      "date": "2026-08-18"
+    },
+    {
       "id": "hornachuelos",
       "name": "Hornachuelos",
       "basin": "guadalquivir",
@@ -1979,16 +1939,6 @@
       "date": "2012-06-26"
     },
     {
-      "id": "eugui",
-      "name": "Eúgui",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 21.0,
-      "volume_hm3": 14.0,
-      "pct": 66.67,
-      "date": "2026-08-11"
-    },
-    {
       "id": "las-fitas",
       "name": "Las Fitas",
       "basin": "ebro",
@@ -1996,7 +1946,7 @@
       "capacity_hm3": 9.0,
       "volume_hm3": 6.0,
       "pct": 66.67,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "lechago",
@@ -2006,7 +1956,17 @@
       "capacity_hm3": 18.0,
       "volume_hm3": 12.0,
       "pct": 66.67,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "pena-la",
+      "name": "Peña, La",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 15.0,
+      "volume_hm3": 10.0,
+      "pct": 66.67,
+      "date": "2026-08-18"
     },
     {
       "id": "san-bartolome",
@@ -2016,7 +1976,7 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 4.0,
       "pct": 66.67,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "urdalur",
@@ -2026,17 +1986,7 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 4.0,
       "pct": 66.67,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "val-el",
-      "name": "Val, El",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 24.0,
-      "volume_hm3": 16.0,
-      "pct": 66.67,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "almodovar",
@@ -2046,7 +1996,27 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 4.0,
       "pct": 66.67,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "jandula",
+      "name": "Jándula",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 325.0,
+      "volume_hm3": 216.0,
+      "pct": 66.46,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "grado-el",
+      "name": "Grado, El",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 400.0,
+      "volume_hm3": 265.0,
+      "pct": 66.25,
+      "date": "2026-08-18"
     },
     {
       "id": "puentes-viejas",
@@ -2056,17 +2026,37 @@
       "capacity_hm3": 53.0,
       "volume_hm3": 35.0,
       "pct": 66.04,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "retortillo",
-      "name": "Retortillo",
+      "id": "bermejales",
+      "name": "Bermejales",
       "basin": "guadalquivir",
       "basin_name": "Guadalquivir",
-      "capacity_hm3": 73.0,
-      "volume_hm3": 48.0,
-      "pct": 65.75,
-      "date": "2026-08-11"
+      "capacity_hm3": 103.0,
+      "volume_hm3": 68.0,
+      "pct": 66.02,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "caspe",
+      "name": "Caspe",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 82.0,
+      "volume_hm3": 54.0,
+      "pct": 65.85,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "llauset",
+      "name": "Llauset",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 17.0,
+      "volume_hm3": 11.0,
+      "pct": 64.71,
+      "date": "2026-08-18"
     },
     {
       "id": "doiras",
@@ -2074,69 +2064,29 @@
       "basin": "cantabrico-occidental",
       "basin_name": "Cantábrico Occidental",
       "capacity_hm3": 119.0,
-      "volume_hm3": 78.0,
-      "pct": 65.55,
-      "date": "2026-08-11"
+      "volume_hm3": 77.0,
+      "pct": 64.71,
+      "date": "2026-08-18"
     },
     {
-      "id": "santa-teresa",
-      "name": "Santa Teresa",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 496.0,
-      "volume_hm3": 323.0,
-      "pct": 65.12,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "rumblar",
-      "name": "Rumblar",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 140.0,
-      "volume_hm3": 91.0,
-      "pct": 65.0,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "iruena",
-      "name": "Irueña",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 110.0,
-      "volume_hm3": 71.0,
-      "pct": 64.55,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "concepcion",
-      "name": "Concepción",
-      "basin": "cuenca-mediterranea-andaluza",
-      "basin_name": "Cuenca Mediterránea Andaluza",
-      "capacity_hm3": 62.0,
-      "volume_hm3": 40.0,
-      "pct": 64.52,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "alcorlo",
-      "name": "Alcorlo",
+      "id": "palmaces",
+      "name": "Pálmaces",
       "basin": "tajo",
       "basin_name": "Tajo",
-      "capacity_hm3": 180.0,
-      "volume_hm3": 116.0,
-      "pct": 64.44,
-      "date": "2026-08-11"
+      "capacity_hm3": 31.0,
+      "volume_hm3": 20.0,
+      "pct": 64.52,
+      "date": "2026-08-18"
     },
     {
-      "id": "cala",
-      "name": "Cala",
+      "id": "retortillo",
+      "name": "Retortillo",
       "basin": "guadalquivir",
       "basin_name": "Guadalquivir",
-      "capacity_hm3": 59.0,
-      "volume_hm3": 38.0,
-      "pct": 64.41,
-      "date": "2026-08-11"
+      "capacity_hm3": 73.0,
+      "volume_hm3": 47.0,
+      "pct": 64.38,
+      "date": "2026-08-18"
     },
     {
       "id": "navamuno",
@@ -2146,7 +2096,7 @@
       "capacity_hm3": 14.0,
       "volume_hm3": 9.0,
       "pct": 64.29,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "salor",
@@ -2156,57 +2106,37 @@
       "capacity_hm3": 14.0,
       "volume_hm3": 9.0,
       "pct": 64.29,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "quentar",
-      "name": "Quéntar",
+      "id": "rumblar",
+      "name": "Rumblar",
       "basin": "guadalquivir",
       "basin_name": "Guadalquivir",
-      "capacity_hm3": 14.0,
-      "volume_hm3": 9.0,
+      "capacity_hm3": 140.0,
+      "volume_hm3": 90.0,
       "pct": 64.29,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "gergal",
-      "name": "Gergal",
+      "id": "ordunte",
+      "name": "Ordunte",
+      "basin": "cantabrico-oriental",
+      "basin_name": "Cantábrico Oriental",
+      "capacity_hm3": 22.0,
+      "volume_hm3": 14.0,
+      "pct": 63.64,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "minilla-la",
+      "name": "Minilla, La",
       "basin": "guadalquivir",
       "basin_name": "Guadalquivir",
-      "capacity_hm3": 36.0,
-      "volume_hm3": 23.0,
-      "pct": 63.89,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "camarasa",
-      "name": "Camarasa",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 163.0,
-      "volume_hm3": 104.0,
-      "pct": 63.8,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "cuerda-del-pozo",
-      "name": "Cuerda del Pozo",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 249.0,
-      "volume_hm3": 158.0,
-      "pct": 63.45,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "mequinenza",
-      "name": "Mequinenza",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 1534.0,
-      "volume_hm3": 973.0,
-      "pct": 63.43,
-      "date": "2026-08-11"
+      "capacity_hm3": 60.0,
+      "volume_hm3": 38.0,
+      "pct": 63.33,
+      "date": "2026-08-18"
     },
     {
       "id": "castro",
@@ -2216,17 +2146,47 @@
       "capacity_hm3": 38.0,
       "volume_hm3": 24.0,
       "pct": 63.16,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "pajares",
-      "name": "Pajares",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 35.0,
-      "volume_hm3": 22.0,
-      "pct": 62.86,
-      "date": "2026-08-11"
+      "id": "concepcion",
+      "name": "Concepción",
+      "basin": "cuenca-mediterranea-andaluza",
+      "basin_name": "Cuenca Mediterránea Andaluza",
+      "capacity_hm3": 62.0,
+      "volume_hm3": 39.0,
+      "pct": 62.9,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "alcorlo",
+      "name": "Alcorlo",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 180.0,
+      "volume_hm3": 113.0,
+      "pct": 62.78,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "iruena",
+      "name": "Irueña",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 110.0,
+      "volume_hm3": 69.0,
+      "pct": 62.73,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "cala",
+      "name": "Cala",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 59.0,
+      "volume_hm3": 37.0,
+      "pct": 62.71,
+      "date": "2026-08-18"
     },
     {
       "id": "moneva",
@@ -2236,7 +2196,17 @@
       "capacity_hm3": 8.0,
       "volume_hm3": 5.0,
       "pct": 62.5,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "val-el",
+      "name": "Val, El",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 24.0,
+      "volume_hm3": 15.0,
+      "pct": 62.5,
+      "date": "2026-08-18"
     },
     {
       "id": "chandrexa",
@@ -2246,17 +2216,47 @@
       "capacity_hm3": 61.0,
       "volume_hm3": 38.0,
       "pct": 62.3,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "canelles",
-      "name": "Canelles",
+      "id": "santa-teresa",
+      "name": "Santa Teresa",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 496.0,
+      "volume_hm3": 308.0,
+      "pct": 62.1,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "eugui",
+      "name": "Eúgui",
       "basin": "ebro",
       "basin_name": "Ebro",
-      "capacity_hm3": 688.0,
-      "volume_hm3": 427.0,
-      "pct": 62.06,
-      "date": "2026-08-11"
+      "capacity_hm3": 21.0,
+      "volume_hm3": 13.0,
+      "pct": 61.9,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "cuerda-del-pozo",
+      "name": "Cuerda del Pozo",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 249.0,
+      "volume_hm3": 153.0,
+      "pct": 61.45,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "camarasa",
+      "name": "Camarasa",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 163.0,
+      "volume_hm3": 100.0,
+      "pct": 61.35,
+      "date": "2026-08-18"
     },
     {
       "id": "negratin",
@@ -2264,99 +2264,19 @@
       "basin": "guadalquivir",
       "basin_name": "Guadalquivir",
       "capacity_hm3": 571.0,
-      "volume_hm3": 353.0,
-      "pct": 61.82,
-      "date": "2026-08-11"
+      "volume_hm3": 350.0,
+      "pct": 61.3,
+      "date": "2026-08-18"
     },
     {
-      "id": "mansilla",
-      "name": "Mansilla",
+      "id": "mequinenza",
+      "name": "Mequinenza",
       "basin": "ebro",
       "basin_name": "Ebro",
-      "capacity_hm3": 68.0,
-      "volume_hm3": 42.0,
-      "pct": 61.76,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "minilla-la",
-      "name": "Minilla, La",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 60.0,
-      "volume_hm3": 37.0,
-      "pct": 61.67,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "bolera-la",
-      "name": "Bolera, La",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 54.0,
-      "volume_hm3": 33.0,
-      "pct": 61.11,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "jose-toran",
-      "name": "José Torán",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 113.0,
-      "volume_hm3": 69.0,
-      "pct": 61.06,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "jerte-plasencia",
-      "name": "Jerte - Plasencia",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 59.0,
-      "volume_hm3": 36.0,
-      "pct": 61.02,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "arlanzon",
-      "name": "Arlanzón",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 23.0,
-      "volume_hm3": 14.0,
-      "pct": 60.87,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "belena",
-      "name": "Beleña",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 53.0,
-      "volume_hm3": 32.0,
-      "pct": 60.38,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "conde-guadalhorce",
-      "name": "Conde Guadalhorce",
-      "basin": "cuenca-mediterranea-andaluza",
-      "basin_name": "Cuenca Mediterránea Andaluza",
-      "capacity_hm3": 83.0,
-      "volume_hm3": 50.0,
-      "pct": 60.24,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "santa-eulalia",
-      "name": "Santa Eulalia",
-      "basin": "mino-sil",
-      "basin_name": "Miño - Sil",
-      "capacity_hm3": 10.0,
-      "volume_hm3": 6.0,
-      "pct": 60.0,
-      "date": "2026-08-11"
+      "capacity_hm3": 1534.0,
+      "volume_hm3": 931.0,
+      "pct": 60.69,
+      "date": "2026-08-18"
     },
     {
       "id": "limonero",
@@ -2366,7 +2286,7 @@
       "capacity_hm3": 25.0,
       "volume_hm3": 15.0,
       "pct": 60.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "ip",
@@ -2376,7 +2296,7 @@
       "capacity_hm3": 5.0,
       "volume_hm3": 3.0,
       "pct": 60.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "parras-las",
@@ -2386,7 +2306,7 @@
       "capacity_hm3": 5.0,
       "volume_hm3": 3.0,
       "pct": 60.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "sistema-capdella",
@@ -2396,7 +2316,7 @@
       "capacity_hm3": 50.0,
       "volume_hm3": 30.0,
       "pct": 60.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "riudecanyes",
@@ -2406,17 +2326,17 @@
       "capacity_hm3": 5.0,
       "volume_hm3": 3.0,
       "pct": 60.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "portodemouros",
-      "name": "Portodemouros",
-      "basin": "galicia-costa",
-      "basin_name": "Galicia Costa",
-      "capacity_hm3": 297.0,
-      "volume_hm3": 178.0,
-      "pct": 59.93,
-      "date": "2026-08-11"
+      "id": "jerte-plasencia",
+      "name": "Jerte - Plasencia",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 59.0,
+      "volume_hm3": 35.0,
+      "pct": 59.32,
+      "date": "2026-08-18"
     },
     {
       "id": "entrepenas",
@@ -2424,29 +2344,29 @@
       "basin": "tajo",
       "basin_name": "Tajo",
       "capacity_hm3": 886.0,
-      "volume_hm3": 530.0,
-      "pct": 59.82,
-      "date": "2026-08-11"
+      "volume_hm3": 525.0,
+      "pct": 59.26,
+      "date": "2026-08-18"
     },
     {
-      "id": "aguilar",
-      "name": "Aguilar",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 247.0,
-      "volume_hm3": 146.0,
-      "pct": 59.11,
-      "date": "2026-08-11"
+      "id": "bolera-la",
+      "name": "Bolera, La",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 54.0,
+      "volume_hm3": 32.0,
+      "pct": 59.26,
+      "date": "2026-08-18"
     },
     {
-      "id": "anarbe",
-      "name": "Añarbe",
-      "basin": "cantabrico-oriental",
-      "basin_name": "Cantábrico Oriental",
-      "capacity_hm3": 44.0,
-      "volume_hm3": 26.0,
-      "pct": 59.09,
-      "date": "2026-08-11"
+      "id": "conde-guadalhorce",
+      "name": "Conde Guadalhorce",
+      "basin": "cuenca-mediterranea-andaluza",
+      "basin_name": "Cuenca Mediterránea Andaluza",
+      "capacity_hm3": 83.0,
+      "volume_hm3": 49.0,
+      "pct": 59.04,
+      "date": "2026-08-18"
     },
     {
       "id": "cenajo",
@@ -2454,9 +2374,19 @@
       "basin": "segura",
       "basin_name": "Segura",
       "capacity_hm3": 472.0,
-      "volume_hm3": 277.0,
-      "pct": 58.69,
-      "date": "2026-08-11"
+      "volume_hm3": 278.0,
+      "pct": 58.9,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "canelles",
+      "name": "Canelles",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 688.0,
+      "volume_hm3": 405.0,
+      "pct": 58.87,
+      "date": "2026-08-18"
     },
     {
       "id": "cueva-foradada",
@@ -2466,57 +2396,37 @@
       "capacity_hm3": 29.0,
       "volume_hm3": 17.0,
       "pct": 58.62,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "chanza",
-      "name": "Chanza",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 386.0,
-      "volume_hm3": 226.0,
-      "pct": 58.55,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "san-salvador",
-      "name": "San Salvador",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 137.0,
-      "volume_hm3": 80.0,
-      "pct": 58.39,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "la-cabezuela",
-      "name": "La Cabezuela",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 43.0,
-      "volume_hm3": 25.0,
-      "pct": 58.14,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "pinilla",
-      "name": "Pinilla",
+      "id": "belena",
+      "name": "Beleña",
       "basin": "tajo",
       "basin_name": "Tajo",
-      "capacity_hm3": 38.0,
-      "volume_hm3": 22.0,
-      "pct": 57.89,
-      "date": "2026-08-11"
+      "capacity_hm3": 53.0,
+      "volume_hm3": 31.0,
+      "pct": 58.49,
+      "date": "2026-08-18"
     },
     {
-      "id": "gonzalez-lacasa",
-      "name": "González Lacasa",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 33.0,
-      "volume_hm3": 19.0,
-      "pct": 57.58,
-      "date": "2026-08-11"
+      "id": "jose-toran",
+      "name": "José Torán",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 113.0,
+      "volume_hm3": 66.0,
+      "pct": 58.41,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "portodemouros",
+      "name": "Portodemouros",
+      "basin": "galicia-costa",
+      "basin_name": "Galicia Costa",
+      "capacity_hm3": 297.0,
+      "volume_hm3": 172.0,
+      "pct": 57.91,
+      "date": "2026-08-18"
     },
     {
       "id": "alsa-mediajo",
@@ -2526,7 +2436,7 @@
       "capacity_hm3": 33.0,
       "volume_hm3": 19.0,
       "pct": 57.58,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "calanda",
@@ -2536,7 +2446,27 @@
       "capacity_hm3": 54.0,
       "volume_hm3": 31.0,
       "pct": 57.41,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "mansilla",
+      "name": "Mansilla",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 68.0,
+      "volume_hm3": 39.0,
+      "pct": 57.35,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "quentar",
+      "name": "Quéntar",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 14.0,
+      "volume_hm3": 8.0,
+      "pct": 57.14,
+      "date": "2026-08-18"
     },
     {
       "id": "cierva-la",
@@ -2546,7 +2476,7 @@
       "capacity_hm3": 7.0,
       "volume_hm3": 4.0,
       "pct": 57.14,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "irabia",
@@ -2556,7 +2486,17 @@
       "capacity_hm3": 14.0,
       "volume_hm3": 8.0,
       "pct": 57.14,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "pajares",
+      "name": "Pajares",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 35.0,
+      "volume_hm3": 20.0,
+      "pct": 57.14,
+      "date": "2026-08-18"
     },
     {
       "id": "torcas-las",
@@ -2566,7 +2506,7 @@
       "capacity_hm3": 7.0,
       "volume_hm3": 4.0,
       "pct": 57.14,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "tort-lago",
@@ -2579,64 +2519,34 @@
       "date": "2006-09-26"
     },
     {
-      "id": "san-rafael-de-navallana",
-      "name": "San Rafael de Navallana",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 160.0,
-      "volume_hm3": 91.0,
-      "pct": 56.88,
-      "date": "2026-08-11"
+      "id": "chanza",
+      "name": "Chanza",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 386.0,
+      "volume_hm3": 220.0,
+      "pct": 56.99,
+      "date": "2026-08-18"
     },
     {
-      "id": "vadiello",
-      "name": "Vadiello",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 16.0,
-      "volume_hm3": 9.0,
-      "pct": 56.25,
-      "date": "2026-08-11"
+      "id": "anarbe",
+      "name": "Añarbe",
+      "basin": "cantabrico-oriental",
+      "basin_name": "Cantábrico Oriental",
+      "capacity_hm3": 44.0,
+      "volume_hm3": 25.0,
+      "pct": 56.82,
+      "date": "2026-08-18"
     },
     {
-      "id": "salime",
-      "name": "Salime",
-      "basin": "cantabrico-occidental",
-      "basin_name": "Cantábrico Occidental",
-      "capacity_hm3": 266.0,
-      "volume_hm3": 149.0,
-      "pct": 56.02,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "alloz",
-      "name": "Alloz",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 84.0,
-      "volume_hm3": 47.0,
-      "pct": 55.95,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "castro-de-las-cogotas",
-      "name": "Castro de las Cogotas",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 59.0,
-      "volume_hm3": 33.0,
-      "pct": 55.93,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "ricobayo",
-      "name": "Ricobayo",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 1200.0,
-      "volume_hm3": 671.0,
-      "pct": 55.92,
-      "date": "2026-08-11"
+      "id": "la-cabezuela",
+      "name": "La Cabezuela",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 43.0,
+      "volume_hm3": 24.0,
+      "pct": 55.81,
+      "date": "2026-08-18"
     },
     {
       "id": "montearagon",
@@ -2646,27 +2556,27 @@
       "capacity_hm3": 52.0,
       "volume_hm3": 29.0,
       "pct": 55.77,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "tajera-la",
-      "name": "Tajera, La",
+      "id": "aguilar",
+      "name": "Aguilar",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 247.0,
+      "volume_hm3": 137.0,
+      "pct": 55.47,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "pinilla",
+      "name": "Pinilla",
       "basin": "tajo",
       "basin_name": "Tajo",
-      "capacity_hm3": 70.0,
-      "volume_hm3": 39.0,
-      "pct": 55.71,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "el-naranjero",
-      "name": "El Naranjero",
-      "basin": "jucar",
-      "basin_name": "Júcar",
-      "capacity_hm3": 29.0,
-      "volume_hm3": 16.0,
-      "pct": 55.17,
-      "date": "2026-08-11"
+      "capacity_hm3": 38.0,
+      "volume_hm3": 21.0,
+      "pct": 55.26,
+      "date": "2026-08-18"
     },
     {
       "id": "caceres-guadiloba",
@@ -2676,17 +2586,17 @@
       "capacity_hm3": 20.0,
       "volume_hm3": 11.0,
       "pct": 55.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "tranquera-la",
-      "name": "Tranquera, La",
+      "id": "san-salvador",
+      "name": "San Salvador",
       "basin": "ebro",
       "basin_name": "Ebro",
-      "capacity_hm3": 84.0,
-      "volume_hm3": 46.0,
-      "pct": 54.76,
-      "date": "2026-08-11"
+      "capacity_hm3": 137.0,
+      "volume_hm3": 75.0,
+      "pct": 54.74,
+      "date": "2026-08-18"
     },
     {
       "id": "requejada",
@@ -2696,7 +2606,7 @@
       "capacity_hm3": 66.0,
       "volume_hm3": 36.0,
       "pct": 54.55,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "cazalegas",
@@ -2706,7 +2616,7 @@
       "capacity_hm3": 11.0,
       "volume_hm3": 6.0,
       "pct": 54.55,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "argos",
@@ -2716,7 +2626,7 @@
       "capacity_hm3": 11.0,
       "volume_hm3": 6.0,
       "pct": 54.55,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "forcadas-as",
@@ -2726,7 +2636,7 @@
       "capacity_hm3": 11.0,
       "volume_hm3": 6.0,
       "pct": 54.55,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "ribeira-a",
@@ -2736,27 +2646,47 @@
       "capacity_hm3": 33.0,
       "volume_hm3": 18.0,
       "pct": 54.55,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "atance-el",
-      "name": "Atance, El",
+      "id": "tajera-la",
+      "name": "Tajera, La",
       "basin": "tajo",
       "basin_name": "Tajo",
-      "capacity_hm3": 35.0,
-      "volume_hm3": 19.0,
+      "capacity_hm3": 70.0,
+      "volume_hm3": 38.0,
       "pct": 54.29,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "crevillente",
-      "name": "Crevillente",
-      "basin": "segura",
-      "basin_name": "Segura",
-      "capacity_hm3": 13.0,
-      "volume_hm3": 7.0,
-      "pct": 53.85,
-      "date": "2026-08-11"
+      "id": "salime",
+      "name": "Salime",
+      "basin": "cantabrico-occidental",
+      "basin_name": "Cantábrico Occidental",
+      "capacity_hm3": 266.0,
+      "volume_hm3": 144.0,
+      "pct": 54.14,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "san-rafael-de-navallana",
+      "name": "San Rafael de Navallana",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 160.0,
+      "volume_hm3": 86.0,
+      "pct": 53.75,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "ricobayo",
+      "name": "Ricobayo",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 1200.0,
+      "volume_hm3": 639.0,
+      "pct": 53.25,
+      "date": "2026-08-18"
     },
     {
       "id": "conchas-las",
@@ -2764,9 +2694,29 @@
       "basin": "mino-sil",
       "basin_name": "Miño - Sil",
       "capacity_hm3": 80.0,
-      "volume_hm3": 43.0,
-      "pct": 53.75,
-      "date": "2026-08-11"
+      "volume_hm3": 42.0,
+      "pct": 52.5,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "alloz",
+      "name": "Alloz",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 84.0,
+      "volume_hm3": 44.0,
+      "pct": 52.38,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "tranquera-la",
+      "name": "Tranquera, La",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 84.0,
+      "volume_hm3": 44.0,
+      "pct": 52.38,
+      "date": "2026-08-18"
     },
     {
       "id": "linares-del-arroyo",
@@ -2774,39 +2724,9 @@
       "basin": "duero",
       "basin_name": "Duero",
       "capacity_hm3": 58.0,
-      "volume_hm3": 31.0,
-      "pct": 53.45,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "garcia-de-sola",
-      "name": "García de Sola",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 554.0,
-      "volume_hm3": 296.0,
-      "pct": 53.43,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "burgomillodo",
-      "name": "Burgomillodo",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 15.0,
-      "volume_hm3": 8.0,
-      "pct": 53.33,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "sichar",
-      "name": "Sichar",
-      "basin": "jucar",
-      "basin_name": "Júcar",
-      "capacity_hm3": 49.0,
-      "volume_hm3": 26.0,
-      "pct": 53.06,
-      "date": "2026-08-11"
+      "volume_hm3": 30.0,
+      "pct": 51.72,
+      "date": "2026-08-18"
     },
     {
       "id": "puebla-de-cazalla",
@@ -2814,79 +2734,9 @@
       "basin": "guadalquivir",
       "basin_name": "Guadalquivir",
       "capacity_hm3": 87.0,
-      "volume_hm3": 46.0,
-      "pct": 52.87,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "porma-juan-benet",
-      "name": "Porma-(Juan Benet)",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 318.0,
-      "volume_hm3": 168.0,
-      "pct": 52.83,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "borbollon",
-      "name": "Borbollon",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 88.0,
-      "volume_hm3": 46.0,
-      "pct": 52.27,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "riano",
-      "name": "Riaño",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 664.0,
-      "volume_hm3": 347.0,
-      "pct": 52.26,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "fervenza",
-      "name": "Fervenza",
-      "basin": "galicia-costa",
-      "basin_name": "Galicia Costa",
-      "capacity_hm3": 104.0,
-      "volume_hm3": 54.0,
-      "pct": 51.92,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "burguillo-puente-nuevo",
-      "name": "Burguillo - Puente Nuevo",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 217.0,
-      "volume_hm3": 110.0,
-      "pct": 50.69,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "buendia",
-      "name": "Buendía",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 1705.0,
-      "volume_hm3": 863.0,
-      "pct": 50.62,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "alange",
-      "name": "Alange",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 880.0,
-      "volume_hm3": 444.0,
-      "pct": 50.45,
-      "date": "2026-08-11"
+      "volume_hm3": 45.0,
+      "pct": 51.72,
+      "date": "2026-08-18"
     },
     {
       "id": "santa-ana",
@@ -2894,9 +2744,49 @@
       "basin": "ebro",
       "basin_name": "Ebro",
       "capacity_hm3": 237.0,
-      "volume_hm3": 119.0,
-      "pct": 50.21,
-      "date": "2026-08-11"
+      "volume_hm3": 122.0,
+      "pct": 51.48,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "atance-el",
+      "name": "Atance, El",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 35.0,
+      "volume_hm3": 18.0,
+      "pct": 51.43,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "castro-de-las-cogotas",
+      "name": "Castro de las Cogotas",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 59.0,
+      "volume_hm3": 30.0,
+      "pct": 50.85,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "burguillo-puente-nuevo",
+      "name": "Burguillo - Puente Nuevo",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 217.0,
+      "volume_hm3": 109.0,
+      "pct": 50.23,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "alange",
+      "name": "Alange",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 880.0,
+      "volume_hm3": 442.0,
+      "pct": 50.23,
+      "date": "2026-08-18"
     },
     {
       "id": "campanana-la",
@@ -2906,7 +2796,7 @@
       "capacity_hm3": 14.0,
       "volume_hm3": 7.0,
       "pct": 50.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "pias-san-agustin",
@@ -2916,7 +2806,37 @@
       "capacity_hm3": 10.0,
       "volume_hm3": 5.0,
       "pct": 50.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "santa-eulalia",
+      "name": "Santa Eulalia",
+      "basin": "mino-sil",
+      "basin_name": "Miño - Sil",
+      "capacity_hm3": 10.0,
+      "volume_hm3": 5.0,
+      "pct": 50.0,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "agueda",
+      "name": "Águeda",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 24.0,
+      "volume_hm3": 12.0,
+      "pct": 50.0,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "borbollon",
+      "name": "Borbollon",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 88.0,
+      "volume_hm3": 44.0,
+      "pct": 50.0,
+      "date": "2026-08-18"
     },
     {
       "id": "castro-el",
@@ -2926,7 +2846,7 @@
       "capacity_hm3": 8.0,
       "volume_hm3": 4.0,
       "pct": 50.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "cubilar",
@@ -2936,7 +2856,7 @@
       "capacity_hm3": 10.0,
       "volume_hm3": 5.0,
       "pct": 50.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "derivacion-retortillo",
@@ -2956,7 +2876,7 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 3.0,
       "pct": 50.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "albina",
@@ -2966,17 +2886,7 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 3.0,
       "pct": 50.0,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "enciso",
-      "name": "Enciso",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 46.0,
-      "volume_hm3": 23.0,
-      "pct": 50.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "sallente",
@@ -2986,7 +2896,17 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 3.0,
       "pct": 50.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "vadiello",
+      "name": "Vadiello",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 16.0,
+      "volume_hm3": 8.0,
+      "pct": 50.0,
+      "date": "2026-08-18"
     },
     {
       "id": "riocobo",
@@ -2996,37 +2916,57 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 3.0,
       "pct": 50.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "itoiz",
-      "name": "Itoiz",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 417.0,
-      "volume_hm3": 208.0,
-      "pct": 49.88,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "gabriel-y-galan",
-      "name": "Gabriel y Galán",
+      "id": "buendia",
+      "name": "Buendía",
       "basin": "tajo",
       "basin_name": "Tajo",
-      "capacity_hm3": 924.0,
-      "volume_hm3": 460.0,
-      "pct": 49.78,
-      "date": "2026-08-11"
+      "capacity_hm3": 1705.0,
+      "volume_hm3": 849.0,
+      "pct": 49.79,
+      "date": "2026-08-18"
     },
     {
-      "id": "barasona",
-      "name": "Barasona",
+      "id": "oliana",
+      "name": "Oliana",
       "basin": "ebro",
       "basin_name": "Ebro",
-      "capacity_hm3": 92.0,
-      "volume_hm3": 45.0,
-      "pct": 48.91,
-      "date": "2026-08-11"
+      "capacity_hm3": 101.0,
+      "volume_hm3": 50.0,
+      "pct": 49.5,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "garcia-de-sola",
+      "name": "García de Sola",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 554.0,
+      "volume_hm3": 273.0,
+      "pct": 49.28,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "fervenza",
+      "name": "Fervenza",
+      "basin": "galicia-costa",
+      "basin_name": "Galicia Costa",
+      "capacity_hm3": 104.0,
+      "volume_hm3": 51.0,
+      "pct": 49.04,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "sichar",
+      "name": "Sichar",
+      "basin": "jucar",
+      "basin_name": "Júcar",
+      "capacity_hm3": 49.0,
+      "volume_hm3": 24.0,
+      "pct": 48.98,
+      "date": "2026-08-18"
     },
     {
       "id": "forata",
@@ -3036,27 +2976,27 @@
       "capacity_hm3": 37.0,
       "volume_hm3": 18.0,
       "pct": 48.65,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "oliana",
-      "name": "Oliana",
+      "id": "gonzalez-lacasa",
+      "name": "González Lacasa",
       "basin": "ebro",
       "basin_name": "Ebro",
-      "capacity_hm3": 101.0,
-      "volume_hm3": 49.0,
-      "pct": 48.51,
-      "date": "2026-08-11"
+      "capacity_hm3": 33.0,
+      "volume_hm3": 16.0,
+      "pct": 48.48,
+      "date": "2026-08-18"
     },
     {
-      "id": "compuerto",
-      "name": "Compuerto",
+      "id": "porma-juan-benet",
+      "name": "Porma-(Juan Benet)",
       "basin": "duero",
       "basin_name": "Duero",
-      "capacity_hm3": 95.0,
-      "volume_hm3": 46.0,
-      "pct": 48.42,
-      "date": "2026-08-11"
+      "capacity_hm3": 318.0,
+      "volume_hm3": 154.0,
+      "pct": 48.43,
+      "date": "2026-08-18"
     },
     {
       "id": "francisco-abellan",
@@ -3066,17 +3006,7 @@
       "capacity_hm3": 58.0,
       "volume_hm3": 28.0,
       "pct": 48.28,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "guadalen",
-      "name": "Guadalén",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 168.0,
-      "volume_hm3": 81.0,
-      "pct": 48.21,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "san-sebastian",
@@ -3086,57 +3016,47 @@
       "capacity_hm3": 46.0,
       "volume_hm3": 22.0,
       "pct": 47.83,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "belesar",
-      "name": "Belesar",
-      "basin": "mino-sil",
-      "basin_name": "Miño - Sil",
-      "capacity_hm3": 655.0,
-      "volume_hm3": 313.0,
-      "pct": 47.79,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "llauset",
-      "name": "Llauset",
+      "id": "enciso",
+      "name": "Enciso",
       "basin": "ebro",
       "basin_name": "Ebro",
-      "capacity_hm3": 17.0,
-      "volume_hm3": 8.0,
-      "pct": 47.06,
-      "date": "2026-08-11"
+      "capacity_hm3": 46.0,
+      "volume_hm3": 22.0,
+      "pct": 47.83,
+      "date": "2026-08-18"
     },
     {
-      "id": "valdecanas",
-      "name": "Valdecañas",
+      "id": "riano",
+      "name": "Riaño",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 664.0,
+      "volume_hm3": 317.0,
+      "pct": 47.74,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "gabriel-y-galan",
+      "name": "Gabriel y Galán",
       "basin": "tajo",
       "basin_name": "Tajo",
-      "capacity_hm3": 1446.0,
-      "volume_hm3": 678.0,
-      "pct": 46.89,
-      "date": "2026-08-11"
+      "capacity_hm3": 924.0,
+      "volume_hm3": 438.0,
+      "pct": 47.4,
+      "date": "2026-08-18"
     },
     {
-      "id": "vado-el",
-      "name": "Vado, El",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 56.0,
-      "volume_hm3": 26.0,
-      "pct": 46.43,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "albarellos",
-      "name": "Albarellos",
-      "basin": "mino-sil",
-      "basin_name": "Miño - Sil",
-      "capacity_hm3": 91.0,
-      "volume_hm3": 42.0,
-      "pct": 46.15,
-      "date": "2026-08-11"
+      "id": "itoiz",
+      "name": "Itoiz",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 417.0,
+      "volume_hm3": 194.0,
+      "pct": 46.52,
+      "date": "2026-08-18"
     },
     {
       "id": "matalavilla",
@@ -3146,7 +3066,17 @@
       "capacity_hm3": 65.0,
       "volume_hm3": 30.0,
       "pct": 46.15,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "crevillente",
+      "name": "Crevillente",
+      "basin": "segura",
+      "basin_name": "Segura",
+      "capacity_hm3": 13.0,
+      "volume_hm3": 6.0,
+      "pct": 46.15,
+      "date": "2026-08-18"
     },
     {
       "id": "puentes",
@@ -3156,37 +3086,17 @@
       "capacity_hm3": 26.0,
       "volume_hm3": 12.0,
       "pct": 46.15,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "benageber",
-      "name": "Benagéber",
-      "basin": "jucar",
-      "basin_name": "Júcar",
-      "capacity_hm3": 228.0,
-      "volume_hm3": 105.0,
-      "pct": 46.05,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "sierra-brava",
-      "name": "Sierra Brava",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 233.0,
-      "volume_hm3": 107.0,
-      "pct": 45.92,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "agueda",
-      "name": "Águeda",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 24.0,
-      "volume_hm3": 11.0,
-      "pct": 45.83,
-      "date": "2026-08-11"
+      "id": "montefurado",
+      "name": "Montefurado",
+      "basin": "mino-sil",
+      "basin_name": "Miño - Sil",
+      "capacity_hm3": 11.0,
+      "volume_hm3": 5.0,
+      "pct": 45.45,
+      "date": "2026-08-18"
     },
     {
       "id": "navacerrada",
@@ -3196,7 +3106,7 @@
       "capacity_hm3": 11.0,
       "volume_hm3": 5.0,
       "pct": 45.45,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "saburo-lago",
@@ -3209,6 +3119,16 @@
       "date": "2006-09-26"
     },
     {
+      "id": "guadalen",
+      "name": "Guadalén",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 168.0,
+      "volume_hm3": 76.0,
+      "pct": 45.24,
+      "date": "2026-08-18"
+    },
+    {
       "id": "valuengo",
       "name": "Valuengo",
       "basin": "guadiana",
@@ -3216,17 +3136,17 @@
       "capacity_hm3": 20.0,
       "volume_hm3": 9.0,
       "pct": 45.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "rivera-de-gata",
-      "name": "Rivera de Gata",
+      "id": "valdecanas",
+      "name": "Valdecañas",
       "basin": "tajo",
       "basin_name": "Tajo",
-      "capacity_hm3": 49.0,
-      "volume_hm3": 22.0,
-      "pct": 44.9,
-      "date": "2026-08-11"
+      "capacity_hm3": 1446.0,
+      "volume_hm3": 647.0,
+      "pct": 44.74,
+      "date": "2026-08-18"
     },
     {
       "id": "alfilorios",
@@ -3236,7 +3156,17 @@
       "capacity_hm3": 9.0,
       "volume_hm3": 4.0,
       "pct": 44.44,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "benageber",
+      "name": "Benagéber",
+      "basin": "jucar",
+      "basin_name": "Júcar",
+      "capacity_hm3": 228.0,
+      "volume_hm3": 100.0,
+      "pct": 43.86,
+      "date": "2026-08-18"
     },
     {
       "id": "brena-la",
@@ -3249,14 +3179,44 @@
       "date": "2009-12-22"
     },
     {
-      "id": "salas",
-      "name": "Salas",
+      "id": "belesar",
+      "name": "Belesar",
       "basin": "mino-sil",
       "basin_name": "Miño - Sil",
-      "capacity_hm3": 87.0,
-      "volume_hm3": 38.0,
-      "pct": 43.68,
-      "date": "2026-08-11"
+      "capacity_hm3": 655.0,
+      "volume_hm3": 286.0,
+      "pct": 43.66,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "sierra-brava",
+      "name": "Sierra Brava",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 233.0,
+      "volume_hm3": 101.0,
+      "pct": 43.35,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "compuerto",
+      "name": "Compuerto",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 95.0,
+      "volume_hm3": 41.0,
+      "pct": 43.16,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "albarellos",
+      "name": "Albarellos",
+      "basin": "mino-sil",
+      "basin_name": "Miño - Sil",
+      "capacity_hm3": 91.0,
+      "volume_hm3": 39.0,
+      "pct": 42.86,
+      "date": "2026-08-18"
     },
     {
       "id": "vilasouto",
@@ -3266,7 +3226,7 @@
       "capacity_hm3": 21.0,
       "volume_hm3": 9.0,
       "pct": 42.86,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "jarosa-la",
@@ -3276,7 +3236,7 @@
       "capacity_hm3": 7.0,
       "volume_hm3": 3.0,
       "pct": 42.86,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "torcon",
@@ -3286,7 +3246,17 @@
       "capacity_hm3": 7.0,
       "volume_hm3": 3.0,
       "pct": 42.86,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "vado-el",
+      "name": "Vado, El",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 56.0,
+      "volume_hm3": 24.0,
+      "pct": 42.86,
+      "date": "2026-08-18"
     },
     {
       "id": "cubillas",
@@ -3296,7 +3266,7 @@
       "capacity_hm3": 21.0,
       "volume_hm3": 9.0,
       "pct": 42.86,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "mar-lago",
@@ -3316,27 +3286,17 @@
       "capacity_hm3": 40.0,
       "volume_hm3": 17.0,
       "pct": 42.5,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "barrios-de-luna",
-      "name": "Barrios de Luna",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 311.0,
-      "volume_hm3": 132.0,
-      "pct": 42.44,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "yesa",
-      "name": "Yesa",
+      "id": "barasona",
+      "name": "Barasona",
       "basin": "ebro",
       "basin_name": "Ebro",
-      "capacity_hm3": 470.0,
-      "volume_hm3": 199.0,
-      "pct": 42.34,
-      "date": "2026-08-11"
+      "capacity_hm3": 92.0,
+      "volume_hm3": 39.0,
+      "pct": 42.39,
+      "date": "2026-08-18"
     },
     {
       "id": "viboras",
@@ -3346,17 +3306,7 @@
       "capacity_hm3": 19.0,
       "volume_hm3": 8.0,
       "pct": 42.11,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "la-pedrera",
-      "name": "La Pedrera",
-      "basin": "segura",
-      "basin_name": "Segura",
-      "capacity_hm3": 246.0,
-      "volume_hm3": 103.0,
-      "pct": 41.87,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "arenos",
@@ -3366,17 +3316,27 @@
       "capacity_hm3": 137.0,
       "volume_hm3": 56.0,
       "pct": 40.88,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "cernadilla",
-      "name": "Cernadilla",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 255.0,
-      "volume_hm3": 103.0,
-      "pct": 40.39,
-      "date": "2026-08-11"
+      "id": "rivera-de-gata",
+      "name": "Rivera de Gata",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 49.0,
+      "volume_hm3": 20.0,
+      "pct": 40.82,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "la-pedrera",
+      "name": "La Pedrera",
+      "basin": "segura",
+      "basin_name": "Segura",
+      "capacity_hm3": 246.0,
+      "volume_hm3": 100.0,
+      "pct": 40.65,
+      "date": "2026-08-18"
     },
     {
       "id": "portina-la",
@@ -3386,7 +3346,7 @@
       "capacity_hm3": 5.0,
       "volume_hm3": 2.0,
       "pct": 40.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "escarra",
@@ -3406,17 +3366,7 @@
       "capacity_hm3": 5.0,
       "volume_hm3": 2.0,
       "pct": 40.0,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "sotonera",
-      "name": "Sotonera",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 189.0,
-      "volume_hm3": 75.0,
-      "pct": 39.68,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "rozas-las",
@@ -3426,7 +3376,17 @@
       "capacity_hm3": 28.0,
       "volume_hm3": 11.0,
       "pct": 39.29,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "salas",
+      "name": "Salas",
+      "basin": "mino-sil",
+      "basin_name": "Miño - Sil",
+      "capacity_hm3": 87.0,
+      "volume_hm3": 34.0,
+      "pct": 39.08,
+      "date": "2026-08-18"
     },
     {
       "id": "alcollarin",
@@ -3436,7 +3396,7 @@
       "capacity_hm3": 52.0,
       "volume_hm3": 20.0,
       "pct": 38.46,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "vega-del-jabalon",
@@ -3446,17 +3406,37 @@
       "capacity_hm3": 34.0,
       "volume_hm3": 13.0,
       "pct": 38.24,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "pardo-el",
-      "name": "Pardo, El",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 45.0,
-      "volume_hm3": 17.0,
-      "pct": 37.78,
-      "date": "2026-08-11"
+      "id": "yesa",
+      "name": "Yesa",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 470.0,
+      "volume_hm3": 176.0,
+      "pct": 37.45,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "sotonera",
+      "name": "Sotonera",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 189.0,
+      "volume_hm3": 70.0,
+      "pct": 37.04,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "cernadilla",
+      "name": "Cernadilla",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 255.0,
+      "volume_hm3": 93.0,
+      "pct": 36.47,
+      "date": "2026-08-18"
     },
     {
       "id": "mediano",
@@ -3464,19 +3444,9 @@
       "basin": "ebro",
       "basin_name": "Ebro",
       "capacity_hm3": 436.0,
-      "volume_hm3": 162.0,
-      "pct": 37.16,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "laverne",
-      "name": "Laverné",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 38.0,
-      "volume_hm3": 14.0,
-      "pct": 36.84,
-      "date": "2026-08-11"
+      "volume_hm3": 157.0,
+      "pct": 36.01,
+      "date": "2026-08-18"
     },
     {
       "id": "camporredondo",
@@ -3486,7 +3456,27 @@
       "capacity_hm3": 70.0,
       "volume_hm3": 25.0,
       "pct": 35.71,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "zujar",
+      "name": "Zújar",
+      "basin": "guadiana",
+      "basin_name": "Guadiana",
+      "capacity_hm3": 723.0,
+      "volume_hm3": 258.0,
+      "pct": 35.68,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "pardo-el",
+      "name": "Pardo, El",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 45.0,
+      "volume_hm3": 16.0,
+      "pct": 35.56,
+      "date": "2026-08-18"
     },
     {
       "id": "maria-cristina",
@@ -3496,17 +3486,7 @@
       "capacity_hm3": 20.0,
       "volume_hm3": 7.0,
       "pct": 35.0,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "zujar",
-      "name": "Zújar",
-      "basin": "guadiana",
-      "basin_name": "Guadiana",
-      "capacity_hm3": 723.0,
-      "volume_hm3": 253.0,
-      "pct": 34.99,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "casasola",
@@ -3516,27 +3496,7 @@
       "capacity_hm3": 23.0,
       "volume_hm3": 8.0,
       "pct": 34.78,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "la-muela",
-      "name": "La Muela",
-      "basin": "jucar",
-      "basin_name": "Júcar",
-      "capacity_hm3": 29.0,
-      "volume_hm3": 10.0,
-      "pct": 34.48,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "rosarito",
-      "name": "Rosarito",
-      "basin": "tajo",
-      "basin_name": "Tajo",
-      "capacity_hm3": 93.0,
-      "volume_hm3": 32.0,
-      "pct": 34.41,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "edrada-mao",
@@ -3546,7 +3506,7 @@
       "capacity_hm3": 15.0,
       "volume_hm3": 5.0,
       "pct": 33.33,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "sistema-aguas-limpias",
@@ -3556,7 +3516,7 @@
       "capacity_hm3": 18.0,
       "volume_hm3": 6.0,
       "pct": 33.33,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "somiedo-lagos",
@@ -3574,19 +3534,19 @@
       "basin": "guadiana",
       "basin_name": "Guadiana",
       "capacity_hm3": 79.0,
-      "volume_hm3": 26.0,
-      "pct": 32.91,
-      "date": "2026-08-11"
+      "volume_hm3": 25.0,
+      "pct": 31.65,
+      "date": "2026-08-18"
     },
     {
-      "id": "algeciras",
-      "name": "Algeciras",
-      "basin": "segura",
-      "basin_name": "Segura",
-      "capacity_hm3": 45.0,
-      "volume_hm3": 14.0,
-      "pct": 31.11,
-      "date": "2026-08-11"
+      "id": "laverne",
+      "name": "Laverné",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 38.0,
+      "volume_hm3": 12.0,
+      "pct": 31.58,
+      "date": "2026-08-18"
     },
     {
       "id": "guadalest",
@@ -3596,37 +3556,17 @@
       "capacity_hm3": 13.0,
       "volume_hm3": 4.0,
       "pct": 30.77,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "canon-de-santolea",
-      "name": "Cañón de Santolea",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 82.0,
-      "volume_hm3": 25.0,
-      "pct": 30.49,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "contreras",
-      "name": "Contreras",
+      "id": "loriguilla",
+      "name": "Loriguilla",
       "basin": "jucar",
       "basin_name": "Júcar",
-      "capacity_hm3": 874.0,
-      "volume_hm3": 263.0,
-      "pct": 30.09,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "villameca",
-      "name": "Villameca",
-      "basin": "duero",
-      "basin_name": "Duero",
-      "capacity_hm3": 20.0,
-      "volume_hm3": 6.0,
-      "pct": 30.0,
-      "date": "2026-08-11"
+      "capacity_hm3": 73.0,
+      "volume_hm3": 22.0,
+      "pct": 30.14,
+      "date": "2026-08-18"
     },
     {
       "id": "camarillas",
@@ -3636,7 +3576,17 @@
       "capacity_hm3": 37.0,
       "volume_hm3": 11.0,
       "pct": 29.73,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "contreras",
+      "name": "Contreras",
+      "basin": "jucar",
+      "basin_name": "Júcar",
+      "capacity_hm3": 874.0,
+      "volume_hm3": 259.0,
+      "pct": 29.63,
+      "date": "2026-08-18"
     },
     {
       "id": "barrie-de-la-maza",
@@ -3646,17 +3596,17 @@
       "capacity_hm3": 31.0,
       "volume_hm3": 9.0,
       "pct": 29.03,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "loteta-la",
-      "name": "Loteta (La)",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 104.0,
-      "volume_hm3": 30.0,
-      "pct": 28.85,
-      "date": "2026-08-11"
+      "id": "algeciras",
+      "name": "Algeciras",
+      "basin": "segura",
+      "basin_name": "Segura",
+      "capacity_hm3": 45.0,
+      "volume_hm3": 13.0,
+      "pct": 28.89,
+      "date": "2026-08-18"
     },
     {
       "id": "talave",
@@ -3666,7 +3616,7 @@
       "capacity_hm3": 35.0,
       "volume_hm3": 10.0,
       "pct": 28.57,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "bachimana-lago",
@@ -3679,14 +3629,24 @@
       "date": "2006-09-26"
     },
     {
-      "id": "loriguilla",
-      "name": "Loriguilla",
-      "basin": "jucar",
-      "basin_name": "Júcar",
-      "capacity_hm3": 73.0,
-      "volume_hm3": 20.0,
-      "pct": 27.4,
-      "date": "2026-08-11"
+      "id": "canon-de-santolea",
+      "name": "Cañón de Santolea",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 82.0,
+      "volume_hm3": 23.0,
+      "pct": 28.05,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "rosarito",
+      "name": "Rosarito",
+      "basin": "tajo",
+      "basin_name": "Tajo",
+      "capacity_hm3": 93.0,
+      "volume_hm3": 26.0,
+      "pct": 27.96,
+      "date": "2026-08-18"
     },
     {
       "id": "la-toba",
@@ -3696,7 +3656,7 @@
       "capacity_hm3": 11.0,
       "volume_hm3": 3.0,
       "pct": 27.27,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "beniarres",
@@ -3706,17 +3666,27 @@
       "capacity_hm3": 30.0,
       "volume_hm3": 8.0,
       "pct": 26.67,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
-      "id": "tous-la-ribera",
-      "name": "Tous - La Ribera",
-      "basin": "jucar",
-      "basin_name": "Júcar",
-      "capacity_hm3": 379.0,
-      "volume_hm3": 100.0,
-      "pct": 26.39,
-      "date": "2026-08-11"
+      "id": "loteta-la",
+      "name": "Loteta (La)",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 104.0,
+      "volume_hm3": 27.0,
+      "pct": 25.96,
+      "date": "2026-08-18"
+    },
+    {
+      "id": "villameca",
+      "name": "Villameca",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 20.0,
+      "volume_hm3": 5.0,
+      "pct": 25.0,
+      "date": "2026-08-18"
     },
     {
       "id": "amadorio",
@@ -3726,7 +3696,7 @@
       "capacity_hm3": 16.0,
       "volume_hm3": 4.0,
       "pct": 25.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "buseo",
@@ -3736,7 +3706,7 @@
       "capacity_hm3": 8.0,
       "volume_hm3": 2.0,
       "pct": 25.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "los-machos",
@@ -3746,7 +3716,17 @@
       "capacity_hm3": 12.0,
       "volume_hm3": 3.0,
       "pct": 25.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "tous-la-ribera",
+      "name": "Tous - La Ribera",
+      "basin": "jucar",
+      "basin_name": "Júcar",
+      "capacity_hm3": 379.0,
+      "volume_hm3": 90.0,
+      "pct": 23.75,
+      "date": "2026-08-18"
     },
     {
       "id": "bellus",
@@ -3754,9 +3734,9 @@
       "basin": "jucar",
       "basin_name": "Júcar",
       "capacity_hm3": 69.0,
-      "volume_hm3": 17.0,
-      "pct": 24.64,
-      "date": "2026-08-11"
+      "volume_hm3": 16.0,
+      "pct": 23.19,
+      "date": "2026-08-18"
     },
     {
       "id": "sistema-alto-caldares",
@@ -3766,7 +3746,7 @@
       "capacity_hm3": 18.0,
       "volume_hm3": 4.0,
       "pct": 22.22,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "san-clemente",
@@ -3776,7 +3756,7 @@
       "capacity_hm3": 120.0,
       "volume_hm3": 24.0,
       "pct": 20.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "zocueca",
@@ -3806,17 +3786,7 @@
       "capacity_hm3": 5.0,
       "volume_hm3": 1.0,
       "pct": 20.0,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "torre-del-aguila",
-      "name": "Torre del Águila",
-      "basin": "guadalquivir",
-      "basin_name": "Guadalquivir",
-      "capacity_hm3": 66.0,
-      "volume_hm3": 13.0,
-      "pct": 19.7,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "finisterre",
@@ -3826,7 +3796,7 @@
       "capacity_hm3": 133.0,
       "volume_hm3": 26.0,
       "pct": 19.55,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "cornalbo",
@@ -3836,7 +3806,17 @@
       "capacity_hm3": 11.0,
       "volume_hm3": 2.0,
       "pct": 18.18,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "torre-del-aguila",
+      "name": "Torre del Águila",
+      "basin": "guadalquivir",
+      "basin_name": "Guadalquivir",
+      "capacity_hm3": 66.0,
+      "volume_hm3": 12.0,
+      "pct": 18.18,
+      "date": "2026-08-18"
     },
     {
       "id": "puente-porto",
@@ -3846,7 +3826,17 @@
       "capacity_hm3": 23.0,
       "volume_hm3": 4.0,
       "pct": 17.39,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "la-muela",
+      "name": "La Muela",
+      "basin": "jucar",
+      "basin_name": "Júcar",
+      "capacity_hm3": 29.0,
+      "volume_hm3": 5.0,
+      "pct": 17.24,
+      "date": "2026-08-18"
     },
     {
       "id": "beninar",
@@ -3856,7 +3846,7 @@
       "capacity_hm3": 70.0,
       "volume_hm3": 12.0,
       "pct": 17.14,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "valdepatao",
@@ -3866,7 +3856,7 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 1.0,
       "pct": 16.67,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "sistema-valle-de-aran",
@@ -3876,7 +3866,7 @@
       "capacity_hm3": 23.0,
       "volume_hm3": 3.0,
       "pct": 13.04,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "terroba",
@@ -3886,7 +3876,7 @@
       "capacity_hm3": 8.0,
       "volume_hm3": 1.0,
       "pct": 12.5,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "santomera",
@@ -3896,17 +3886,7 @@
       "capacity_hm3": 26.0,
       "volume_hm3": 3.0,
       "pct": 11.54,
-      "date": "2026-08-11"
-    },
-    {
-      "id": "bubal",
-      "name": "Búbal",
-      "basin": "ebro",
-      "basin_name": "Ebro",
-      "capacity_hm3": 64.0,
-      "volume_hm3": 7.0,
-      "pct": 10.94,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "cohilla-la",
@@ -3916,7 +3896,17 @@
       "capacity_hm3": 12.0,
       "volume_hm3": 1.0,
       "pct": 8.33,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
+    },
+    {
+      "id": "barrios-de-luna",
+      "name": "Barrios de Luna",
+      "basin": "duero",
+      "basin_name": "Duero",
+      "capacity_hm3": 311.0,
+      "volume_hm3": 25.0,
+      "pct": 8.04,
+      "date": "2026-08-18"
     },
     {
       "id": "cuevas-de-almanzora",
@@ -3926,7 +3916,7 @@
       "capacity_hm3": 168.0,
       "volume_hm3": 12.0,
       "pct": 7.14,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "santa-maria-de-belsue",
@@ -3936,7 +3926,7 @@
       "capacity_hm3": 14.0,
       "volume_hm3": 1.0,
       "pct": 7.14,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "catllar",
@@ -3949,6 +3939,16 @@
       "date": "2012-10-30"
     },
     {
+      "id": "bubal",
+      "name": "Búbal",
+      "basin": "ebro",
+      "basin_name": "Ebro",
+      "capacity_hm3": 64.0,
+      "volume_hm3": 4.0,
+      "pct": 6.25,
+      "date": "2026-08-18"
+    },
+    {
       "id": "escalona",
       "name": "Escalona",
       "basin": "jucar",
@@ -3956,7 +3956,7 @@
       "capacity_hm3": 99.0,
       "volume_hm3": 5.0,
       "pct": 5.05,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "santolea",
@@ -3966,7 +3966,7 @@
       "capacity_hm3": 65.0,
       "volume_hm3": 2.0,
       "pct": 3.08,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "alfonso-xiii",
@@ -3976,7 +3976,7 @@
       "capacity_hm3": 22.0,
       "volume_hm3": 0.0,
       "pct": 0.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "valdeinfierno",
@@ -3986,7 +3986,7 @@
       "capacity_hm3": 14.0,
       "volume_hm3": 0.0,
       "pct": 0.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "algar",
@@ -3996,7 +3996,7 @@
       "capacity_hm3": 6.0,
       "volume_hm3": 0.0,
       "pct": 0.0,
-      "date": "2026-08-11"
+      "date": "2026-08-18"
     },
     {
       "id": "respomuso",
