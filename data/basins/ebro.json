@@ -3,9 +3,9 @@
   "name": "Ebro",
   "n_reservoirs": 83,
   "capacity_hm3": 8186.0,
-  "current_hm3": 4615.0,
-  "pct": 56.88,
-  "last_updated": "2026-08-24T08:42:49+00:00",
+  "current_hm3": 4421.0,
+  "pct": 54.49,
+  "last_updated": "2026-08-31T15:48:11+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10086,6 +10086,11 @@
       "date": "2026-08-18",
       "current_hm3": 4615.0,
       "pct": 56.88
+    },
+    {
+      "date": "2026-08-25",
+      "current_hm3": 4421.0,
+      "pct": 54.49
     }
   ]
 }
