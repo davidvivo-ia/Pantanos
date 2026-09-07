@@ -3,9 +3,9 @@
   "name": "Júcar",
   "n_reservoirs": 23,
   "capacity_hm3": 3382.0,
-  "current_hm3": 1575.0,
-  "pct": 46.57,
-  "last_updated": "2026-08-31T15:48:11+00:00",
+  "current_hm3": 1545.0,
+  "pct": 45.68,
+  "last_updated": "2026-09-07T13:56:10+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10091,6 +10091,11 @@
       "date": "2026-08-25",
       "current_hm3": 1575.0,
       "pct": 46.57
+    },
+    {
+      "date": "2026-09-01",
+      "current_hm3": 1545.0,
+      "pct": 45.68
     }
   ]
 }

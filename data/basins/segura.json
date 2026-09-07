@@ -3,9 +3,9 @@
   "name": "Segura",
   "n_reservoirs": 15,
   "capacity_hm3": 1182.0,
-  "current_hm3": 612.0,
-  "pct": 51.78,
-  "last_updated": "2026-08-31T15:48:11+00:00",
+  "current_hm3": 606.0,
+  "pct": 51.27,
+  "last_updated": "2026-09-07T13:56:10+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10091,6 +10091,11 @@
       "date": "2026-08-25",
       "current_hm3": 612.0,
       "pct": 51.78
+    },
+    {
+      "date": "2026-09-01",
+      "current_hm3": 606.0,
+      "pct": 51.27
     }
   ]
 }
