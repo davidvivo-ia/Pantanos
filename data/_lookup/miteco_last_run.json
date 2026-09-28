@@ -1,8 +1,8 @@
 {
-  "ran_at": "2026-09-14T14:42:25+00:00",
-  "previous_snapshot": "2026-09-01",
-  "current_snapshot": "2026-09-08",
-  "previous_pct": 61.66,
-  "current_pct": 60.29,
-  "delta_pct": -1.3699999999999974
+  "ran_at": "2026-09-28T16:24:48+00:00",
+  "previous_snapshot": "2026-09-08",
+  "current_snapshot": "2026-09-22",
+  "previous_pct": 60.29,
+  "current_pct": 58.12,
+  "delta_pct": -2.1700000000000017
 }
