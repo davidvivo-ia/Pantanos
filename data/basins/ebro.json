@@ -1,11 +1,11 @@
 {
   "id": "ebro",
   "name": "Ebro",
-  "n_reservoirs": 83,
-  "capacity_hm3": 8186.0,
-  "current_hm3": 3590.0,
-  "pct": 44.25,
-  "last_updated": "2026-10-05T16:45:26+00:00",
+  "n_reservoirs": 84,
+  "capacity_hm3": 8197.0,
+  "current_hm3": 3546.0,
+  "pct": 43.65,
+  "last_updated": "2026-10-12T17:18:38+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10116,6 +10116,11 @@
       "date": "2026-09-29",
       "current_hm3": 3590.0,
       "pct": 44.25
+    },
+    {
+      "date": "2026-10-06",
+      "current_hm3": 3546.0,
+      "pct": 43.65
     }
   ]
 }

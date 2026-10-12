@@ -1,0 +1,23 @@
+{
+  "id": "flix",
+  "name": "Flix",
+  "basin": "ebro",
+  "basin_name": "Ebro",
+  "is_hydroelectric": true,
+  "capacity_hm3": 11.0,
+  "first_record": "2026-10-06",
+  "last_record": "2026-10-06",
+  "levels": [
+    {
+      "date": "2026-10-06",
+      "volume_hm3": 10.0,
+      "pct": 90.91
+    }
+  ],
+  "rainfall_local": [],
+  "saih": [],
+  "last_updated": "2026-10-12T17:18:33+00:00",
+  "sources": [
+    "MITECO"
+  ]
+}
