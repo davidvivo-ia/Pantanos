@@ -3,9 +3,9 @@
   "name": "Guadiana",
   "n_reservoirs": 40,
   "capacity_hm3": 10077.0,
-  "current_hm3": 6865.0,
-  "pct": 68.16,
-  "last_updated": "2026-10-19T15:15:18+00:00",
+  "current_hm3": 6849.0,
+  "pct": 68.0,
+  "last_updated": "2026-10-26T14:48:39+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10126,6 +10126,11 @@
       "date": "2026-10-13",
       "current_hm3": 6865.0,
       "pct": 68.16
+    },
+    {
+      "date": "2026-10-20",
+      "current_hm3": 6849.0,
+      "pct": 68.0
     }
   ]
 }
