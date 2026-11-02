@@ -3,9 +3,9 @@
   "name": "Guadalete-Barbate",
   "n_reservoirs": 8,
   "capacity_hm3": 1655.0,
-  "current_hm3": 1231.0,
-  "pct": 74.38,
-  "last_updated": "2026-10-26T14:48:39+00:00",
+  "current_hm3": 1229.0,
+  "pct": 74.26,
+  "last_updated": "2026-11-02T17:45:26+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10131,6 +10131,11 @@
       "date": "2026-10-20",
       "current_hm3": 1231.0,
       "pct": 74.38
+    },
+    {
+      "date": "2026-10-27",
+      "current_hm3": 1229.0,
+      "pct": 74.26
     }
   ]
 }
