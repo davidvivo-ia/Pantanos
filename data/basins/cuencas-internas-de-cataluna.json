@@ -3,9 +3,9 @@
   "name": "Cuencas Internas de Cataluña",
   "n_reservoirs": 9,
   "capacity_hm3": 754.0,
-  "current_hm3": 519.0,
-  "pct": 75.33,
-  "last_updated": "2026-11-02T17:45:26+00:00",
+  "current_hm3": 520.0,
+  "pct": 75.47,
+  "last_updated": "2026-11-16T17:51:54+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10136,6 +10136,16 @@
       "date": "2026-10-27",
       "current_hm3": 519.0,
       "pct": 75.33
+    },
+    {
+      "date": "2026-11-03",
+      "current_hm3": 521.0,
+      "pct": 75.62
+    },
+    {
+      "date": "2026-11-10",
+      "current_hm3": 520.0,
+      "pct": 75.47
     }
   ]
 }

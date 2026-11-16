@@ -3,9 +3,9 @@
   "name": "Miño - Sil",
   "n_reservoirs": 29,
   "capacity_hm3": 3032.0,
-  "current_hm3": 1517.0,
-  "pct": 50.03,
-  "last_updated": "2026-11-02T17:45:26+00:00",
+  "current_hm3": 1404.0,
+  "pct": 46.31,
+  "last_updated": "2026-11-16T17:51:54+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10136,6 +10136,16 @@
       "date": "2026-10-27",
       "current_hm3": 1517.0,
       "pct": 50.03
+    },
+    {
+      "date": "2026-11-03",
+      "current_hm3": 1470.0,
+      "pct": 48.48
+    },
+    {
+      "date": "2026-11-10",
+      "current_hm3": 1404.0,
+      "pct": 46.31
     }
   ]
 }

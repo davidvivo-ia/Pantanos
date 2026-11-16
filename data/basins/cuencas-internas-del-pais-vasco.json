@@ -3,9 +3,9 @@
   "name": "Cuencas Internas del País Vasco",
   "n_reservoirs": 2,
   "capacity_hm3": 21.0,
-  "current_hm3": 15.0,
-  "pct": 71.43,
-  "last_updated": "2026-11-02T17:45:26+00:00",
+  "current_hm3": 13.0,
+  "pct": 61.9,
+  "last_updated": "2026-11-16T17:51:54+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10136,6 +10136,16 @@
       "date": "2026-10-27",
       "current_hm3": 15.0,
       "pct": 71.43
+    },
+    {
+      "date": "2026-11-03",
+      "current_hm3": 15.0,
+      "pct": 71.43
+    },
+    {
+      "date": "2026-11-10",
+      "current_hm3": 13.0,
+      "pct": 61.9
     }
   ]
 }
