@@ -3,9 +3,9 @@
   "name": "Tinto, Odiel y Piedras",
   "n_reservoirs": 7,
   "capacity_hm3": 229.0,
-  "current_hm3": 138.0,
-  "pct": 60.26,
-  "last_updated": "2026-11-16T17:51:54+00:00",
+  "current_hm3": 144.0,
+  "pct": 62.88,
+  "last_updated": "2026-11-23T19:46:42+00:00",
   "history": [
     {
       "date": "1988-01-05",
@@ -10146,6 +10146,11 @@
       "date": "2026-11-10",
       "current_hm3": 138.0,
       "pct": 60.26
+    },
+    {
+      "date": "2026-11-17",
+      "current_hm3": 144.0,
+      "pct": 62.88
     }
   ]
 }
